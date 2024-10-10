@@ -1,0 +1,1 @@
+[08-Oct-2024 16:39:03 UTC] PHP Warning:  Undefined property: WP_Ajax_Upgrader_Skin::$api in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/includes/class-theme-upgrader.php on line 160
