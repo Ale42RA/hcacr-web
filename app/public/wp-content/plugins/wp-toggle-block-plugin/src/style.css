@@ -1,0 +1,17 @@
+.block-show {
+    display: block;
+}
+
+.block-hide {
+    display: none;
+}
+
+.toggle-button {
+    cursor: pointer;
+    background-color: #007cba;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

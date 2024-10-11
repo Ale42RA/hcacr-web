@@ -1,0 +1,12 @@
+{
+  "name": "wp-toggle-block-plugin",
+  "version": "1.0.0",
+  "description": "A Gutenberg block with a toggle.",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^23.0.0"
+  }
+}
