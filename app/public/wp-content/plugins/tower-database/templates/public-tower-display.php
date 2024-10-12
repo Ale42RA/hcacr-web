@@ -1,56 +1,99 @@
 <style>
-/* Existing CSS for the tower display */
-.tower-card {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    display: inline-block;
-    width: 20%;
-    vertical-align: top;
-    text-align: center;
-}
-.tower-card-header h2 {
-    margin: 0;
-    font-size: 1.8em;
-    font-weight: bold;
-    text-align: center;
-}
-.tower-card-body p {
-    font-size: 1.2em;
-    margin-top: 10px;
-}
-.tower-card img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px;
-}
+    /* Existing CSS for the tower display with modifications */
+    /* Ensure the tower-card container uses flexbox to align items evenly */
+/* Ensure the tower-card container uses flexbox to align items evenly */
 .tower-cards-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    align-items: stretch; /* Ensures all cards are the same height */
 }
-/* Styling for sorting and filtering options */
-.filter-sort-container {
-    margin-bottom: 20px;
-    text-align: center;
+
+.tower-card {
+    border: 1px solid #007bff; /* Change border color to blue */
+    border-radius: 4px;
+    padding: 0; /* Remove padding around the image */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    width: 300px; /* Set fixed width for cards */
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.filter-sort-container label {
-    font-size: 1.2em;
-    margin-right: 10px;
+
+.tower-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #007bff; /* Add blue border below image */
 }
-.filter-sort-container select {
-    padding: 5px;
+
+.tower-card-header {
+    background-color: #37496e; /* Dark blue background for text */
+    color: white;
+    padding: 10px 0;
+}
+
+.tower-card-header h2 {
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tower-card-body {
+    flex-grow: 1; /* Makes the body grow to fill available space */
+    padding: 20px;
+    background-color: #37496e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+}
+
+.tower-card-body p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: white;
+}
+
+.tower-card-footer {
+    background-color: #563d7c; /* Purple footer */
+    color: #ffc107; /* Yellow text for link */
+    padding: 15px 0;
+}
+
+.tower-card-footer a {
+    color: #ffc107; /* Yellow link */
+    font-weight: bold;
+    text-decoration: none;
     font-size: 1.1em;
 }
+
+.tower-card-footer a:hover {
+    text-decoration: underline;
+}
+
+/* CSS to hide extra cards initially */
+.tower-card.hidden {
+    display: none;
+}
+
+/* Button to show more cards */
+.show-more-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.show-more-btn:hover {
+    background-color: #0056b3;
+}
 </style>
-
-
-
-
 
 <?php
 // Retrieve the tower data from the database (assuming $towers is the list of towers from the database)
@@ -76,10 +119,10 @@ $selected_district = isset($_GET['district']) ? $_GET['district'] : '';
 $selected_town = isset($_GET['town']) ? $_GET['town'] : '';
 $sort_by = isset($_GET['sort_by']) ? $_GET['sort_by'] : '';
 
-// Filter towers by district and town if selected
+// Filter towers by district and town if selected (compare only the first 6 characters of district)
 if ($selected_district) {
     $towers = array_filter($towers, function($tower) use ($selected_district) {
-        return $tower->District === $selected_district;
+        return strncasecmp($tower->District, $selected_district, 6) === 0;
     });
 }
 if ($selected_town) {
@@ -91,7 +134,7 @@ if ($selected_town) {
 // Sort towers based on the selected sort option
 if ($sort_by === 'name') {
     usort($towers, function($a, $b) {
-        return strcmp($a->Dedication, $b->Dedication);
+        return strncasecmp($a->Dedication, $b->Dedication, 6);
     });
 } elseif ($sort_by === 'bells') {
     usort($towers, function($a, $b) {
@@ -119,7 +162,7 @@ if ($sort_by === 'name') {
     <select name="district" id="district" onchange="updateTownOptions()">
         <option value="">All Districts</option>
         <?php foreach ($districts as $district): ?>
-            <option value="<?php echo esc_attr($district); ?>" <?php selected($selected_district, $district); ?>>
+            <option value="<?php echo esc_attr(htmlspecialchars(substr($district, 0, 6), ENT_QUOTES)); ?>" <?php selected($selected_district, substr($district, 0, 6)); ?>>
                 <?php echo esc_html($district); ?>
             </option>
         <?php endforeach; ?>
@@ -145,14 +188,21 @@ if ($sort_by === 'name') {
     <?php if (!empty($towers)): ?>
         <?php foreach ($towers as $tower): ?>
             <div class="tower-card">
+                <!-- Tower Card Header with Name -->
                 <div class="tower-card-header">
                     <h2><?php echo esc_html($tower->Dedication); ?></h2>
                 </div>
+
+                <!-- Tower Card Body with Image and Bells Info -->
                 <div class="tower-card-body">
                     <img src="<?php echo esc_url( wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph ); ?>" alt="<?php echo esc_attr($tower->Photograph); ?>">
                     <p><?php echo esc_html($tower->District . ', ' . $tower->Town); ?></p>
                     <p>Bells: <?php echo esc_html($tower->Number_of_bells); ?></p>
                 </div>
+
+                <!-- Optional Footer Section for Further Details Link -->
+                <div class="tower-card-footer">
+                <a href="/<?php echo strtolower(substr($tower->District, 0, 3)) . '-' . strtolower(str_replace(' ', '-', $tower->Dedication)); ?>">See full details</a>                </div>
             </div>
         <?php endforeach; ?>
     <?php else: ?>
@@ -162,8 +212,7 @@ if ($sort_by === 'name') {
 
 <!-- town options -->
 <script>
-    var districtTownMap = <?php echo json_encode($district_town_map, JSON_HEX_APOS | JSON_HEX_QUOT); ?>; 
-    //TODO: FIX BISHOP's issue here. 
+    var districtTownMap = <?php echo json_encode($district_town_map, JSON_HEX_APOS | JSON_HEX_QUOT | JSON_UNESCAPED_UNICODE); ?>;
 
     function updateTownOptions() {
         var districtSelect = document.getElementById('district');
@@ -178,11 +227,15 @@ if ($sort_by === 'name') {
             townSelect.disabled = true;
         } else {
             // Populate the town dropdown with relevant towns
-            districtTownMap[selectedDistrict].forEach(function(town) {
-                var option = document.createElement('option');
-                option.value = town;
-                option.text = town;
-                townSelect.add(option);
+            Object.keys(districtTownMap).forEach(function (district) {
+                if (district.startsWith(selectedDistrict)) {
+                    districtTownMap[district].forEach(function(town) {
+                        var option = document.createElement('option');
+                        option.value = town;
+                        option.text = town;
+                        townSelect.add(option);
+                    });
+                }
             });
             townSelect.disabled = false;
         }
