@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="no-js">
+  <head>
+    <meta charset="utf-8" />
+<meta property="og:site_name" content="The Church of England" />
+<meta property="og:url" content="https://www.churchofengland.org/search-results" />
+<meta property="og:title" content="Search results | The Church of England" />
+<meta property="og:description" content="" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Search results | The Church of England" />
+<meta name="twitter:url" content="https://www.churchofengland.org/search-results" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/themes/custom/cofe/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title>Search results | The Church of England</title>
+    <link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/controlgroup.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/resizable.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/button.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/dialog.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/misc/components/progress.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/misc/components/ajax-progress.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/poll/css/poll.base.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/poll/css/poll.theme.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/themes/base/core.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/themes/base/tabs.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/ckeditor5/css/ckeditor5.dialog.fix.css?slb0md" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?slb0md" />
+<link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/sandbox/fancy_login/css/fancy_login.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/custom/bbd_custom/css/admin.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/back_to_top/css/back_to_top.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/calendar/css/calendar.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/calendar/css/calendar_multiday.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/noscript_tag/css/noscript_tag.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/social_media_links/css/social_media_links.theme.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/themes/base/theme.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/extlink.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/contrib/better_exposed_filters/css/better_exposed_filters.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/custom/bbd_react_menu/component/bbd-react-menu/build/static/css/chunk.css?slb0md" />
+<link rel="stylesheet" media="all" href="/modules/custom/bbd_formatters/assets/css/bbd_audio_formatter.css?slb0md" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Cormorant+Garamond&amp;family=Inter:wght@400;700&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/themes/custom/cofe/_assets/css/selectric.css?slb0md" />
+<link rel="stylesheet" media="print" href="/themes/custom/cofe/_assets/css/print.css?slb0md" />
+<link rel="stylesheet" media="all" href="/themes/custom/cofe/_assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css?slb0md" />
+<link rel="stylesheet" media="all" href="/themes/custom/cofe/libraries/slick/slick/slick.css?slb0md" />
+<link rel="stylesheet" media="all" href="/themes/custom/cofe/libraries/bootstrap/dist/css/bootstrap.css?slb0md" />
+<link rel="stylesheet" media="all" href="/themes/custom/cofe/_assets/css/main.css?slb0md" />
+<link rel="stylesheet" media="all" href="/themes/custom/cofe/libraries/owl_carousel/dist/assets/owl.carousel.css?slb0md" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"search-results","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","civiccookiecontrol_path":"modules\/contrib\/civicccookiecontrol","currentQuery":{"keys":"sites default files 2020 06 Opening cathedral and church buildings advice v 1 pdf"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJyNUtFuwyAM_CEKz_saZMBhTgEzDF3z9yNRu27rJk1Cxnc-w8ngwJ9t57mqcY_ckuei3B_FVZRzwfohnbOBkKkcxMItQ-_YxOwQRiB-kMrhvlm8VhacakqHNGLBBkl5SFgCNHNPdH_FjMrThbxnPhNOU71xMs-Ulnk4lSj_k78ozwuamNhBOknf0uydXENDZboqkPT6NrBtevev8Nqn4mxCG3WWblAtUPxmE0cqpnIdVUXmmNB2iCbO8BNrWOH6ncxqFes5Vy5Y-jG4huC7zViG3mEGKgdShcU3qv1o_QpU5ZTu7vb8tPsTJewJ0mwOBPagzDInAO8onFF_Xvub8Jm6PYhs0jHPHyGoLoTvYo6oM4eR8AP-DemX","theme":"cofe","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true,"\/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf\u0026ajax_form=1":true,"\/search-results":true},"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_environment":false},"tagIds":["GTM-PB7T7K7"]},"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[{"name":"search","data":{"search_term":"sites default files 2020 Opening cathedral and church buildings advice pdf"}},{"name":"search","data":{"search_term":"sites default files 2020 Opening cathedral and church buildings advice pdf"}}],"additionalConfigInfo":[]},"fancyLogin":{"screenFadeColor":"white","screenFadeZIndex":10,"loginBoxBackgroundColor":"white","loginBoxTextColor":"black","loginBoxBorderColor":"black","loginBoxBorderWidth":"3px","loginBoxBorderStyle":"solid","loginPath":"\/user\/login","dimFadeSpeed":null,"boxFadeSpeed":null,"hideObjects":false},"ajax":{"edit-submit-1728841591":{"callback":"cofe_misc_user_login_block_ajax_callback","event":"mousedown","keypress":true,"prevent":"click","url":"\/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf\u0026ajax_form=1","httpMethod":"POST","dialogType":"ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Log in"}}},"back_to_top":{"back_to_top_button_trigger":100,"back_to_top_prevent_on_mobile":true,"back_to_top_prevent_in_admin":true,"back_to_top_button_type":"image","back_to_top_button_text":"Back to top"},"civiccookiecontrol":"{\u0022apiKey\u0022:\u0022cb6c30695ef4f2eb4cb84ffd1103c689ed263150\u0022,\u0022product\u0022:\u0022PRO_MULTISITE\u0022,\u0022logConsent\u0022:true,\u0022consentCookieExpiry\u0022:90,\u0022encodeCookie\u0022:false,\u0022subDomains\u0022:true,\u0022notifyOnce\u0022:false,\u0022rejectButton\u0022:false,\u0022toggleType\u0022:\u0022slider\u0022,\u0022closeStyle\u0022:\u0022icon\u0022,\u0022settingsStyle\u0022:\u0022link\u0022,\u0022initialState\u0022:\u0022OPEN\u0022,\u0022layout\u0022:\u0022SLIDEOUT\u0022,\u0022position\u0022:\u0022RIGHT\u0022,\u0022theme\u0022:\u0022DARK\u0022,\u0022necessaryCookies\u0022:[\u0022bbd_emergency_notice_dismiss\u0022,\u0022bbd_emergency_notice_id\u0022,\u0022__cfduid\u0022,\u0022pa_enabled\u0022],\u0022optionalCookies\u0022:[],\u0022excludedCountries\u0022:[],\u0022debug\u0022:false,\u0022setInnerHTML\u0022:true,\u0022wrapInnerHTML\u0022:false,\u0022mode\u0022:\u0022GDPR\u0022,\u0022acceptBehaviour\u0022:\u0022all\u0022,\u0022closeOnGlobalChange\u0022:true,\u0022notifyDismissButton\u0022:true,\u0022sameSiteCookie\u0022:true,\u0022sameSiteValue\u0022:\u0022Strict\u0022,\u0022iabCMP\u0022:false,\u0022statement\u0022:{\u0022name\u0022:\u0022For more information about the cookies we use, see our Cookies page\u0022,\u0022updated\u0022:\u002208\/03\/2019\u0022,\u0022url\u0022:\u0022https:\/\/www.churchofengland.org\/terms-and-conditions\/website-cookie-policy\u0022},\u0022ccpaConfig\u0022:[],\u0022accessibility\u0022:{\u0022accessKey\u0022:\u0022C\u0022,\u0022highlightFocus\u0022:true,\u0022overlay\u0022:true,\u0022outline\u0022:true,\u0022disableSiteScrolling\u0022:null},\u0022text\u0022:{\u0022title\u0022:\u0022Our use of cookies\u0022,\u0022intro\u0022:\u0022We use necessary cookies to make our site work. We\u0027d also like to set optional analytics and marketing cookies to help us improve it and show you relevant content. These are our \\\u0022Recommended Settings\\\u0022. We won\u0027t set optional cookies unless you enable them. Using this tool will set a cookie on your device to remember your preferences.\u0022,\u0022acceptRecommended\u0022:\u0022Accept Recommended Settings\u0022,\u0022acceptSettings\u0022:\u0022Accept Recommended Settings\u0022,\u0022rejectSettings\u0022:\u0022Reject Recommended Settings\u0022,\u0022necessaryTitle\u0022:\u0022Necessary Cookies\u0022,\u0022necessaryDescription\u0022:\u0022Necessary cookies enable core functionality such as security, network management and accessibility. You may disable these by changing your browser settings, but this may affect how the website functions. \u0022,\u0022thirdPartyTitle\u0022:\u0022Warning: Some cookies require your attention.\u0022,\u0022thirdPartyDescription\u0022:\u0022Consent for the following cookies could not be automatically revoked. Please follow the link(s) below to opt out manually.\u0022,\u0022on\u0022:\u0022On\u0022,\u0022off\u0022:\u0022Off\u0022,\u0022notifyTitle\u0022:\u0022Your choice regarding cookies on this site\u0022,\u0022notifyDescription\u0022:\u0022We use cookies to optimise site functionality and give you the best possible experience.\u0022,\u0022accept\u0022:\u0022Accept\u0022,\u0022reject\u0022:\u0022Reject\u0022,\u0022settings\u0022:\u0022Cookie Preferences\u0022,\u0022closeLabel\u0022:\u0022Close\u0022,\u0022cornerButton\u0022:\u0022Set cookie preferences.\u0022,\u0022landmark\u0022:\u0022Cookie preferences.\u0022,\u0022showVendors\u0022:\u0022Show vendors within this category\u0022,\u0022thirdPartyCookies\u0022:\u0022This vendor may set third party cookies.\u0022,\u0022readMore\u0022:\u0022Read more\u0022},\u0022branding\u0022:{\u0022fontFamily\u0022:\u0022Cabin\u0022,\u0022fontSizeTitle\u0022:\u0022em\u0022,\u0022fontSize\u0022:\u0022em\u0022,\u0022fontColor\u0022:\u0022#ffffff\u0022,\u0022backgroundColor\u0022:\u0022#9669a9\u0022,\u0022acceptText\u0022:\u0022#111125\u0022,\u0022acceptBackground\u0022:\u0022#ffffff\u0022,\u0022toggleText\u0022:\u0022#ffffff\u0022,\u0022toggleColor\u0022:\u0022#9669a9\u0022,\u0022toggleBackground\u0022:\u0022#100b74\u0022,\u0022buttonIconWidth\u0022:\u0022px\u0022,\u0022buttonIconHeight\u0022:\u0022px\u0022,\u0022removeAbout\u0022:true,\u0022rejectText\u0022:null,\u0022rejectBackground\u0022:\u0022#100b74\u0022,\u0022closeText\u0022:\u0022\u0022,\u0022closeBackground\u0022:\u0022\u0022,\u0022notifyFontColor\u0022:\u0022\u0022,\u0022notifyBackgroundColor \u0022:\u0022\u0022},\u0022locales\u0022:[]}","data":{"extlink":{"extTarget":true,"extTargetNoOverride":true,"extNofollow":true,"extNoreferrer":true,"extFollowNoOverride":true,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"#block-sitenav .menu-item a,.social-links a,.share-tools .share-buttons a,#block-footer .menu a,.social-sharing-buttons a,.prayer-share a","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":[]}},"field_group":{"html_element":{"mode":"paragraph_image_large_spotlight_display","context":"view","settings":{"classes":"credit","id":"","element":"span","show_label":false,"label_element":"h3","attributes":"","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"ec6422cfdb5f57396d89506c37108557f62efdc0586d36e6fdcc90b3f59e04e4"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.3.5"></script>
+<script src="/core/misc/drupal.js?v=10.3.5"></script>
+<script src="/core/misc/drupal.init.js?v=10.3.5"></script>
+<script src="/core/misc/debounce.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.2.0"></script>
+<script src="/modules/contrib/matchmedia/matchMedia/matchMedia.min.js?v=0.2.0"></script>
+<script src="/modules/contrib/matchmedia/matchMedia/matchMedia.addListener.min.js?v=0.2.0"></script>
+<script src="/core/misc/progress.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/announce.js?v=10.3.5"></script>
+<script src="/core/misc/message.js?v=10.3.5"></script>
+<script src="/core/misc/ajax.js?v=10.3.5"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?slb0md"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?slb0md"></script>
+<script src="/modules/contrib/google_tag/js/gtag.ajax.js?slb0md"></script>
+
+      <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/50eac70851c7245ce1ce00c45/ee54f4a69d2ea2fc108dc69ab.js");</script>
+  </head>
+  <body class="path-search-results page-anonymous">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <span id="parent-menu-item-id" class="hidden" data-menu-id=""></span>
+    <noscript><p><p><strong>Some functionality has been disabled</strong></p>
+
+<p>To experience the best that the Church of England website has to offer, you need to enable JavaScript in your browser's settings. <a href="https://turnonjs.com/">Turnon.js</a> provides guidance on how to activate JavaScript for your particular browser.</p>
+</p>
+</noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+  
+
+  <header role="banner" class="site-header">
+    <div id="block-headercontainer" class="block block-blockgroup block-block-groupheader-container container">
+  
+    
+      <div id="block-cofe-branding">
+  
+    
+    <div class="cofe-branding">
+      <a href="/" title="Home" rel="home" class="site-logo">
+      <img class="logo" src="/themes/custom/cofe/logo.svg" alt="Home">
+    </a>
+        <p class="site-slogan">A Christian presence in every community</p>
+    </div>
+</div>
+<nav role="navigation" aria-labelledby="block-sitenav-menu" id="block-sitenav" class="header-site-nav">
+            
+  <h2 class="visually-hidden" id="block-sitenav-menu">Site Nav</h2>
+  
+
+        
+        <nav class="sites-nav">
+      <div class="container">
+                      <ul class="menu">
+                                            <li class="menu-item is-current">
+              <a href="/" data-drupal-link-system-path="&lt;front&gt;">The Church of England</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="https://www.achurchnearyou.com/">A Church Near You</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="http://www.archbishopofcanterbury.org/">The Archbishop of Canterbury</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="http://www.archbishopofyork.org/">The Archbishop of York</a>
+                          </li>
+                </ul>
+      </div>
+    </nav>
+  
+
+
+  </nav>
+<div id="block-searchiconblock">
+  
+    
+      <div id="block-search-icon"><div tabindex="0" role="button" class="block-search-button">Search</div></div>
+  </div>
+  <nav id="bbd-react-menu" class="header-main-menu"></nav>
+
+
+  </div>
+
+    <div class="megamenu-wrapper">
+      <div class="megamenu-wrapper-b">
+        <div class="megamenu-container"></div>
+      </div>
+    </div>
+      </header>
+
+
+  
+      <aside class="layout-sidebar-menu">
+        <div>
+    <div id="block-sidebartoggleblock">
+  
+    
+      <div id="block-sidebar-menu-toggle">
+                      <div tabindex="0" role="button" class="sidebar-menu-toggle" aria-expanded="false" aria-haspopup="true"><span>Menu</span></div>
+                    </div>
+  </div>
+<nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer">
+            
+  <h2 class="visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+        <nav class="footer-nav">
+        <div class="container">
+                      <ul class="menu">
+                                            <li class="menu-item">
+              <a href="/about/leadership-and-governance/national-church-institutions/archbishops-council" data-drupal-link-system-path="node/148">Archbishops&#039; Council</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="/about/leadership-and-governance/national-church-institutions/church-england-pensions-board" data-drupal-link-system-path="node/2372">Pensions Board</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="/about/leadership-and-governance/church-commissioners" data-drupal-link-system-path="node/244">Church Commissioners</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="https://www.chpublishing.co.uk/">Church House Publishing</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="/safeguarding" title="Safeguarding " data-drupal-link-system-path="node/44175">Safeguarding </a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="/about/leadership-and-governance/slavery-and-human-trafficking-statement" data-drupal-link-system-path="node/26117">Modern Slavery</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="/about/careers-church-england" data-drupal-link-system-path="node/45477">Careers</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="/contact-us" data-drupal-link-system-path="node/55">Contact Us</a>
+                          </li>
+                </ul>
+      </div>
+    </nav>
+  
+
+
+  </nav>
+<div id="block-socialmedialinks-2" class="block-social-media-links">
+  
+      <h2>Social</h2>
+    
+      
+<div class="communications">
+  <div class="container">
+    <ul class="social-media-links--platforms platforms share-block social-links inline horizontal">
+              <li>
+          <a href="https://www.facebook.com/thechurchofengland"  target="blank" >
+            <span class="social-icon"><span class='fab fa-facebook fa-3x'></span></span>
+                      </a>
+        </li>
+              <li>
+          <a href="https://www.instagram.com/thechurchofengland"  target="blank" >
+            <span class="social-icon"><span class='fab fa-instagram fa-3x'></span></span>
+                      </a>
+        </li>
+              <li>
+          <a href="https://x.com/churchofengland"  target="blank" >
+            <span class="social-icon"><span class='fab fa-x-twitter fa-3x'></span></span>
+                      </a>
+        </li>
+              <li>
+          <a href="https://www.youtube.com/thechurchofengland"  target="blank" >
+            <span class="social-icon"><span class='fab fa-youtube fa-3x'></span></span>
+                      </a>
+        </li>
+              <li>
+          <a href="https://www.linkedin.com/company/thechurchofengland"  target="blank" >
+            <span class="social-icon"><span class='fab fa-linkedin fa-3x'></span></span>
+                      </a>
+        </li>
+          </ul>
+  </div>
+</div>
+
+
+
+  </div>
+<nav role="navigation" aria-labelledby="block-footernavigationalsmall-2-menu" id="block-footernavigationalsmall-2">
+            
+  <h2 class="visually-hidden" id="block-footernavigationalsmall-2-menu">Footer navigational small</h2>
+  
+
+        
+        <nav class="footer-nav footer-nav-small">
+        <div class="container">
+                      <ul class="menu">
+                                            <li class="menu-item">
+              <a href="/help/accessibility-statement" title="Accessibility" data-drupal-link-system-path="node/2096">Accessibility</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="/terms-and-conditions" title="Privacy &amp; Cookie Policy" data-drupal-link-system-path="node/20773">Privacy &amp; Cookie Policy</a>
+                          </li>
+                                  <li class="menu-item">
+              <a href="/glossary" data-drupal-link-system-path="node/343">Glossary</a>
+                          </li>
+                  </ul>
+      </div>
+    </nav>
+  
+
+
+  </nav>
+
+  </div>
+
+    </aside>
+  
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    
+    <div class="layout-content">
+        <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-cofe-content">
+  
+    
+      <div class="views-element-container">
+<div class="search-result-page content view view-search view-id-search view-display-id-page_search js-view-dom-id-a0b5bcd160f4d9b5b17780f8133dc30949116702410a3f92c1c37f207825e80a container">
+  
+      <form class="views-exposed-form bef-exposed-form" data-drupal-selector="views-exposed-form-search-page-search" action="/search-results" method="get" id="views-exposed-form-search-page-search" accept-charset="UTF-8">
+  <div class="form--inline clearfix">
+  
+  
+  
+
+  <div class="filters-wrapper at-alt-contrast preload">
+
+    <div class="border-holder">
+      <div class="search-top-filter search-api-page-block-form">
+                  <div class="form-item-keys"><div class="js-form-item form-item js-form-type-textfield form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search this site</label>
+        <input aria-label="Search bar" placeholder="Search this site" data-drupal-selector="edit-keys" type="text" id="edit-keys" name="keys" value="sites default files 2020 06 Opening cathedral and church buildings advice v 1 pdf" size="30" maxlength="128" class="form-text" />
+
+        </div>
+</div>
+        
+        <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input tabindex="0" data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+      </div>
+    </div>
+
+          <div class="filter-bottom-section">
+                  <div class="search-main-filter">
+            <h3>Filter</h3>
+            <div class="filter-wrapper clearfix">
+                                            <div id="filter-1" tabindex="0">
+                  <div class="js-form-item form-item js-form-type-select form-item-filter js-form-item-filter form-no-label">
+      <label for="edit-filter" class="visually-hidden">Datasource</label>
+        <input type="hidden" name="filter" value="All" />
+<div data-drupal-selector="edit-filter" id="edit-filter" name="filter" class="form-select bef-links">
+                                                  <ul class="bef-list"><li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf" id="edit-filter-all" name="filter[All]" class="bef-item-link bef-link-active" aria-label="Filter by All">All</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Apages" id="edit-filter-contentpages" name="filter[content:pages]" class="bef-link bef-item-link" aria-label="Filter by Pages">Pages</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=entity%3Amedia" id="edit-filter-entitymedia" name="filter[entity:media]" class="bef-link bef-item-link" aria-label="Filter by Documents">Documents</a>                                    <li class="bef-item is-parent"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Anews" id="edit-filter-contentnews" name="filter[content:news]" class="bef-link bef-item-link" aria-label="Filter by News &amp;amp; Stories">News &amp; Stories</a>                                    <ul class="bef-list bef-list-child"><li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Anews%3Aall" id="edit-filter-contentnewsall" name="filter[content:news:all]" class="bef-link bef-item-link" aria-label="Filter by All">All</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Anews%3A5" id="edit-filter-contentnews5" name="filter[content:news:5]" class="bef-link bef-item-link" aria-label="Filter by Latest news">Latest news</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Anews%3A2" id="edit-filter-contentnews2" name="filter[content:news:2]" class="bef-link bef-item-link" aria-label="Filter by 2013 - 2022 news">2013 - 2022 news</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Anews%3A6" id="edit-filter-contentnews6" name="filter[content:news:6]" class="bef-link bef-item-link" aria-label="Filter by Stories and features">Stories and features</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Anews%3A7" id="edit-filter-contentnews7" name="filter[content:news:7]" class="bef-link bef-item-link" aria-label="Filter by Finance news">Finance news</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Anews%3A8" id="edit-filter-contentnews8" name="filter[content:news:8]" class="bef-link bef-item-link" aria-label="Filter by Safeguarding news">Safeguarding news</a>                                    </li></ul><li class="bef-item is-parent"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Aliturgy" id="edit-filter-contentliturgy" name="filter[content:liturgy]" class="bef-link bef-item-link" aria-label="Filter by Liturgy">Liturgy</a>                                    <ul class="bef-list bef-list-child"><li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Aliturgy%3Aall" id="edit-filter-contentliturgyall" name="filter[content:liturgy:all]" class="bef-link bef-item-link" aria-label="Filter by All">All</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Aliturgy%3Acommon_worship" id="edit-filter-contentliturgycommon-worship" name="filter[content:liturgy:common_worship]" class="bef-link bef-item-link" aria-label="Filter by Common Worship">Common Worship</a>                                    <li class="bef-item"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;filter=content%3Aliturgy%3Abook_common_prayer" id="edit-filter-contentliturgybook-common-prayer" name="filter[content:liturgy:book_common_prayer]" class="bef-link bef-item-link" aria-label="Filter by Book of Common Prayer">Book of Common Prayer</a></li></li></ul>            </div>
+
+        </div>
+
+                </div>
+                                          </div>
+          </div>
+        
+                  <div class="search-sort-by">
+            <div class="js-form-item form-item js-form-type-select form-item-sort-by js-form-item-sort-by">
+      <label for="edit-sort-by">Sort by</label>
+        <input type="hidden" name="sort_by" value="search_api_relevance" />
+<div data-drupal-selector="edit-sort-by" id="edit-sort-by" name="sort_by" class="form-select bef-links">
+                                            <div class="bef-item-link-wrapper"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf" id="edit-sort-by-search-api-relevance" name="sort_by[search_api_relevance]" class="bef-item-link bef-link-active" aria-label="Sort by Relevance">Relevance</a></div>
+
+                        <div class="bef-item-link-wrapper"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;sort_by=search_title" id="edit-sort-by-search-title" name="sort_by[search_title]" class="bef-link bef-item-link" aria-label="Sort by Title">Title</a></div>
+
+                        <div class="bef-item-link-wrapper"><a href="https://www.churchofengland.org/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;sort_by=search_changed" id="edit-sort-by-search-changed" name="sort_by[search_changed]" class="bef-link bef-item-link" aria-label="Sort by Date">Date</a></div>
+
+      </div>
+
+        </div>
+
+          </div>
+              </div>
+      </div>
+</div>
+
+</form>
+
+  
+      <div class="view-header">
+      <p><b>16443</b> results found for <b>'sites default files 2020 06 Opening cathedral and church buildings advice v 1 pdf'</b></p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+            <div class="search-results" aria-label="Search results">
+            <div class="listing-item views-row">  <a href="/resources/churchcare/advice-and-guidance-church-buildings" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Advice and guidance for church buildings</h3><div class="views-field views-field-field-summary search-item-text"><p>Advice and guidance relating to Cathedrals and Church buildings.&nbsp;</p>
+</div><div class="views-field views-field-created search-item-changed"></div><div class="views-field views-field-type search-item-type"><div><ul class="item-type-list"><li class="search-item-type-tag">Page</li></ul></div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2018-11/CCB_Building-works-in-church-in-Plymouth.jpg?itok=PW5c1lwS 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2018-11/CCB_Building-works-in-church-in-Plymouth.jpg?itok=umcYyCqh 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2018-11/CCB_Building-works-in-church-in-Plymouth.jpg?itok=8A_2wh5d 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2018-11/CCB_Building-works-in-church-in-Plymouth.jpg?itok=PW5c1lwS" width="660" height="430" alt="Interior of a church with construction materials and tools layout out in the aisles" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/resources/churchcare/cathedral-fabric-commission/advice-and-guidance-cathedrals" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Advice and guidance for cathedrals</h3><div class="views-field views-field-field-summary search-item-text"><p>We offer guidance and advice on the care, conservation and development of cathedrals.</p>
+</div><div class="views-field views-field-created search-item-changed"></div><div class="views-field views-field-type search-item-type"><div><ul class="item-type-list"><li class="search-item-type-tag">Page</li></ul></div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-11/Majesty%20-%20May%20Fong%20Li.jpg?h=d149136b&amp;itok=njHxOgNQ 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2017-11/Majesty%20-%20May%20Fong%20Li.jpg?h=d149136b&amp;itok=p0HIbNb5 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2017-11/Majesty%20-%20May%20Fong%20Li.jpg?h=d149136b&amp;itok=7AN3bi9- 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-11/Majesty%20-%20May%20Fong%20Li.jpg?h=d149136b&amp;itok=njHxOgNQ" width="660" height="430" alt="View of Manchester Cathedral ceiling" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+<span  class="credit">
+    
+            May Fong Li
+      
+  </span>
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/resources/churchcare/contact-cathedral-and-church-buildings-department" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Contact the Cathedral and Church Buildings Department</h3><div class="views-field views-field-field-summary search-item-text"><p>Contact the Cathedral and Church Buildings Department.</p>
+</div><div class="views-field views-field-created search-item-changed"></div><div class="views-field views-field-type search-item-type"><div><ul class="item-type-list"><li class="search-item-type-tag">Page</li></ul></div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-09/St%20Matthews%20Westminster%20TMP%20%288%29.JPG?h=18a284c8&amp;itok=pz7ZOanM 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2017-09/St%20Matthews%20Westminster%20TMP%20%288%29.JPG?h=18a284c8&amp;itok=0ekNtAGl 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2017-09/St%20Matthews%20Westminster%20TMP%20%288%29.JPG?h=18a284c8&amp;itok=EnhtItjE 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-09/St%20Matthews%20Westminster%20TMP%20%288%29.JPG?h=18a284c8&amp;itok=pz7ZOanM" width="660" height="430" alt="Interior view of St Matthew&#039;s church, Westminster" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/media/press-releases/church-buildings-support-officers-meet-cathedral-conference" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Church Buildings Support Officers meet at Cathedral conference</h3><div class="views-field views-field-field-summary search-item-text"><p>Newly-appointed Church Buildings Support Officers have spoken at a special conference of their roles providing practical advice and expertise to the Church of England parishes.</p>
+</div><div class="views-field views-field-created search-item-changed"><time datetime="2024-06-21T14:40:09+01:00">21/06/2024</time>
+</div><div class="views-field views-field-type search-item-type"><div class="field-content search-item-type-tag">Article page</div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2024-06/summary_image_1718978062.jpg?h=8101bba5&amp;itok=RHa9mRqQ 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2024-06/summary_image_1718978062.jpg?h=8101bba5&amp;itok=AhKKZTt5 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2024-06/summary_image_1718978062.jpg?h=8101bba5&amp;itok=Bd1fvGlX 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2024-06/summary_image_1718978062.jpg?h=8101bba5&amp;itok=RHa9mRqQ" width="660" height="430" alt="Church Buildings Support Officers" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/media/press-releases/emily-gee-appointed-director-cathedral-and-church-buildings-church-england" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Emily Gee appointed Director for Cathedral and Church Buildings for the Church of England</h3><div class="views-field views-field-field-summary search-item-text"><p>Emily Gee has been appointed Director for Cathedral and Church Buildings for the Church of England.</p>
+</div><div class="views-field views-field-created search-item-changed"><time datetime="2022-12-20T13:01:57+00:00">20/12/2022</time>
+</div><div class="views-field views-field-type search-item-type"><div class="field-content search-item-type-tag">Article page</div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2022-12/emily_gee.jpg?h=436b82d4&amp;itok=wWx0nllx 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2022-12/emily_gee.jpg?h=436b82d4&amp;itok=PaMwd3-4 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2022-12/emily_gee.jpg?h=436b82d4&amp;itok=YwQqAuCV 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2022-12/emily_gee.jpg?h=436b82d4&amp;itok=wWx0nllx" width="660" height="430" alt="Lady looking at the camera wearing a jacket, blue top and necklace" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/resources/churchcare/church-buildings-council/how-we-manage-our-buildings/church-buildings-reports" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Church Buildings Reports</h3><div class="views-field views-field-field-summary search-item-text"><p>The Church Buildings Council seeks to support dioceses in working with parishes and other stakeholders where the future of a church building is being considered</p>
+</div><div class="views-field views-field-created search-item-changed"></div><div class="views-field views-field-type search-item-type"><div><ul class="item-type-list"><li class="search-item-type-tag">Page</li></ul></div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-10/St%20Mary%20Fairford%20Gloucester%205.jpg?h=2fa77b65&amp;itok=V3WlGZCz 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2017-10/St%20Mary%20Fairford%20Gloucester%205.jpg?h=2fa77b65&amp;itok=oSBrxVaG 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2017-10/St%20Mary%20Fairford%20Gloucester%205.jpg?h=2fa77b65&amp;itok=hx3guEU6 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-10/St%20Mary%20Fairford%20Gloucester%205.jpg?h=2fa77b65&amp;itok=V3WlGZCz" width="660" height="430" alt="Interior view of St Mary&#039;s church Fairford" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/media/press-releases/statements-regarding-bbc-file-four-blackburn-cathedral-case" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Statements regarding BBC File on Four Blackburn Cathedral case</h3><div class="views-field views-field-field-summary search-item-text"><p>Statements regarding BBC File on Four Blackburn Cathedral case<br>&nbsp;</p>
+</div><div class="views-field views-field-created search-item-changed"><time datetime="2024-08-13T08:03:43+01:00">13/08/2024</time>
+</div><div class="views-field views-field-type search-item-type"><div><ul class="item-type-list"><li class="search-item-type-tag">News &amp; Stories</li></ul></div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2023-06/Church-of-England-preview-image_0.jpg?h=d1cb525d&amp;itok=2WJJ3ot_ 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2023-06/Church-of-England-preview-image_0.jpg?h=d1cb525d&amp;itok=NzPmXFdQ 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2023-06/Church-of-England-preview-image_0.jpg?h=d1cb525d&amp;itok=QOszqneo 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2023-06/Church-of-England-preview-image_0.jpg?h=d1cb525d&amp;itok=2WJJ3ot_" width="660" height="430" alt="Church of England preview image" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/resources/churchcare/church-buildings-council" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Church Buildings Council</h3><div class="views-field views-field-field-summary search-item-text"><p>We help you keep your church building open, used for worship and enjoyed by all.</p>
+</div><div class="views-field views-field-created search-item-changed"></div><div class="views-field views-field-type search-item-type"><div><ul class="item-type-list"><li class="search-item-type-tag">Page</li></ul></div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-10/ChurchCare%20-%20077.jpg?h=f984d0b8&amp;itok=dOKp0kfo 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2017-10/ChurchCare%20-%20077.jpg?h=f984d0b8&amp;itok=7UQMJJ9W 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2017-10/ChurchCare%20-%20077.jpg?h=f984d0b8&amp;itok=bDBa3qEI 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-10/ChurchCare%20-%20077.jpg?h=f984d0b8&amp;itok=dOKp0kfo" width="660" height="430" alt="vicar in robes, speaks to lady in church cafe" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/resources/churchcare/churchcare-news/expressions-interest-sought-cathedral-fabric-advisory" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Expressions of Interest Sought: Cathedral Fabric Advisory Committees, Diocesan Advisory Committees and the Church Buildings Council</h3><div class="views-field views-field-field-summary search-item-text"><p>The Cathedral and Church Buildings Division of the Church of England would like to hear from specialists in the history, care and conservation of religious buildings with the time and skills to serve on one of our voluntary expert committees. </p>
+<p>Joining an advisory committee or the Council offers a unique opportunity to help to ensure the long-term protection and sustainability of cathedrals and churches. Membership provides great prospects for professional development and will allow you to engage with unique situations in special buildings that need bespoke solutions. Beyond scholarly and/or practical expertise we are looking for applicants who will bring imagination, insight, and new and diverse perspectives to bear on the significance of our churches and cathedrals and the challenges they face. Applications from BAME professionals are especially welcomed, to reverse the historic underrepresentation of their voices among our advisers. There is no requirement to be a Christian, though members must act in sympathy with the mission of the Church.</p>
+</div><div class="views-field views-field-created search-item-changed"><time datetime="2020-11-26T13:13:13+00:00">26/11/2020</time>
+</div><div class="views-field views-field-type search-item-type"><div class="field-content search-item-type-tag">Article page</div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-11/churhc%20interior%20tint.jpg?h=c49a028b&amp;itok=sTNSHgLy 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2017-11/churhc%20interior%20tint.jpg?h=c49a028b&amp;itok=NRmfpVVU 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2017-11/churhc%20interior%20tint.jpg?h=c49a028b&amp;itok=3Ym33QVS 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2017-11/churhc%20interior%20tint.jpg?h=c49a028b&amp;itok=sTNSHgLy" width="660" height="430" alt="Interior of St Matthew&#039;s Westminster" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+    <div class="listing-item views-row">  <a href="/media/press-releases/churches-and-cathedrals-open-doors-brexit-conversation-and-prayer" target="_self" class="listing-item-url" aria-label="Suggested search result">
+
+  <div class="listing-item-content">
+    <h3 class="field-content search-item-title">Churches and cathedrals open doors for Brexit conversation and prayer</h3><div class="views-field views-field-field-summary search-item-text"><p>NEWS / On the day that the UK was set to leave the European Union, Christians across England are coming together to pray.&nbsp;</p>
+</div><div class="views-field views-field-created search-item-changed"><time datetime="2019-03-29T11:05:14+00:00">29/03/2019</time>
+</div><div class="views-field views-field-type search-item-type"><div class="field-content search-item-type-tag">Article page</div></div>  </div><div class="listing-item-image">
+      
+      <article class="media media-image media--type-image media--view-mode-paragraph-image-large-spotlight-display">
+  
+      
+                <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2019-03/st_botolphs_church_boston_16076690501.jpg?itok=pjChqxNf 1x" media="all and (min-width: 790px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_narrow/public/2019-03/st_botolphs_church_boston_16076690501.jpg?itok=vSmHAz7v 1x" media="all and (min-width: 610px) and (max-width: 789px)" type="image/jpeg" width="660" height="430"/>
+              <source srcset="/sites/default/files/styles/paragraph_image_large_spotlight_mobile/public/2019-03/st_botolphs_church_boston_16076690501.jpg?itok=sA8RiruU 1x" type="image/jpeg" width="660" height="430"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img loading="eager" src="/sites/default/files/styles/paragraph_image_large_spotlight_wide/public/2019-03/st_botolphs_church_boston_16076690501.jpg?itok=pjChqxNf" width="660" height="430" typeof="foaf:Image" />
+
+  </picture>
+
+
+      
+  </article>
+    </div>
+  </a>
+</div>
+
+      </div>
+    </div>
+  
+        <nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+    <h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+    <ul class="pager__items js-pager__items">
+                                                        <li class="pager__item is-active">
+                                          <a href="?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;page=0" title="Current page" aria-current="page">
+            <span class="visually-hidden">
+              Current page
+            </span>1</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;page=1" title="Go to page 2">
+            <span class="visually-hidden">
+              Page
+            </span>2</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;page=2" title="Go to page 3">
+            <span class="visually-hidden">
+              Page
+            </span>3</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;page=3" title="Go to page 4">
+            <span class="visually-hidden">
+              Page
+            </span>4</a>
+        </li>
+              <li class="pager__item">
+                                          <a href="?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;page=4" title="Go to page 5">
+            <span class="visually-hidden">
+              Page
+            </span>5</a>
+        </li>
+                          <li class="pager__item pager__item--ellipsis" role="presentation">&hellip;</li>
+                          <li class="pager__item pager__item--next">
+          <a href="?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;page=1" title="Go to next page" rel="next">
+                          <span class="visually-hidden">Next page</span>
+              <span aria-hidden="true"><i class="icon-chevron-right"></i></span>
+                      </a>
+        </li>
+                          <li class="pager__item pager__item--last">
+          <a href="?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf&amp;page=1644" title="Go to last page">
+                          <span class="visually-hidden">Last page</span>
+              <span aria-hidden="true"><i class="icon-chevron-right"></i><i class="icon-chevron-right"></i></span>
+                      </a>
+        </li>
+          </ul>
+  </nav>
+
+  
+    </div>
+</div>
+
+  </div>
+
+  </div>
+
+    </div>
+    
+  </main>
+
+        <footer role="contentinfo" class="site-footer">
+        <div id="block-sharetools">
+  
+    
+      <div class="share-tools">
+  <div class="container">
+          <ul class="share-block">
+                  <li>
+            <a href="#na" class="open-share">Share this page</a>
+
+                          <div class="share-buttons">
+                <ul>
+                                      <li >
+                      <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.churchofengland.org/search-results" >
+                        <i class="icon-facebook"></i>
+                      </a>
+                    </li>
+                                      <li >
+                      <a target="_blank" href="https://twitter.com/intent/tweet?url=https://www.churchofengland.org/search-results&amp;title=Search results&amp;via=churchofengland" >
+                        <i class="icon-twitter"></i>
+                      </a>
+                    </li>
+                                      <li >
+                      <a target="_blank" href="https://www.linkedin.com/sharing/share-offsite?url=https://www.churchofengland.org/search-results" >
+                        <i class="icon-linkedin"></i>
+                      </a>
+                    </li>
+                                      <li  class="mobile-only">
+                      <a target="_blank" href="whatsapp://send?text=https://www.churchofengland.org/search-results"  data-action="share/whatsapp/share">
+                        <i class="icon-whatsapp"></i>
+                      </a>
+                    </li>
+                                      <li  class="mobile-only">
+                      <a target="_blank" href="fb-messenger://share/?link=https://www.churchofengland.org/search-results" >
+                        <i class="icon-messenger"></i>
+                      </a>
+                    </li>
+                                  </ul>
+              </div>
+                      </li>
+                  <li>
+            <a href="#na" class="email-page">Email this page</a>
+
+                      </li>
+                  <li>
+            <a href="/search-results/printable/print" class="print-page" target="_blank">Print this page</a>
+
+                      </li>
+              </ul>
+      </div>
+</div>
+
+  </div>
+
+  </footer>
+
+  
+</div><div class="block-bbd-emergency-notice"></div>
+
+
+  </div>
+
+    <div class="region region-page-bottom"><div id="fancy_login_dim_screen"></div><div id="fancy_login_login_box"><div id="fancy_login_form_contents"><a href="#" id="fancy_login_close_button">X</a><div id="fancy_login_user_login_block_wrapper"><form class="fancy-login-user-login-form" data-drupal-selector="fancy-login-user-login-form" action="/search-results?keys=sites%20default%20files%202020%2006%20Opening%20cathedral%20and%20church%20buildings%20advice%20v%201%20pdf" method="post" id="fancy-login-user-login-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name">
+      <label for="edit-name" class="js-form-required form-required">Email</label>
+        <input autocorrect="none" autocapitalize="none" spellcheck="false" autocomplete="username" data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="15" maxlength="60" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-password form-item-pass js-form-item-pass">
+      <label for="edit-pass" class="js-form-required form-required">Password</label>
+        <input autocomplete="current-password" data-drupal-selector="edit-pass" type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" required="required" aria-required="true" />
+
+        </div>
+<input data-drupal-selector="form-lcodhblqkngmkd8bagv7nnvsm-0x6wvb6xf0i9x4xn4" type="hidden" name="form_build_id" value="form-lCodHblQkNGmKd8bAGV7nNVSm-0x6wvB6Xf0I9X4xn4" />
+<input data-drupal-selector="edit-fancy-login-user-login-form" type="hidden" name="form_id" value="fancy_login_user_login_form" />
+<ul data-drupal-selector="edit-user-links"><li><a href="/user/register" title="Create a new user account.">Create new account</a></li><li><a href="/user/password" title="Request new password via email.">Request new password</a></li></ul><div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--4"><input data-drupal-selector="edit-submit-1728841591" type="submit" id="edit-submit-1728841591" name="op" value="Log in" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+</div></div></div></div>
+    <script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/ie-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/button-min.js?v=10.3.5"></script>
+<script src="/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js?v=10.3.5"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/version-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widget-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/widgets/tabs-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/jquery-var-for-color-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/vendor/jquery-color/jquery.color-min.js?v=1.13.2"></script>
+<script src="/modules/contrib/jquery_ui/assets/vendor/jquery.ui/ui/effect-min.js?v=1.13.2"></script>
+<script src="/core/assets/vendor/tua-body-scroll-lock/tua-bsl.umd.min.js?v=10.3.5"></script>
+<script src="/modules/sandbox/fancy_login/js/fancy_login.js?v=10.3.5"></script>
+<script src="/core/misc/jquery.form.js?v=4.3.0"></script>
+<script src="/modules/contrib/back_to_top/js/back_to_top.js?v=10.3.5"></script>
+<script src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"></script>
+<script src="/modules/contrib/civicccookiecontrol/js/cookieControlSettings.js?slb0md"></script>
+<script src="/core/misc/displace.js?v=10.3.5"></script>
+<script src="/core/misc/jquery.tabbable.shim.js?v=10.3.5"></script>
+<script src="/core/misc/position.js?v=10.3.5"></script>
+<script src="/core/misc/dialog/dialog-deprecation.js?v=10.3.5"></script>
+<script src="/core/misc/dialog/dialog.js?v=10.3.5"></script>
+<script src="/core/misc/dialog/dialog.position.js?v=10.3.5"></script>
+<script src="/core/misc/dialog/dialog.jquery-ui.js?v=10.3.5"></script>
+<script src="/core/modules/ckeditor5/js/ckeditor5.dialog.fix.js?v=10.3.5"></script>
+<script src="/core/misc/dialog/dialog.ajax.js?v=10.3.5"></script>
+<script src="/themes/custom/cofe/_assets/js/modernizr-custom.js?v=1.x"></script>
+<script src="/themes/custom/cofe/_assets/js/plugins.js?v=1.x"></script>
+<script src="/themes/custom/cofe/_assets/js/main.js?v=1.x"></script>
+<script src="/themes/custom/cofe/_assets/js/jquery.selectric.min.js?v=1.x"></script>
+<script src="/themes/custom/cofe/libraries/slick/slick/slick.min.js?v=1.x"></script>
+<script src="/themes/custom/cofe/libraries/masonry/masonry.min.js?v=1.x"></script>
+<script src="/themes/custom/cofe/_assets/js/cofe.main.js?v=1.x"></script>
+<script src="/themes/custom/cofe/libraries/bootstrap/dist/js/bootstrap.js?v=1.x"></script>
+<script src="/themes/custom/cofe/libraries/owl_carousel/dist/owl.carousel.min.js?v=1.x"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=10.3.5"></script>
+<script src="/modules/contrib/better_exposed_filters/js/better_exposed_filters.js?v=6.x"></script>
+<script src="/modules/custom/bbd_react_menu/component/bbd-react-menu/build/static/js/runtime.js?slb0md"></script>
+<script src="/modules/custom/bbd_react_menu/component/bbd-react-menu/build/static/js/chunk.js?slb0md"></script>
+<script src="/modules/custom/bbd_react_menu/component/bbd-react-menu/build/static/js/main.js?slb0md"></script>
+<script src="/modules/custom/bbd_formatters/assets/js/bbd_audio_formatter.js?slb0md"></script>
+
+  </body>
+</html>
