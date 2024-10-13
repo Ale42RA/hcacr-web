@@ -193,7 +193,7 @@ if ($sort_by === 'name') {
                     <h2><?php echo esc_html($tower->Dedication); ?></h2>
                 </div>
 
-                <!-- Tower Card Body with Image and Bells Info -->
+                <!-- tower card body with image and bells info -->
                 <div class="tower-card-body">
                     <img src="<?php echo esc_url( wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph ); ?>" alt="<?php echo esc_attr($tower->Photograph); ?>">
                     <p><?php echo esc_html($tower->District . ', ' . $tower->Town); ?></p>
