@@ -41,3 +41,8 @@
 [13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "   --dict:769/1123(ro)(G)--   --dict:0/20(G)--   --dict:75/200(L)--"
 [13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Current allocation mode is local"
 [13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "GPL Ghostscript 9.56.1: Unrecoverable error, exit code 1"
+[14-Oct-2024 17:14:46] NOTICE: Terminating ...
+[14-Oct-2024 17:14:46] NOTICE: Terminating ...
+[14-Oct-2024 17:14:46] NOTICE: exiting, bye-bye!
+[14-Oct-2024 17:14:47] NOTICE: fpm is running, pid 25530
+[14-Oct-2024 17:14:47] NOTICE: ready to handle connections

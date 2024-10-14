@@ -2,8 +2,8 @@
 /*
 Plugin Name: Tower Pages Generator
 Description: Automatically generates individual pages for each tower based on district initials and tower name.
-Version: 1.0
-Author: Your Name
+Version: 1.1
+Author: Alejandra Rivas
 */
 
 // Add rewrite rules on plugin activation
@@ -59,3 +59,62 @@ function get_tower_data($district, $name) {
 
     return $tower;
 }
+
+// Function to create a WordPress page for each tower
+function create_tower_pages() {
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'towers'; // Assuming the table is called wp_towers
+
+    // Fetch all towers
+    $towers = $wpdb->get_results("SELECT District, Dedication FROM $table_name");
+
+    foreach ($towers as $tower) {
+        // Generate the page title and slug from tower data
+        $slug = strtolower(substr($tower->District, 0, 3)) . '-' . strtolower(str_replace(' ', '-', $tower->Dedication));
+        $title = ucfirst($slug); // Capitalize the first letter
+
+        // Check if the page already exists
+        $existing_page = get_page_by_path($slug);
+
+        // If the page does not exist, create it
+        if (!$existing_page) {
+            $new_page = array(
+                'post_title'    => $title,
+                'post_name'     => $slug,
+                'post_content'  => '[tower_page_content]', // You can customize or replace this with actual content
+                'post_status'   => 'publish',
+                'post_type'     => 'page',
+                'post_author'   => 1, // Assuming the admin user with ID 1
+                'page_template' => 'tower-page-template.php' // Assign the custom template
+            );
+
+            // Insert the post into the database
+            wp_insert_post($new_page);
+        }
+    }
+}
+add_action('init', 'create_tower_pages');
+
+// Shortcode to display tower content
+function tower_page_content_shortcode() {
+    $district = get_query_var('tower_district');
+    $name = get_query_var('tower_name');
+
+    if ($district && $name) {
+        $tower = get_tower_data($district, $name);
+        if ($tower) {
+            ob_start();
+            ?>
+            <h1><?php echo esc_html($tower->Dedication); ?></h1>
+            <p>District: <?php echo esc_html($tower->District); ?></p>
+            <p>Height: <?php echo esc_html($tower->Height); ?> meters</p>
+            <p>Year: <?php echo esc_html($tower->Year); ?></p>
+            <?php
+            return ob_get_clean();
+        } else {
+            return '<p>No tower found.</p>';
+        }
+    }
+    return '<p>Invalid tower data.</p>';
+}
+add_shortcode('tower_page_content', 'tower_page_content_shortcode');

@@ -117,9 +117,10 @@ foreach ($district_town_map as $district => $towns) {
 // Check if there are any filter or sort inputs
 $selected_district = isset($_GET['district']) ? $_GET['district'] : '';
 $selected_town = isset($_GET['town']) ? $_GET['town'] : '';
+$selected_practice_night = isset($_GET['practice_night']) ? $_GET['practice_night'] : '';
 $sort_by = isset($_GET['sort_by']) ? $_GET['sort_by'] : '';
 
-// Filter towers by district and town if selected (compare only the first 6 characters of district)
+// Filter towers by district and town if selected
 if ($selected_district) {
     $towers = array_filter($towers, function($tower) use ($selected_district) {
         return strncasecmp($tower->District, $selected_district, 6) === 0;
@@ -131,6 +132,26 @@ if ($selected_town) {
     });
 }
 
+// Filter towers by practice night (Monday to Friday or Other)
+if ($selected_practice_night) {
+    $towers = array_filter($towers, function($tower) use ($selected_practice_night) {
+        $practice_day = strtok($tower->Practice_night, ' '); // Get the first word of Practice Night
+
+        // If filtering by a specific day (Monday to Friday)
+        if (in_array($selected_practice_night, ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'])) {
+            return strcasecmp($practice_day, $selected_practice_night) === 0;
+        }
+
+        // If filtering by 'Other'
+        if ($selected_practice_night === 'Other') {
+            return !in_array($practice_day, ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']);
+        }
+
+        return true;
+    });
+}
+
+// Sort towers based on the selected sort option
 // Sort towers based on the selected sort option
 if ($sort_by === 'name') {
     usort($towers, function($a, $b) {
@@ -139,6 +160,13 @@ if ($sort_by === 'name') {
 } elseif ($sort_by === 'bells') {
     usort($towers, function($a, $b) {
         return $a->Number_of_bells - $b->Number_of_bells;
+    });
+} elseif ($sort_by === 'practice_night') {
+    // Sort by the first word of the Practice night field
+    usort($towers, function($a, $b) {
+        $first_word_a = strtok($a->Practice_night, ' '); // Get the first word (day) of Practice Night
+        $first_word_b = strtok($b->Practice_night, ' ');
+        return strcasecmp($first_word_a, $first_word_b);
     });
 }
 
@@ -157,6 +185,7 @@ if ($sort_by === 'name') {
 </style>
 
 <!-- Display the filter and sort form -->
+<!-- Display the filter and sort form -->
 <form class="tower-filter-form" method="GET">
     <label for="district">Filter by District:</label>
     <select name="district" id="district" onchange="updateTownOptions()">
@@ -174,10 +203,15 @@ if ($sort_by === 'name') {
         <!-- Town options will be populated based on the selected district -->
     </select>
 
-    <label for="sort_by">Sort by:</label>
-    <select name="sort_by" id="sort_by">
-        <option value="name" <?php selected($sort_by, 'name'); ?>>Name (Alphabetical)</option>
-        <option value="bells" <?php selected($sort_by, 'bells'); ?>>Number of Bells</option>
+    <label for="practice_night">Filter by Practice Night:</label>
+    <select name="practice_night" id="practice_night">
+        <option value="">All Practice Nights</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Other">Other</option>
     </select>
 
     <button type="submit">Apply</button>
@@ -193,16 +227,17 @@ if ($sort_by === 'name') {
                     <h2><?php echo esc_html($tower->Dedication); ?></h2>
                 </div>
 
-                <!-- tower card body with image and bells info -->
+                <!-- tower card body with image and bells nfo -->
                 <div class="tower-card-body">
                     <img src="<?php echo esc_url( wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph ); ?>" alt="<?php echo esc_attr($tower->Photograph); ?>">
                     <p><?php echo esc_html($tower->District . ', ' . $tower->Town); ?></p>
                     <p>Bells: <?php echo esc_html($tower->Number_of_bells); ?></p>
+                    <p>Practice night: <br> <?php echo esc_html($tower->Practice_night); ?></p>
                 </div>
 
                 <!-- Optional Footer Section for Further Details Link -->
                 <div class="tower-card-footer">
-                <a href="/<?php echo strtolower(substr($tower->District, 0, 3)) . '-' . strtolower(str_replace(' ', '-', $tower->Dedication)); ?>">See full details</a>                </div>
+                <a href="/tower/<?php echo strtolower(str_replace([' ', "'"], ['-', ''], $tower->District)) . '/' . strtolower(str_replace(' ', '-', $tower->Town)) . '-' . strtolower(str_replace(' ', '-', $tower->Dedication)); ?>">See full details</a>             </div>
             </div>
         <?php endforeach; ?>
     <?php else: ?>
