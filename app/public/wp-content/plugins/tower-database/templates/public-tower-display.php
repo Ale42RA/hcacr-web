@@ -237,7 +237,27 @@ if ($sort_by === 'name') {
 
                 <!-- Optional Footer Section for Further Details Link -->
                 <div class="tower-card-footer">
-                <a href="/tower/<?php echo strtolower(str_replace([' ', "'"], ['-', ''], $tower->District)) . '/' . strtolower(str_replace(' ', '-', $tower->Town)) . '-' . strtolower(str_replace(' ', '-', $tower->Dedication)); ?>">See full details</a>             </div>
+                <a href="/tower/<?php 
+                    echo strtolower(
+                        str_replace(
+                            [' ', '(', ')','&',"'"], 
+                            ['-', '', '','',''], 
+                            $tower->District
+                        )
+                    ) . '/' . strtolower(
+                        str_replace(
+                            [' ', '(', ')','&',"'"], 
+                            ['-', '', '','',''], 
+                            $tower->Town)
+                    ) . '-' . strtolower(
+                        str_replace(
+                            [' ', '(', ')','&',"'"], 
+                            ['-', '', '','',''], 
+                            $tower->Dedication
+                        )
+                    ); 
+                ?>">See full details</a>          
+            </div>
             </div>
         <?php endforeach; ?>
     <?php else: ?>
