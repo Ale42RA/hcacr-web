@@ -155,35 +155,55 @@ function display_secretary_info_shortcode() {
 
     $output = '';
 
-    if ($tower->Display_secretary) {
-        $output .= esc_html($tower->Secretary) . '<br>';
-        
+    if (!empty($tower->Secretary)) {
+        // Display Secretary
+        if ($tower->Display_secretary) {
+            $output .= esc_html($tower->Secretary) . '<br>';
+        }
+
+        // Check and display Secretary Address if both address and display field are available
+        if ($tower->Display_secretary_address && (!empty($tower->Secretary_address_Address_line_1) || !empty($tower->Secretary_address_Address_line_2) || !empty($tower->Secretary_address_Address_line_3) || !empty($tower->Secretary_address_Address_line_4))) {
+            $address = array_filter([
+                esc_html($tower->Secretary_address_Address_line_1),
+                esc_html($tower->Secretary_address_Address_line_2),
+                esc_html($tower->Secretary_address_Address_line_3),
+                esc_html($tower->Secretary_address_Address_line_4),
+            ]);
+
+            if (count($address) > 0 && strlen($address[0]) > 3) {
+                $output .= 'Address: ' . implode(', ', $address) . '<br>';
+            }
+        }
+
+        // Check and display Secretary Telephone if both telephone and display field are available
         if ($tower->Display_secretary_telephone && !empty($tower->Secretary_telephone)) {
             $output .= 'Telephone: ' . esc_html($tower->Secretary_telephone) . '<br>';
         }
-        
+
+        // Check and display Secretary Mobile if both mobile and display field are available
         if ($tower->Display_secretary_mobile && !empty($tower->Secretary_mobile)) {
             $output .= 'Mobile: ' . esc_html($tower->Secretary_mobile) . '<br>';
         }
-        
-        if ($tower->Display_secretary_email && !empty($tower->Secretary_email)) {
-            $output .= 'Email: ' . esc_html($tower->Secretary_email) . '<br>';
+
+        // Check and display Secretary Email if both email and display fields are available
+        if ($tower->Expose_secretary_e_mail && $tower->Display_secretary_e_mail && !empty($tower->Secretary_e_mail_0)) {
+            $output .= 'Email: ' . esc_html($tower->Secretary_e_mail_0) . '<br>';
         }
-        
-        if ($tower->Display_secretary_address) {
-            $address_parts = array_filter([
-                $tower->Secretary_address_line_1,
-                $tower->Secretary_address_line_2,
-                $tower->Secretary_address_line_3,
-                $tower->Secretary_address_line_4,
-            ]);
-            if (!empty($address_parts)) {
-                $output .= 'Address: ' . esc_html(implode(', ', $address_parts)) . '<br>';
-            }
+
+        // Check and display Secretary Comments if available
+        if (!empty($tower->Secretary_comments)) {
+            $output .= 'Comments: ' . esc_html($tower->Secretary_comments) . '<br>';
         }
+        if (strlen($output) < 3) {
+            return 'Secretary information is not available.';
+        }
+
     } else {
         return 'Secretary information is not available.';
     }
+    
+
+    
 
     return $output;
 }
@@ -201,15 +221,34 @@ function display_deputy_info_shortcode() {
     $output = '';
 
     if (!empty($tower->Deputy_secretary)) {
-        $output .= esc_html($tower->Deputy_secretary) . '<br>';
-        
-        if (!empty($tower->Deputy_secretary_telephone)) {
+        if ($tower->Display_deputy_secretary) {
+            $output .= esc_html($tower->Deputy_secretary) . '<br>';
+        }
+
+        if ($tower->Display_deputy_secretary_address && !empty($tower->Deputy_secretary_address)) {
+            $output .= 'Address: ' . esc_html($tower->Deputy_secretary_address) . '<br>';
+        }
+
+        if ($tower->Display_deputy_secretary_telephone && !empty($tower->Deputy_secretary_telephone)) {
             $output .= 'Telephone: ' . esc_html($tower->Deputy_secretary_telephone) . '<br>';
         }
-        
-        if (!empty($tower->Deputy_secretary_email)) {
-            $output .= 'Email: ' . esc_html($tower->Deputy_secretary_email) . '<br>';
+
+        if ($tower->Display_deputy_secretary_mobile && !empty($tower->Deputy_secretary_mobile)) {
+            $output .= 'Mobile: ' . esc_html($tower->Deputy_secretary_mobile) . '<br>';
         }
+
+        if (($tower->Expose_deputy_secretary_e_mail) && ($tower->Display_deputy_secretary_e_mail) && !empty($tower->Deputy_secretary_e_mail)) {
+            $output .= 'Email: ' . esc_html($tower->Deputy_secretary_e_mail) . '<br>';
+        }
+
+        if (!empty($tower->Deputy_secretary_comments)) {
+            $output .= 'Comments: ' . esc_html($tower->Deputy_secretary_comments) . '<br>';
+        }
+
+        if (strlen($output) < 3) {
+            return 'Deputy Secretary  information is not available.';
+        }
+
     } else {
         return 'Deputy Secretary information is not available.';
     }
@@ -227,12 +266,23 @@ function display_master_info_shortcode() {
 
     $output = '';
 
-    if ($tower->Display_ringing_master) {
-        $output .=esc_html($tower->Ringing_master) . '<br>';
-        
-        if (!empty($tower->Ringing_master_telephone)) {
+    if (!empty($tower->Ringing_master)) {
+        if ($tower->Display_ringing_master) {
+            $output .= esc_html($tower->Ringing_master) . '<br>';
+        }
+
+        if ($tower->Display_ringing_master_telephone && !empty($tower->Ringing_master_telephone)) {
             $output .= 'Telephone: ' . esc_html($tower->Ringing_master_telephone) . '<br>';
         }
+
+        if (($tower->Expose_ringing_master_e_mail) && ($tower->Display_ringing_master_e_mail) && !empty($tower->Ringing_master_e_mail)) {
+            $output .= 'Email: ' . esc_html($tower->Ringing_master_e_mail) . '<br>';
+        }
+
+        if (strlen($output) < 3) {
+            return 'Ringing Master information is not available.';
+        }
+
     } else {
         return 'Ringing Master information is not available.';
     }
@@ -251,11 +301,102 @@ function display_captain_info_shortcode() {
 
     $output = '';
 
-    if ($tower->Display_tower_captain) {
-        $output .= esc_html($tower->Tower_captain) . '<br>';
+    if (!empty($tower->Tower_captain)) {
+        if ($tower->Display_tower_captain) {
+            $output .= esc_html($tower->Tower_captain) . '<br>';
+        }
+
+        if ($tower->Display_tower_captain_telephone && !empty($tower->Tower_captain_telephone)) {
+            $output .= 'Telephone: ' . esc_html($tower->Tower_captain_telephone) . '<br>';
+        }
+
+        if (($tower->Expose_tower_captain_e_mail) && ($tower->Display_tower_captain_e_mail) && !empty($tower->Tower_captain_e_mail)) {
+            $output .= 'Email: ' . esc_html($tower->Tower_captain_e_mail) . '<br>';
+        }
+
+        if (strlen($output) < 3) {
+            return 'Tower Captain information is not available.';
+        }
+
     } else {
         return 'Tower Captain information is not available.';
     }
 
     return $output;
 }
+
+
+function display_ringing_location_shortcode() {
+    $tower = get_tower_info_from_url();
+    if (!$tower) {
+        return 'Invalid URL or tower not found.';
+    }
+
+    if (!empty($tower->Ground_floor) && $tower->Ground_floor == true) {
+        return 'Ground floor ringing';
+    } else {
+        return 'Tower ringing';
+    }
+}
+
+add_shortcode('ringing_location', 'display_ringing_location_shortcode');
+
+
+function display_toilets_availability_shortcode() {
+    $tower = get_tower_info_from_url();
+    if (!$tower) {
+        return 'Invalid URL or tower not found.';
+    }
+
+    // Check the Toilets field and return the corresponding message
+    if (!empty($tower->Toilets) && $tower->Toilets == true) {
+        return 'Toilets available';
+    } else {
+        return 'Toilets not available';
+    }
+}
+
+add_shortcode('toilets_availability', 'display_toilets_availability_shortcode');
+
+
+
+function display_bells_data_shortcode() {
+    // Retrieve tower information from URL (or any other method)
+    $tower = get_tower_info_from_url();
+    
+    // Check if the tower data is valid
+    if (!$tower) {
+        return 'Invalid URL or tower not found.';
+    }
+
+    $max_bells = $tower->Number_of_bells; // Limit to 10 bells
+    $output = '<table border="1" cellpadding="5" cellspacing="0">';
+    $output .= '<thead><tr><th>Number</th><th>Date</th><th>Weight</th><th>Note</th></tr></thead>';
+    $output .= '<tbody>';
+    
+    // Assuming $tower is an object, access its properties using object notation
+    for ($i = 0; $i < $max_bells; $i++) {
+        // Construct the field names dynamically using object syntax
+        $bell_number = isset($tower->{"Bells_Bell_{$i}_Number"}) ? sanitize_text_field($tower->{"Bells_Bell_{$i}_Number"}) : '';
+        $bell_date = isset($tower->{"Bells_Bell_{$i}_Date"}) ? sanitize_text_field($tower->{"Bells_Bell_{$i}_Date"}) : '';
+        $bell_weight = isset($tower->{"Bells_Bell_{$i}_Weight"}) ? sanitize_text_field($tower->{"Bells_Bell_{$i}_Weight"}) : '';
+        $bell_note = isset($tower->{"Bells_Bell_{$i}_Note"}) ? sanitize_text_field($tower->{"Bells_Bell_{$i}_Note"}) : '';
+
+        // Only display if the bell number exists
+        if (!empty($bell_number)) {
+            // Add a row for each bell
+            $output .= '<tr>';
+            $output .= '<td>' . esc_html($bell_number) . '</td>';
+            $output .= '<td>' . esc_html($bell_date) . '</td>';
+            $output .= '<td>' . esc_html($bell_weight) . '</td>';
+            $output .= '<td>' . esc_html($bell_note) . '</td>';
+            $output .= '</tr>';
+        }
+    }
+
+    $output .= '</tbody></table>';
+    
+    // Return the final output
+    return $output;
+}
+add_shortcode('tower_bell_data', 'display_bells_data_shortcode');

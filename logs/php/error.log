@@ -1581,3 +1581,84 @@ Stack trace:
 #18 {main}
   thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
 [19-Oct-2024 17:45:46 UTC] PHP Warning:  Undefined property: stdClass::$town in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 171
+[19-Oct-2024 18:08:39 UTC] PHP Warning:  Undefined array key 0 in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 174
+[19-Oct-2024 18:08:39 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:174
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_secretary_info_shortcode(Array, '', 'display_secreta...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\n<img src="/wp-...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('\n<img src="/wp-...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<img src="/wp-...', Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:html --...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:html --...', Object(WP_Block))
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#15 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 174
+[19-Oct-2024 18:09:46 UTC] PHP Warning:  Undefined array key 0 in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 174
+[19-Oct-2024 18:10:11 UTC] PHP Warning:  Undefined array key 0 in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 172
+[19-Oct-2024 18:12:44 UTC] PHP Warning:  Undefined array key 0 in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 172
+[19-Oct-2024 18:16:11 UTC] PHP Warning:  Undefined array key 0 in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 173
+[19-Oct-2024 20:20:23 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:377
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_bells_data_shortcode(Array, '', 'tower_bell_data')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '<img src="/wp-c...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('<img src="/wp-c...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<img src="/wp-c...', Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<img src="/wp-c...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<img src="/wp-c...', Object(WP_Block))
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#15 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 377
+[19-Oct-2024 20:21:07 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:379
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_bells_data_shortcode(Array, '', 'tower_bell_data')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '<img src="/wp-c...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('<img src="/wp-c...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<img src="/wp-c...', Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<img src="/wp-c...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<img src="/wp-c...', Object(WP_Block))
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#15 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 379
+[19-Oct-2024 20:21:19 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:379
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_bells_data_shortcode(Array, '', 'tower_bell_data')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '<img src="/wp-c...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('<img src="/wp-c...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<img src="/wp-c...', Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<img src="/wp-c...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<img src="/wp-c...', Object(WP_Block))
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#15 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 379
