@@ -66,58 +66,83 @@ function get_tower_info_from_url() {
         return $tower;
     }
 
-    // Define the table name with the correct prefix
-    $table_name = $wpdb->prefix . 'towers';
+    try {
+        // Define the table name with the correct prefix
+        $table_name = $wpdb->prefix . 'towers';
+        
+        // Initialize the global $wp variable if it's not already initialized
+        if (empty($wp)) {
+            $wp = new WP();
+        }
+
+        // Get the current URL
+        $current_url = home_url(add_query_arg(array(), $wp->request));
+
+        // Parse the URL and strip off the `/tower/` part
+        $url_path = trim(parse_url($current_url, PHP_URL_PATH), '/');
+        
+        // Remove the 'tower/' prefix, so we only get the part after '/tower/'
+        $url_path = preg_replace('/^tower\//', '', $url_path);
+        
+        // Now split the remaining part of the URL by '~'
+        $url_parts = explode('~', $url_path);
+
+        // Check if the URL structure is valid (should have three parts: district, town, and dedication)
+        if (count($url_parts) < 3) {
+            return null;
+        }
+
+        // Extract district, town, and dedication from URL
+        $district = sanitize_text_field(str_replace('-', ' ', $url_parts[0]));
+        $town = sanitize_text_field(str_replace('-', ' ', $url_parts[1]));
+        $dedication = sanitize_text_field(str_replace('-', ' ',  $url_parts[2]));
     
-    // Initialize the global $wp variable if it's not already initialized
-    if (empty($wp)) {
-        $wp = new WP();
+        // Helper function to normalize strings (removing problematic characters like ' and &)
+        function normalize_string($string) {
+            // $string = str_replace('  ', ' ', $string);
+            return str_replace(array("'", "(", ")"), '',$string);
+        }
+    
+        // Normalize district, town, and dedication strings for comparison
+        $normalized_district = normalize_string($district);
+        $normalized_town = normalize_string($town);
+        $normalized_dedication = normalize_string($dedication);
+
+        // Ensure we have valid sanitized inputs
+        if (empty($normalized_district) || empty($normalized_town) || empty($normalized_dedication)) {
+            throw new Exception("One or more values (district, town, dedication) are missing after sanitization");
+        }
+
+    
+
+        
+
+       
+
+        // Query the database for the matching tower
+        $tower = $wpdb->get_row($wpdb->prepare("
+            SELECT * 
+            FROM $table_name 
+            WHERE LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(District, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '  ', ' ')) = LOWER(%s) 
+            AND LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(Town, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '  ', ' ')) = LOWER(%s)
+            AND LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(Dedication, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '  ', ' ')) = LOWER(%s)
+        ", $normalized_district, $normalized_town, $normalized_dedication));
+
+       
+
+        // Check if the database query returned a result
+        if ($tower === null) {
+            throw new Exception("No matching tower found in the database");
+        }
+
+    } catch (Exception $e) {
+        // Handle the exception and return null or log the error
+        error_log("Error in get_tower_info_from_url: " . $e->getMessage());
+        return null; // Return null to indicate failure
     }
-
-    // Get the current URL
-    $current_url = home_url(add_query_arg(array(), $wp->request));
-
-    // Parse the URL to extract the district, town, and dedication
-    $url_parts = explode('/', trim(parse_url($current_url, PHP_URL_PATH), '/'));
-
-    // Check if the URL structure is valid (at least three parts)
-    if (count($url_parts) < 3) {
-        return null;
-    }
-
-    // Extract district, town, and dedication from URL
-    $district = sanitize_text_field(str_replace('-', ' ', $url_parts[count($url_parts) - 2]));
-    $town_and_dedication = $url_parts[count($url_parts) - 1];
-    $town_dedication_parts = explode('-', $town_and_dedication);
-
-    if (count($town_dedication_parts) < 2) {
-        return null;
-    }
-
-    $town = sanitize_text_field(str_replace('-', ' ', $town_dedication_parts[0]));
-    $dedication = sanitize_text_field(str_replace('-', ' ', implode(' ', array_slice($town_dedication_parts, 1))));
-
-    // Helper function to normalize strings
-    function normalize_string($string) {
-        return str_replace(array("'", "&"), '', $string);
-    }
-
-    $normalized_district = normalize_string($district);
-    $normalized_town = normalize_string($town);
-    $normalized_dedication = normalize_string($dedication);
-
-    // Query the database for the matching tower
-    $tower = $wpdb->get_row($wpdb->prepare("
-        SELECT * 
-        FROM $table_name 
-        WHERE REPLACE(REPLACE(District, '&', ''), '''', '') = %s 
-          AND REPLACE(REPLACE(Town, '&', ''), '''', '') = %s
-          AND REPLACE(REPLACE(Dedication, '&', ''), '''', '') = %s
-    ", $normalized_district, $normalized_town, $normalized_dedication));
 
     return $tower;
 }
-
 
 add_shortcode('display_secretary_info', 'display_secretary_info_shortcode');
 

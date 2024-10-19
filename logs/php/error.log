@@ -1425,3 +1425,159 @@
 [17-Oct-2024 17:54:02 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'var(255)' at line 1 for query ALTER TABLE wp_towers CHANGE COLUMN `Display_ringing_master` Display_ringing_master var(255) made by require('wp-blog-header.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, tower_manager_update_db_check, tower_manager_create_table, dbDelta
 [17-Oct-2024 17:55:24 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'var(255)' at line 1 for query ALTER TABLE wp_towers CHANGE COLUMN `Display_ringing_master` Display_ringing_master var(255) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, tower_manager_update_db_check, tower_manager_create_table, dbDelta
 [17-Oct-2024 18:00:38 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:24:47 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:25:37 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:25:42 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:28:30 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:28:30 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:108) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 108
+[19-Oct-2024 16:30:10 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:30:10 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:108) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 108
+[19-Oct-2024 16:30:53 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:30:53 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:112) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 112
+[19-Oct-2024 16:31:34 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:31:34 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:31:34 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:31:34 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:33:25 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:33:25 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:33:25 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:33:25 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:37:05 UTC] PHP Parse error:  syntax error, unexpected token "catch", expecting end of file in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 142
+[19-Oct-2024 16:37:37 UTC] Error in get_tower_info_from_url: looks like normalized: bishops stortfordbishopsstortford st. michael
+[19-Oct-2024 16:37:37 UTC] Error in get_tower_info_from_url: looks like normalized: bishops stortfordbishopsstortford st. michael
+[19-Oct-2024 16:37:37 UTC] Error in get_tower_info_from_url: looks like normalized: bishops stortfordbishopsstortford st. michael
+[19-Oct-2024 16:37:37 UTC] Error in get_tower_info_from_url: looks like normalized: bishops stortfordbishopsstortford st. michael
+[19-Oct-2024 16:49:06 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:49:06 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:50:47 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:50:47 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:50:50 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:50:50 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:50:53 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:50:53 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:51:08 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:51:08 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:55:33 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:55:33 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:55:41 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:55:41 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:55:42 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:55:42 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:56:05 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:56:05 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 16:59:22 UTC] Error in get_tower_info_from_url: No matching tower found in the database
+[19-Oct-2024 16:59:22 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php:101) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 101
+[19-Oct-2024 17:12:12 UTC] PHP Warning:  Array to string conversion in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
+[19-Oct-2024 17:14:11 UTC] PHP Warning:  Undefined property: stdClass::$TowerName in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 146
+[19-Oct-2024 17:40:50 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php:1096
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php(4670): wp_check_invalid_utf8(Object(stdClass))
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(170): esc_html(Object(stdClass))
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(272): get_tower_info_from_url()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_master_info_shortcode(Array, '', 'display_master_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\n<img src="/wp-...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('\n<img src="/wp-...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<img src="/wp-...', Array)
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:html --...')
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:html --...', Object(WP_Block))
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#16 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#17 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#18 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
+[19-Oct-2024 17:42:21 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php:1096
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php(4670): wp_check_invalid_utf8(Object(stdClass))
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(170): esc_html(Object(stdClass))
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(272): get_tower_info_from_url()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_master_info_shortcode(Array, '', 'display_master_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\n<img src="/wp-...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('\n<img src="/wp-...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<img src="/wp-...', Array)
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:html --...')
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:html --...', Object(WP_Block))
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#16 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#17 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#18 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
+[19-Oct-2024 17:42:31 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php:1096
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php(4670): wp_check_invalid_utf8(Object(stdClass))
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(171): esc_html(Object(stdClass))
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(273): get_tower_info_from_url()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_master_info_shortcode(Array, '', 'display_master_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\n<img src="/wp-...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('\n<img src="/wp-...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<img src="/wp-...', Array)
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:html --...')
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:html --...', Object(WP_Block))
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#16 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#17 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#18 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
+[19-Oct-2024 17:44:44 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php:1096
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php(4670): wp_check_invalid_utf8(Object(stdClass))
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(171): esc_html(Object(stdClass))
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(273): get_tower_info_from_url()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_master_info_shortcode(Array, '', 'display_master_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\n<img src="/wp-...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('\n<img src="/wp-...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<img src="/wp-...', Array)
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:html --...')
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:html --...', Object(WP_Block))
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#16 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#17 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#18 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
+[19-Oct-2024 17:44:53 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 172
+[19-Oct-2024 17:45:32 UTC] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php:1096
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php(4670): wp_check_invalid_utf8(Object(stdClass))
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(171): esc_html(Object(stdClass))
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php(273): get_tower_info_from_url()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): display_master_info_shortcode(Array, '', 'display_master_...')
+#4 [internal function]: do_shortcode_tag(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\n<img src="/wp-...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('\n<img src="/wp-...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<img src="/wp-...', Array)
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:html --...')
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:html --...', Object(WP_Block))
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#15 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#16 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#17 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#18 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
+[19-Oct-2024 17:45:46 UTC] PHP Warning:  Undefined property: stdClass::$town in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 171

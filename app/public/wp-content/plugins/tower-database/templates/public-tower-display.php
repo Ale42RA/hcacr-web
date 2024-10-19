@@ -244,12 +244,12 @@ if ($sort_by === 'name') {
                             ['-', '', '','',''], 
                             $tower->District
                         )
-                    ) . '/' . strtolower(
+                    ) . '~' . strtolower(
                         str_replace(
                             [' ', '(', ')','&',"'"], 
                             ['-', '', '','',''], 
                             $tower->Town)
-                    ) . '-' . strtolower(
+                    ) . '~' . strtolower(
                         str_replace(
                             [' ', '(', ')','&',"'"], 
                             ['-', '', '','',''], 
