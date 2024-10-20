@@ -70,6 +70,10 @@ include 'filter_towers.php';
     justify-content: center;
     height: 30%; /* Body and footer share the remaining 50% */
 }
+.tower-card-body p {
+    padding: 10px;
+    font-size: 0.9em;
+}
 
 .tower-card-footer {
     background-color: white; /* Set the footer background to solid white */
@@ -109,9 +113,9 @@ include 'filter_towers.php';
 
                 <div class="tower-card-body">
                     <p><?php echo esc_html($tower->District . ', ' . $tower->Town); ?></p>
-                    <p>Bells: <?php echo esc_html($tower->Number_of_bells); ?></p>
-                    <p>Practice night: <br> <?php echo esc_html($tower->Practice_night); ?></p>
-                </div>
+                    <p>Practice night: <?php echo esc_html($tower->Practice_night); ?></p>
+                    <p><?php echo display_bells_data_shortcode(['summary' => 'true'], $tower); ?></p>
+                    </div>
 
                 <div class="tower-card-footer">
                     <a href="/tower/<?php echo strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->District)) . '~' . strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->Town)) . '~' . strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->Dedication)); ?>">See full details</a>

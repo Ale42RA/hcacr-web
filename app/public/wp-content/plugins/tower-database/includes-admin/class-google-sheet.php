@@ -1,7 +1,7 @@
 <?php
 
 class Google_Sheet {
-    private static $spreadsheetId = '1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA';
+    public static $spreadsheetId = '1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA';
     private static $range = 'A1:DZ1008';
     
     public static function get_data() {

@@ -1,13 +1,6 @@
 <?php
 
 
-
-
-
-
-
-
-
 function get_tower_info_from_url() {
     global $wpdb, $wp;
 
@@ -97,6 +90,10 @@ function get_tower_info_from_url() {
     return $tower;
 }
 
+
+
+
+
 add_shortcode('display_secretary_info', 'display_secretary_info_shortcode');
 
 
@@ -109,13 +106,9 @@ function display_secretary_info_shortcode() {
     $output = '';
 
     if (!empty($tower->Secretary)) {
-        // Display Secretary
-        if ($tower->Display_secretary) {
-            $output .= esc_html($tower->Secretary) . '<br>';
-        }
+        $output .= esc_html($tower->Secretary) . '<br>';
 
-        // Check and display Secretary Address if both address and display field are available
-        if ($tower->Display_secretary_address && (!empty($tower->Secretary_address_Address_line_1) || !empty($tower->Secretary_address_Address_line_2) || !empty($tower->Secretary_address_Address_line_3) || !empty($tower->Secretary_address_Address_line_4))) {
+        if ( (!empty($tower->Secretary_address_Address_line_1) || !empty($tower->Secretary_address_Address_line_2) || !empty($tower->Secretary_address_Address_line_3) || !empty($tower->Secretary_address_Address_line_4))) {
             $address = array_filter([
                 esc_html($tower->Secretary_address_Address_line_1),
                 esc_html($tower->Secretary_address_Address_line_2),
@@ -128,22 +121,18 @@ function display_secretary_info_shortcode() {
             }
         }
 
-        // Check and display Secretary Telephone if both telephone and display field are available
-        if ($tower->Display_secretary_telephone && !empty($tower->Secretary_telephone)) {
+        if (!empty($tower->Secretary_telephone)) {
             $output .= 'Telephone: ' . esc_html($tower->Secretary_telephone) . '<br>';
         }
 
-        // Check and display Secretary Mobile if both mobile and display field are available
-        if ($tower->Display_secretary_mobile && !empty($tower->Secretary_mobile)) {
+        if (!empty($tower->Secretary_mobile)) {
             $output .= 'Mobile: ' . esc_html($tower->Secretary_mobile) . '<br>';
         }
 
-        // Check and display Secretary Email if both email and display fields are available
-        if ($tower->Expose_secretary_e_mail && $tower->Display_secretary_e_mail && !empty($tower->Secretary_e_mail_0)) {
+        if (!empty($tower->Secretary_e_mail_0)) {
             $output .= 'Email: ' . esc_html($tower->Secretary_e_mail_0) . '<br>';
         }
 
-        // Check and display Secretary Comments if available
         if (!empty($tower->Secretary_comments)) {
             $output .= 'Comments: ' . esc_html($tower->Secretary_comments) . '<br>';
         }
@@ -163,6 +152,8 @@ function display_secretary_info_shortcode() {
 
 
 
+
+
 add_shortcode('display_deputy_info', 'display_deputy_info_shortcode');
 
 function display_deputy_info_shortcode() {
@@ -174,23 +165,22 @@ function display_deputy_info_shortcode() {
     $output = '';
 
     if (!empty($tower->Deputy_secretary)) {
-        if ($tower->Display_deputy_secretary) {
-            $output .= esc_html($tower->Deputy_secretary) . '<br>';
-        }
+        $output .= esc_html($tower->Deputy_secretary) . '<br>';
 
-        if ($tower->Display_deputy_secretary_address && !empty($tower->Deputy_secretary_address)) {
+
+        if (!empty($tower->Deputy_secretary_address)) {
             $output .= 'Address: ' . esc_html($tower->Deputy_secretary_address) . '<br>';
         }
 
-        if ($tower->Display_deputy_secretary_telephone && !empty($tower->Deputy_secretary_telephone)) {
+        if (!empty($tower->Deputy_secretary_telephone)) {
             $output .= 'Telephone: ' . esc_html($tower->Deputy_secretary_telephone) . '<br>';
         }
 
-        if ($tower->Display_deputy_secretary_mobile && !empty($tower->Deputy_secretary_mobile)) {
+        if (!empty($tower->Deputy_secretary_mobile)) {
             $output .= 'Mobile: ' . esc_html($tower->Deputy_secretary_mobile) . '<br>';
         }
 
-        if (($tower->Expose_deputy_secretary_e_mail) && ($tower->Display_deputy_secretary_e_mail) && !empty($tower->Deputy_secretary_e_mail)) {
+        if (!empty($tower->Deputy_secretary_e_mail)) {
             $output .= 'Email: ' . esc_html($tower->Deputy_secretary_e_mail) . '<br>';
         }
 
@@ -209,8 +199,12 @@ function display_deputy_info_shortcode() {
     return $output;
 }
 
-add_shortcode('display_master_info', 'display_master_info_shortcode');
 
+
+
+
+
+add_shortcode('display_master_info', 'display_master_info_shortcode');
 function display_master_info_shortcode() {
     $tower = get_tower_info_from_url();
     if (!$tower) {
@@ -220,15 +214,15 @@ function display_master_info_shortcode() {
     $output = '';
 
     if (!empty($tower->Ringing_master)) {
-        if ($tower->Display_ringing_master) {
-            $output .= esc_html($tower->Ringing_master) . '<br>';
-        }
+      
+        $output .= esc_html($tower->Ringing_master) . '<br>';
+        
 
-        if ($tower->Display_ringing_master_telephone && !empty($tower->Ringing_master_telephone)) {
+        if (!empty($tower->Ringing_master_telephone)) {
             $output .= 'Telephone: ' . esc_html($tower->Ringing_master_telephone) . '<br>';
         }
 
-        if (($tower->Expose_ringing_master_e_mail) && ($tower->Display_ringing_master_e_mail) && !empty($tower->Ringing_master_e_mail)) {
+        if (!empty($tower->Ringing_master_e_mail)) {
             $output .= 'Email: ' . esc_html($tower->Ringing_master_e_mail) . '<br>';
         }
 
@@ -243,9 +237,10 @@ function display_master_info_shortcode() {
     return $output;
 }
 
+
+
+
 add_shortcode('display_captain_info', 'display_captain_info_shortcode');
-
-
 function display_captain_info_shortcode() {
     $tower = get_tower_info_from_url();
     if (!$tower) {
@@ -255,15 +250,15 @@ function display_captain_info_shortcode() {
     $output = '';
 
     if (!empty($tower->Tower_captain)) {
-        if ($tower->Display_tower_captain) {
-            $output .= esc_html($tower->Tower_captain) . '<br>';
-        }
+        
+        $output .= esc_html($tower->Tower_captain) . '<br>';
+        
 
-        if ($tower->Display_tower_captain_telephone && !empty($tower->Tower_captain_telephone)) {
+        if (!empty($tower->Tower_captain_telephone)) {
             $output .= 'Telephone: ' . esc_html($tower->Tower_captain_telephone) . '<br>';
         }
 
-        if (($tower->Expose_tower_captain_e_mail) && ($tower->Display_tower_captain_e_mail) && !empty($tower->Tower_captain_e_mail)) {
+        if (!empty($tower->Tower_captain_e_mail)) {
             $output .= 'Email: ' . esc_html($tower->Tower_captain_e_mail) . '<br>';
         }
 
@@ -279,6 +274,7 @@ function display_captain_info_shortcode() {
 }
 
 
+add_shortcode('ringing_location', 'display_ringing_location_shortcode');
 function display_ringing_location_shortcode() {
     $tower = get_tower_info_from_url();
     if (!$tower) {
@@ -292,8 +288,9 @@ function display_ringing_location_shortcode() {
     }
 }
 
-add_shortcode('ringing_location', 'display_ringing_location_shortcode');
 
+
+add_shortcode('toilets_availability', 'display_toilets_availability_shortcode');
 
 function display_toilets_availability_shortcode() {
     $tower = get_tower_info_from_url();
@@ -309,47 +306,29 @@ function display_toilets_availability_shortcode() {
     }
 }
 
-add_shortcode('toilets_availability', 'display_toilets_availability_shortcode');
 
 
-
-function display_bells_data_shortcode() {
-    // Retrieve tower information from URL (or any other method)
-    $tower = get_tower_info_from_url();
-    
-    // Check if the tower data is valid
-    if (!$tower) {
-        return 'Invalid URL or tower not found.';
-    }
-
-    $max_bells = $tower->Number_of_bells; // Limit to 10 bells
-    $output = '<table border="1" cellpadding="5" cellspacing="0">';
-    $output .= '<thead><tr><th>Number</th><th>Date</th><th>Weight</th><th>Note</th></tr></thead>';
-    $output .= '<tbody>';
-    
-    // Assuming $tower is an object, access its properties using object notation
-    for ($i = 0; $i < $max_bells; $i++) {
-        // Construct the field names dynamically using object syntax
-        $bell_number = isset($tower->{"Bells_Bell_{$i}_Number"}) ? sanitize_text_field($tower->{"Bells_Bell_{$i}_Number"}) : '';
-        $bell_date = isset($tower->{"Bells_Bell_{$i}_Date"}) ? sanitize_text_field($tower->{"Bells_Bell_{$i}_Date"}) : '';
-        $bell_weight = isset($tower->{"Bells_Bell_{$i}_Weight"}) ? sanitize_text_field($tower->{"Bells_Bell_{$i}_Weight"}) : '';
-        $bell_note = isset($tower->{"Bells_Bell_{$i}_Note"}) ? sanitize_text_field($tower->{"Bells_Bell_{$i}_Note"}) : '';
-
-        // Only display if the bell number exists
-        if (!empty($bell_number)) {
-            // Add a row for each bell
-            $output .= '<tr>';
-            $output .= '<td>' . esc_html($bell_number) . '</td>';
-            $output .= '<td>' . esc_html($bell_date) . '</td>';
-            $output .= '<td>' . esc_html($bell_weight) . '</td>';
-            $output .= '<td>' . esc_html($bell_note) . '</td>';
-            $output .= '</tr>';
-        }
-    }
-
-    $output .= '</tbody></table>';
-    
-    // Return the final output
-    return $output;
-}
 add_shortcode('tower_bell_data', 'display_bells_data_shortcode');
+function display_bells_data_shortcode($atts = [], $tower = null) {
+    $atts = shortcode_atts([
+        'summary' => false 
+    ], $atts);
+
+    if ($atts['summary'] === 'true') {
+        if (!$tower) {
+            return 'Tower data not provided.';
+        }
+    } 
+
+    $max_bells = $tower->Number_of_bells;
+
+    if ($atts['summary'] === 'true') {
+        $last_bell_index = $max_bells - 1;
+
+        $last_bell_weight = isset($tower->{"Bells_Bell_{$last_bell_index}_Weight"}) ? sanitize_text_field($tower->{"Bells_Bell_{$last_bell_index}_Weight"}) : 'N/A';
+        $last_bell_note = isset($tower->{"Bells_Bell_{$last_bell_index}_Note"}) ? sanitize_text_field($tower->{"Bells_Bell_{$last_bell_index}_Note"}) : 'N/A';
+
+        // Return the number of bells, the weight, and note of the last bell
+        return "Bells: " . esc_html($max_bells) . " - " . esc_html($last_bell_weight) . " - " . esc_html($last_bell_note);
+    }
+}

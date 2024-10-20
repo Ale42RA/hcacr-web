@@ -3,6 +3,8 @@
 
     <h2>Existing Towers</h2>
     <button id="downloadJson" class="button">Download Google Sheet JSON</button>
+    <button id="goToGoogleSheet" class="button">GoToGoogleSheet</button>
+
 
     <div class="table-container">
         <table class="widefat fixed" cellspacing="0">
@@ -19,10 +21,7 @@
                     <th>Practice Night</th>
                     <th>Service Ringing</th>
                     <th>Photograph</th>
-                    <th>Postcode</th>
-                    <th>Bellboard Place</th>
-                    <th>Map X</th>
-                    <th>Map Y</th>
+                    <th>DoveID</th>
                     <th>Ground Floor</th>
                     <th>Toilet</th>
                     <!-- Add more columns as necessary -->
@@ -48,10 +47,7 @@
                                 echo '<a href="' . $image_url . '">' . $image_url . '</a>';
                                 ?>
                             </td>
-                            <td><?php echo esc_html($tower->Postcode); ?></td>
-                            <td><?php echo esc_html($tower->Bellboard_place); ?></td>
-                            <td><?php echo esc_html($tower->Map_X); ?></td>
-                            <td><?php echo esc_html($tower->Map_Y); ?></td>
+                            <td><?php echo esc_html($tower->DoveID); ?></td>
                             <td><?php echo esc_html($tower->Ground_floor ? 'Yes' : 'No'); ?></td>
                             <td><?php echo esc_html($tower->Toilet ? 'Yes' : 'No'); ?></td>
                             <!-- Add more data fields as necessary -->
@@ -119,5 +115,16 @@ document.getElementById('downloadJson').addEventListener('click', function () {
         .catch(error => {
             console.error('Error downloading the JSON file:', error);
         });
+});
+document.getElementById('goToGoogleSheet').addEventListener('click', function () {
+    // Sheet ID is hardcoded in the PHP class, so we can use it directly in JS
+    const googleSheetId = '<?php echo Google_Sheet::$spreadsheetId; ?>'; // Sheet ID from PHP
+    
+    if (googleSheetId) {
+        const googleSheetUrl = `https://docs.google.com/spreadsheets/d/${googleSheetId}/edit`;
+        window.open(googleSheetUrl, '_blank'); // Opens the sheet in a new tab
+    } else {
+        console.error('Google Sheet ID not found');
+    }
 });
 </script>

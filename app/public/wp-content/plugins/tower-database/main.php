@@ -26,7 +26,7 @@ require_once plugin_dir_path(__FILE__) . 'vendor/autoload.php';
 
 
 require_once plugin_dir_path(__FILE__) . 'generated-list/display.php';
+require_once plugin_dir_path(__FILE__) . 'tower-info/details-shortcode.php';
 
 
 
-include_once(plugin_dir_path(__FILE__) . 'public-tower-display.php');
