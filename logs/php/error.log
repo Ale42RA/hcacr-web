@@ -1662,3 +1662,72 @@ Stack trace:
 #14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
 #15 {main}
   thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 379
+[20-Oct-2024 13:42:19 UTC] PHP Warning:  Attempt to read property "post_content" on string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 381
+[20-Oct-2024 13:43:19 UTC] PHP Warning:  Attempt to read property "post_content" on string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 381
+[20-Oct-2024 13:51:00 UTC] PHP Warning:  include_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/../wpgi/codes/work.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 391
+[20-Oct-2024 13:51:00 UTC] PHP Warning:  include_once(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/../wpgi/codes/work.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 391
+[20-Oct-2024 13:51:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function wpgsi_googleWorksheetData() on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php:395
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(459): tower_manager_process_google_sheets_data('wp_towers', '1QcwrY0zJOH3Sv8...', '1999290708')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 395
+[20-Oct-2024 13:51:01 UTC] PHP Warning:  include_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/../wpgi/codes/work.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 391
+[20-Oct-2024 13:51:01 UTC] PHP Warning:  include_once(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/../wpgi/codes/work.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 391
+[20-Oct-2024 13:51:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function wpgsi_googleWorksheetData() on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php:395
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(459): tower_manager_process_google_sheets_data('wp_towers', '1QcwrY0zJOH3Sv8...', '1999290708')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 395
+[20-Oct-2024 13:51:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function wpgsi_googleWorksheetData() on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php:394
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(458): tower_manager_process_google_sheets_data('wp_towers', '1QcwrY0zJOH3Sv8...', '1999290708')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 394
+[20-Oct-2024 13:57:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function wpgsi_googleWorksheetData() on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php:394
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(458): tower_manager_process_google_sheets_data('wp_towers', '1QcwrY0zJOH3Sv8...', '1999290708')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 394
+[20-Oct-2024 13:57:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function wpgsi_googleWorksheetData() on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php:394
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(458): tower_manager_process_google_sheets_data('wp_towers', '1QcwrY0zJOH3Sv8...', '1999290708')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 394
+[20-Oct-2024 13:57:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function wpgsi_googleWorksheetData() on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php:394
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(458): tower_manager_process_google_sheets_data('wp_towers', '1QcwrY0zJOH3Sv8...', '1999290708')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 394
+[20-Oct-2024 14:00:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function wpgsi_googleWorksheetData() on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php:394
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(458): tower_manager_process_google_sheets_data('wp_towers', '1QcwrY0zJOH3Sv8...', '1999290708')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php on line 394
