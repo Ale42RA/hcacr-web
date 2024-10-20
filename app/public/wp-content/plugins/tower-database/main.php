@@ -12,10 +12,10 @@
 }
 
 // Load dependencies
-require_once plugin_dir_path(__FILE__) . 'includes/class-google-sheet.php';
-require_once plugin_dir_path(__FILE__) . 'includes/class-db-handler.php';
-require_once plugin_dir_path(__FILE__) . 'includes/class-admin-page.php';
-require_once plugin_dir_path(__FILE__) . 'includes/rest-api.php';
+require_once plugin_dir_path(__FILE__) . 'includes-admin/class-google-sheet.php';
+require_once plugin_dir_path(__FILE__) . 'includes-admin/class-db-handler.php';
+require_once plugin_dir_path(__FILE__) . 'includes-admin/class-admin-page.php';
+require_once plugin_dir_path(__FILE__) . 'includes-admin/rest-api.php';
 
 // Activation hook for creating tables
 register_activation_hook(__FILE__, ['DB_Handler', 'create_table']);

@@ -15,7 +15,7 @@ function tower_manager_display_towers() {
     ob_start();
 
     // Include the template file to display towers
-    include plugin_dir_path(__FILE__) . 'templates/public-tower-display.php';
+    include plugin_dir_path(__FILE__) . 'generated_list/template_listed.php';
 
     // Get the contents from the output buffer and return it
     return ob_get_clean();
