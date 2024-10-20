@@ -8,27 +8,27 @@
 }
 
 .tower-card {
-    border: 1px solid #007bff; /* Change border color to blue */
+    border: 1px solid #007bff; 
     border-radius: 4px;
-    padding: 0; /* Remove padding around the image */
+    padding: 0;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    width: 300px; /* Set fixed width for cards */
-    background-color: #f5f5f5;
+    flex-direction: column;
+    width: 400px;
+    height: 800px; /* Fixed height for the card */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-family: Arial, Helvetica, sans-serif; /* Apply sans-serif font to all text within the card */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow: hidden; /* Ensure content doesn't overflow the card */
+    background-color: white; /* White background for the entire card */
 }
 
 .tower-card-image-container {
-    width: 100%; /* Full width, no padding */
-    height: 400px; /* Height is taller than width */
-    overflow: hidden; /* Ensures the image doesn't overflow the container */
-}
-
-.tower-card-image-container img {
-    width: 100%; /* Image takes full width */
-    height: 100%; /* Image takes full height */
-    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+    width: 100%;
+    height: 70%; /* The image takes 50% of the card's height */
+    background-size: cover; /* Ensure background image covers this area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    position: relative;
 }
 
 .tower-card-header {
@@ -49,70 +49,46 @@
 
 .tower-card-header h2 {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .tower-card-body {
-    flex-grow: 1; /* Makes the body grow to fill available space */
+    flex-grow: 1;
     padding: 20px;
-    background-color: #f5f1d3;
+    background-color: white; /* Set the body background to solid white */
     color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically */
-}
-
-.tower-card-body p {
-    font-size: 1.1em;
-    margin: 10px 0;
-    color: black;
+    justify-content: center;
+    height: 30%; /* Body and footer share the remaining 50% */
 }
 
 .tower-card-footer {
-    background-color: #25234d; /* Purple footer */
-    color: #ffc107; /* Yellow text for link */
+    background-color: white; /* Set the footer background to solid white */
+    color: #ffc107;
     padding: 15px 0;
-    text-align: center; /* Align text to center */
-    font-family: Arial, Helvetica, sans-serif; /* Ensure the footer uses sans-serif font */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tower-card-footer a {
-    color: #ffc107; /* Yellow link */
+    color: darkblue;
     font-weight: bold;
     text-decoration: none;
     font-size: 1.1em;
 }
 
 .tower-card-footer a:hover {
-    text-decoration: underline;
-}
-
-/* CSS to hide extra cards initially */
-.tower-card.hidden {
-    display: none;
-}
-
-/* Button to show more cards */
-.show-more-btn {
-    background-color: #dadbc3;
-    color: white;
-    padding: 10px 20px;
+    text-decoration: underlined;
+    color: yellow;
     font-size: 1.1em;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.show-more-btn:hover {
-    background-color: #0056b3;
+    background-color: darkblue;
 }
 </style>
 
 <?php
-// Retrieve the tower data from the database (assuming $towers is the list of towers from the database)
 
 // Get the distinct districts and towns for filtering
 $districts = array_unique(array_map(function($tower) {
@@ -237,17 +213,16 @@ if ($sort_by === 'name') {
     <?php if (!empty($towers)): ?>
         <?php foreach ($towers as $tower): ?>
             <div class="tower-card">
-                <!-- Tower Card Header with Name -->
-                <div class="tower-card-header">
-                    <h2><?php echo esc_html($tower->Dedication); ?></h2>
+                <!-- Top Section: Image Background -->
+                <div class="tower-card-image-container" style="background-image: url('<?php echo esc_url( wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph ); ?>');">
+                    <!-- Tower Card Header with Name -->
+                    <div class="tower-card-header">
+                        <h2><?php echo esc_html($tower->Dedication); ?></h2>
+                    </div>
                 </div>
 
-                <!-- Tower card body with image and bells info -->
+                <!-- Bottom Section: Tower Info -->
                 <div class="tower-card-body">
-                    <!-- Image Container -->
-                    <div class="tower-card-image-container">
-                        <img src="<?php echo esc_url( wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph ); ?>" alt="<?php echo esc_attr($tower->Photograph); ?>">
-                    </div>
                     <p><?php echo esc_html($tower->District . ', ' . $tower->Town); ?></p>
                     <p>Bells: <?php echo esc_html($tower->Number_of_bells); ?></p>
                     <p>Practice night: <br> <?php echo esc_html($tower->Practice_night); ?></p>
@@ -268,7 +243,7 @@ if ($sort_by === 'name') {
                                 ['-', '', '','',''], 
                                 $tower->Town)
                         ) . '~' . strtolower(
-                            str_replace(
+                                str_replace(
                                 [' ', '(', ')','&',"'"], 
                                 ['-', '', '','',''], 
                                 $tower->Dedication
