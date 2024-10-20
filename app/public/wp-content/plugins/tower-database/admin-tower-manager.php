@@ -12,7 +12,7 @@ function get_google_sheet_data() {
     $client = new Google_Client();
     $client->setApplicationName('Google Sheets API PHP Quickstart');
     $client->setScopes(Google_Service_Sheets::SPREADSHEETS_READONLY);
-    $client->setAuthConfig(__DIR__ . '/sheet/tower-database-links-efaf9a171b43.json');
+    $client->setAuthConfig(__DIR__ . '/sheet/tower-database.json');
     $client->setAccessType('offline');
 
     // Initialize Sheets API Service
