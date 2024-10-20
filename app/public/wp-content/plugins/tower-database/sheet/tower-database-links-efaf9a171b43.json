@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "tower-database-links",
+  "private_key_id": "efaf9a171b431aa1b954560807bbc9dfde705a96",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDMnuJfyqrLhm4w\ndLfGD5Gx7ETP8UsWpzYn4rp4lMyJGloh7dhDys99jKELm8ixAWebuPOCrtOD+rPQ\np2Lu4bY9b35CQfZD10sZTzbIw+qRS1QhzG2+UPHqS29pUruwu6Zj6pfINwqztEtH\nR+SE095zYygOGnmcyc6jMh61gNhwaH9mZLc3yriJ2DmWQP5NFNSWjj3T5KeptMd0\nBPTTlZtm68GfVgZPan0e6nQR6eqKbnIR1vOHqtJLOMg3gmozJBaY1eJN4GL8WP9j\n9D+kQdyDgxfLyBkG3Om3uRd24lcVsvAUb4NsAvElAJ/BeuF+48r9JQT6tZ/7TsVX\nHAF/gVNBAgMBAAECggEABCF0+nAR8JffI5VHnHT2APx/Cx+Y33Uyr61xDDwcwOvK\nRAMUKZIvjB5Jpf1YGNKpb8hVCh9TX8ew15Z5dc8SqbzVdKr2OLpg5rrlpTnnQ1Wc\n9i21TXE+4Pby4dJsvY2cN0omFEGgMq6CEodOAqxwQi4PQfGg4NxmEn9RhWJ7fBFm\nsEz83k7CqrGk3T4Nme7nBrnhCxMfIEj3bBH7SnPxg1dAF6p5+YHNT5FGERUlBdLm\nEmIY0ET2PiHDwDvbZRwQ2FTyW47UC+y38BPhCrr4T3J1GsAAvrT/UxQzVhp9/r+h\nlpzNnHYViSpNDjyOiU3u8J012yghtSb07NcyMq4hAQKBgQD8H0ALW3MYQDoUsC1A\nDOprSP2OngrLfUcBJ1UYs6yKxmDJUf+P+Lted8kzohkFD+C6dFunpgSXyesRYOhx\nxLs5XXTG4Y6rOYULQd1qeTcd9WQTO7RnrKlGH49d4ipV1bYms/AGKz1ZuCqeY2Lr\nxWZySCBl+6JzHAXy5yOlBN5HEQKBgQDPxJf24aN7oNNxKNm5OOihGk5b0iq0O+QP\nPechgcag7D86TTpH5uJusLEXu6CASNbhW0WosLzE1tQ4GKkinuONPVrIHuIlItll\n80w3J46CfVTlwZeQUe5cLaL4BcF3oAka/JOR6AO0mGeq9nPqh0hHxEaDcspAjeLV\nL4LmRlQpMQKBgQCwr5XKX8RA8oHBjdWoVWTS2swW7lrSUHE6Nb5FGWWJu4yIiZZ3\n5vAoO/oc3TR7f60V/gVdb9M4LKE4BJnhYOV0RjJYTioVhLHgOcBZpakirZ38fJLp\nNO9L3UIzoRPaI3MLnH5RVGwiPBZh+XSRlj09SZ6q2bX2xWTF3YX1V3wOgQKBgQDH\nUBtQNUl10eTFS6ECNPvFgMzm/QkGeeXgUUwnMq3vtnM5ZNiiHXXfJhXdZJsmNbod\n2kdK+rE8S7KuVcn7cl1tIwyxqh7b7UCMswfMaWAnAkCtYDgbtN1rBESwliTws0/I\n2cBfWioj14ir012EAV9vqXTTqQ0pPHP8e2WhrpoSIQKBgQCjFqd/mEU8l4J17bJW\nEds/D0UUfZV2xFh5WHzJmb+MObeL8yD+xQlv4PxS00iDcp+8/95nVGf8ExJPDIPO\nQ8KX56T65LX4G5jeu/CtezoIlDj/912C+2SNITC0dLY3vDaE39fqwM7th7Sn+iwx\n8oE6ErXAwtNQoX7Qpid6g4AzeA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "spreadsheet-integration-servic@tower-database-links.iam.gserviceaccount.com",
+  "client_id": "111678814384323564303",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/spreadsheet-integration-servic%40tower-database-links.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,15 +1,9 @@
 <div class="wrap">
     <h1>Tower Manager</h1>
-    <h2>Upload CSV</h2>
-    <form method="post" enctype="multipart/form-data">
-        <input type="file" name="tower_csv" accept=".csv">
-        <p class="submit">
-            <input type="submit" class="button-primary" value="Upload CSV">
-        </p>
-    </form>
 
     <h2>Existing Towers</h2>
-    <table class="widefat fixed" cellspacing="0">
+    <button id="downloadJson" class="button">Download Google Sheet JSON</button>
+        <table class="widefat fixed" cellspacing="0">
         <thead>
             <tr>
                 <th>ID</th>
@@ -51,3 +45,22 @@
         </tbody>
     </table>
 </div>
+
+
+<script>
+document.getElementById('downloadJson').addEventListener('click', function () {
+    fetch('../admin-tower-manager.php?action=download_google_sheet_json')
+        .then(response => response.json())
+        .then(data => {
+            // Convert the JSON to a downloadable file
+            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'google_sheet_data.json';
+
+            // Trigger the download
+            link.click();
+        })
+        .catch(error => console.error('Error downloading the JSON file:', error));
+});
+</script>
