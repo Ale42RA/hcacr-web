@@ -1,8 +1,5 @@
 <style>
-    /* Existing CSS for the tower display with modifications */
-    /* Ensure the tower-card container uses flexbox to align items evenly */
-/* Ensure the tower-card container uses flexbox to align items evenly */
-.tower-cards-container {
+ .tower-cards-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -19,23 +16,40 @@
     width: 300px; /* Set fixed width for cards */
     background-color: #f5f5f5;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif; /* Apply sans-serif font to all text within the card */
 }
 
-.tower-card img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid #007bff; /* Add blue border below image */
+.tower-card-image-container {
+    width: 100%; /* Full width, no padding */
+    height: 400px; /* Height is taller than width */
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+}
+
+.tower-card-image-container img {
+    width: 100%; /* Image takes full width */
+    height: 100%; /* Image takes full height */
+    object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
 }
 
 .tower-card-header {
-    background-color: #37496e; /* Dark blue background for text */
+    background-color: #25234d;
     color: white;
     padding: 10px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 72px; /* Fixed height for three lines */
+    line-height: 1.2em; /* Adjust line height for readability */
+    overflow: hidden; /* Ensures text beyond three lines is hidden */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limits to three lines */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis; /* Adds ellipsis if text is too long */
+    white-space: normal; /* Allows text to wrap to the next line */
 }
 
 .tower-card-header h2 {
     margin: 0;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -43,8 +57,8 @@
 .tower-card-body {
     flex-grow: 1; /* Makes the body grow to fill available space */
     padding: 20px;
-    background-color: #37496e;
-    color: white;
+    background-color: #f5f1d3;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center content vertically */
@@ -53,13 +67,15 @@
 .tower-card-body p {
     font-size: 1.1em;
     margin: 10px 0;
-    color: white;
+    color: black;
 }
 
 .tower-card-footer {
-    background-color: #563d7c; /* Purple footer */
+    background-color: #25234d; /* Purple footer */
     color: #ffc107; /* Yellow text for link */
     padding: 15px 0;
+    text-align: center; /* Align text to center */
+    font-family: Arial, Helvetica, sans-serif; /* Ensure the footer uses sans-serif font */
 }
 
 .tower-card-footer a {
@@ -80,7 +96,7 @@
 
 /* Button to show more cards */
 .show-more-btn {
-    background-color: #007bff;
+    background-color: #dadbc3;
     color: white;
     padding: 10px 20px;
     font-size: 1.1em;
@@ -151,8 +167,7 @@ if ($selected_practice_night) {
     });
 }
 
-// Sort towers based on the selected sort option
-// Sort towers based on the selected sort option
+
 if ($sort_by === 'name') {
     usort($towers, function($a, $b) {
         return strncasecmp($a->Dedication, $b->Dedication, 6);
@@ -227,9 +242,12 @@ if ($sort_by === 'name') {
                     <h2><?php echo esc_html($tower->Dedication); ?></h2>
                 </div>
 
-                <!-- tower card body with image and bells nfo -->
+                <!-- Tower card body with image and bells info -->
                 <div class="tower-card-body">
-                    <img src="<?php echo esc_url( wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph ); ?>" alt="<?php echo esc_attr($tower->Photograph); ?>">
+                    <!-- Image Container -->
+                    <div class="tower-card-image-container">
+                        <img src="<?php echo esc_url( wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph ); ?>" alt="<?php echo esc_attr($tower->Photograph); ?>">
+                    </div>
                     <p><?php echo esc_html($tower->District . ', ' . $tower->Town); ?></p>
                     <p>Bells: <?php echo esc_html($tower->Number_of_bells); ?></p>
                     <p>Practice night: <br> <?php echo esc_html($tower->Practice_night); ?></p>
@@ -237,27 +255,27 @@ if ($sort_by === 'name') {
 
                 <!-- Optional Footer Section for Further Details Link -->
                 <div class="tower-card-footer">
-                <a href="/tower/<?php 
-                    echo strtolower(
-                        str_replace(
-                            [' ', '(', ')','&',"'"], 
-                            ['-', '', '','',''], 
-                            $tower->District
-                        )
-                    ) . '~' . strtolower(
-                        str_replace(
-                            [' ', '(', ')','&',"'"], 
-                            ['-', '', '','',''], 
-                            $tower->Town)
-                    ) . '~' . strtolower(
-                        str_replace(
-                            [' ', '(', ')','&',"'"], 
-                            ['-', '', '','',''], 
-                            $tower->Dedication
-                        )
-                    ); 
-                ?>">See full details</a>          
-            </div>
+                    <a href="/tower/<?php 
+                        echo strtolower(
+                            str_replace(
+                                [' ', '(', ')','&',"'"], 
+                                ['-', '', '','',''], 
+                                $tower->District
+                            )
+                        ) . '~' . strtolower(
+                            str_replace(
+                                [' ', '(', ')','&',"'"], 
+                                ['-', '', '','',''], 
+                                $tower->Town)
+                        ) . '~' . strtolower(
+                            str_replace(
+                                [' ', '(', ')','&',"'"], 
+                                ['-', '', '','',''], 
+                                $tower->Dedication
+                            )
+                        ); 
+                    ?>">See full details</a>          
+                </div>
             </div>
         <?php endforeach; ?>
     <?php else: ?>
