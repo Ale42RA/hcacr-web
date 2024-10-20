@@ -120,7 +120,22 @@ function sanitize_and_validate_field($field_value, $field_type) {
 
 
 
+// Add a custom REST API endpoint to receive webhook calls
+add_action('rest_api_init', function () {
+    register_rest_route('tower-manager/v1', '/update', array(
+        'methods' => 'POST',
+        'callback' => 'tower_manager_update_data',
+    ));
+});
 
+function tower_manager_update_data(WP_REST_Request $request) {
+    // Trigger the process to fetch updated Google Sheet data
+    global $wpdb;
+    $table_name = $wpdb->prefix . 'towers'; // Make sure this matches your table
+    tower_manager_process_google_sheet($table_name);
+
+    return new WP_REST_Response('Data updated successfully', 200);
+}
 
 
 
@@ -134,6 +149,9 @@ function tower_manager_process_google_sheet($table_name) {
 
     // Start transaction
     $wpdb->query('START TRANSACTION');
+
+    // Clear the table before inserting new data
+    $wpdb->query("TRUNCATE TABLE $table_name");
 
     // Fetch the data from the Google Sheet (as JSON)
     $sheet_data = json_decode(get_google_sheet_data(), true);  // Assuming get_google_sheet_data() returns JSON
