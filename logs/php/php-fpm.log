@@ -8,3 +8,48 @@
 [10-Oct-2024 16:15:40] NOTICE: Terminating ...
 [10-Oct-2024 16:15:40] NOTICE: Terminating ...
 [10-Oct-2024 16:15:40] NOTICE: exiting, bye-bye!
+[10-Oct-2024 16:20:41] NOTICE: fpm is running, pid 3581
+[10-Oct-2024 16:20:41] NOTICE: ready to handle connections
+[10-Oct-2024 16:21:27] NOTICE: Terminating ...
+[10-Oct-2024 16:21:27] NOTICE: Terminating ...
+[10-Oct-2024 16:21:27] NOTICE: exiting, bye-bye!
+[10-Oct-2024 17:24:28] NOTICE: fpm is running, pid 4482
+[10-Oct-2024 17:24:28] NOTICE: ready to handle connections
+[11-Oct-2024 15:03:51] NOTICE: Terminating ...
+[11-Oct-2024 15:03:51] NOTICE: Terminating ...
+[11-Oct-2024 15:03:51] NOTICE: exiting, bye-bye!
+[12-Oct-2024 22:06:47] NOTICE: fpm is running, pid 18764
+[12-Oct-2024 22:06:47] NOTICE: ready to handle connections
+[13-Oct-2024 10:57:13] NOTICE: Terminating ...
+[13-Oct-2024 10:57:13] NOTICE: Terminating ...
+[13-Oct-2024 10:57:13] NOTICE: exiting, bye-bye!
+[13-Oct-2024 13:11:16] NOTICE: fpm is running, pid 20241
+[13-Oct-2024 13:11:16] NOTICE: ready to handle connections
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Error: /syntaxerror in /----nostringval----"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Operand stack:"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Execution stack:"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "   %interp_exit   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push   --nostringval--   --nostringval--   --nostringval--   false   1   %stopped_push   1974   1   3   %oparray_pop   1973   1   3   %oparray_pop   1961   1   3   %oparray_pop   1817   1   3   %oparray_pop   --nostringval--   %errorexec_pop   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Dictionary stack:"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "   --dict:770/1123(ro)(G)--   --dict:0/20(G)--   --dict:75/200(L)--"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Current allocation mode is local"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "GPL Ghostscript 9.56.1: Unrecoverable error, exit code 1"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Error: /syntaxerror in /----nostringval----"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Operand stack:"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Execution stack:"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "   %interp_exit   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push   --nostringval--   --nostringval--   --nostringval--   false   1   %stopped_push   1974   1   3   %oparray_pop   1973   1   3   %oparray_pop   1961   1   3   %oparray_pop   1817   1   3   %oparray_pop   --nostringval--   %errorexec_pop   .runexec2   --nostringval--   --nostringval--   --nostringval--   2   %stopped_push"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Dictionary stack:"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "   --dict:769/1123(ro)(G)--   --dict:0/20(G)--   --dict:75/200(L)--"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "Current allocation mode is local"
+[13-Oct-2024 18:46:35] WARNING: [pool www] child 20252 said into stderr: "GPL Ghostscript 9.56.1: Unrecoverable error, exit code 1"
+[14-Oct-2024 17:14:46] NOTICE: Terminating ...
+[14-Oct-2024 17:14:46] NOTICE: Terminating ...
+[14-Oct-2024 17:14:46] NOTICE: exiting, bye-bye!
+[14-Oct-2024 17:14:47] NOTICE: fpm is running, pid 25530
+[14-Oct-2024 17:14:47] NOTICE: ready to handle connections
+[14-Oct-2024 23:21:39] NOTICE: Terminating ...
+[14-Oct-2024 23:21:39] NOTICE: Terminating ...
+[14-Oct-2024 23:21:39] NOTICE: exiting, bye-bye!
+[16-Oct-2024 21:32:56] NOTICE: fpm is running, pid 2525
+[16-Oct-2024 21:32:56] NOTICE: ready to handle connections
+[20-Oct-2024 14:29:28] NOTICE: fpm is running, pid 34778
+[20-Oct-2024 14:29:28] NOTICE: ready to handle connections
