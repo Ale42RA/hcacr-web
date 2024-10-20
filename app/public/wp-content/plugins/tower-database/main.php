@@ -23,7 +23,10 @@ add_action('admin_menu', ['Admin_Page', 'init_menu']);
 add_action('rest_api_init', 'tower_manager_register_rest_api');
 require_once plugin_dir_path(__FILE__) . 'vendor/autoload.php';
 
-// include_once(plugin_dir_path(__FILE__) . 'admin-tower-manager.php');
+
+
+require_once plugin_dir_path(__FILE__) . 'generated-list/display.php';
+
 
 
 include_once(plugin_dir_path(__FILE__) . 'public-tower-display.php');

@@ -4659,3 +4659,26 @@ Stack trace:
 [20-Oct-2024 18:57:37 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/display/template_listed.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 18
 [20-Oct-2024 18:58:23 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/display/template_listed.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 18
 [20-Oct-2024 18:58:23 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/display/template_listed.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/public-tower-display.php on line 18
+[20-Oct-2024 19:04:01 UTC] PHP Warning:  include_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated_list/shortcode_generated.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 27
+[20-Oct-2024 19:04:01 UTC] PHP Warning:  include_once(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated_list/shortcode_generated.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 27
+[20-Oct-2024 19:04:03 UTC] PHP Warning:  include_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated_list/shortcode_generated.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 27
+[20-Oct-2024 19:04:03 UTC] PHP Warning:  include_once(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated_list/shortcode_generated.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 27
+[20-Oct-2024 19:05:02 UTC] PHP Warning:  require_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated_list/shortcode_generated.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 29
+[20-Oct-2024 19:05:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated_list/shortcode_generated.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php:29
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-settings.php(522): include_once()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php(103): require_once('/Users/alejandr...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-load.php(50): require_once('/Users/alejandr...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/alejandr...')
+#4 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 29
+[20-Oct-2024 19:05:05 UTC] PHP Warning:  require_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated_list/shortcode_generated.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 29
+[20-Oct-2024 19:05:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated_list/shortcode_generated.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php:29
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-settings.php(522): include_once()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php(103): require_once('/Users/alejandr...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-load.php(50): require_once('/Users/alejandr...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(13): require_once('/Users/alejandr...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 29
