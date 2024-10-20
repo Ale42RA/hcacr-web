@@ -49,18 +49,27 @@
 
 <script>
 document.getElementById('downloadJson').addEventListener('click', function () {
-    fetch('../admin-tower-manager.php?action=download_google_sheet_json')
-        .then(response => response.json())
+    fetch('<?php echo admin_url('admin.php?action=download_google_sheet_json'); ?>')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => {
-            // Convert the JSON to a downloadable file
+            // Create a blob from the JSON data
             const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+            
+            // Create a download link
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
             link.download = 'google_sheet_data.json';
-
+            
             // Trigger the download
             link.click();
         })
-        .catch(error => console.error('Error downloading the JSON file:', error));
+        .catch(error => {
+            console.error('Error downloading the JSON file:', error);
+        });
 });
 </script>

@@ -31,3 +31,21 @@ class Google_Sheet {
         }
     }
 }
+
+// Check if the 'action' query parameter is set to 'download_google_sheet_json'
+add_action('init', function() {
+    if (isset($_GET['action']) && $_GET['action'] === 'download_google_sheet_json') {
+        // Fetch data from Google Sheets
+        $json_data = Google_Sheet::get_data();
+        
+        // Set the content type header for JSON
+        header('Content-Type: application/json');
+        header('Content-Disposition: attachment; filename="google_sheet_data.json"');
+        
+        // Output the JSON data
+        echo $json_data;
+        
+        // Terminate script to prevent further output
+        exit();
+    }
+});
