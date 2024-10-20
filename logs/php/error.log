@@ -2677,3 +2677,1980 @@ Stack trace:
 [20-Oct-2024 15:37:11 UTC] Failed to insert row: {"ID":"1","Town":"Albury","Dedication":"St. Mary the Virgin","District":"Bishop's Stortford","Photograph":"Albury.jpg","Practice_night":"By arrangement","Practice_night_italics":"TRUE","Service_ringing":"Check <A HREF=https:\/\/www.riverashchurches.org.uk\/>www.riverashchurches.org.uk<\/A> for Sunday morning services","Service_ringing_italics":"FALSE","Ringing_master":"","Display_ringing_master":"FALSE","Tower_captain":"","Display_tower_captain":"FALSE","Secretary":"Chris Gerber","Display_secretary":"TRUE","Secretary_address_Address_line_1":"Chestnut Cottage","Secretary_address_Address_line_2":"Albury Lodge","Secretary_address_Address_line_3":"Albury","Secretary_address_Address_line_4":"SG11 2LH","Display_secretary_address":"TRUE","Secretary_telephone":"01279 776117","Display_secretary_telephone":"TRUE","Secretary_mobile":"","Display_secretary_mobile":"FALSE","Display_secretary_e_mail":"TRUE","Expose_secretary_e_mail":"FALSE","Secretary_e_mail_0":"cgerber120@btinternet.com","Secretary_comments":"","OS_reference":"TL435247","What3WordsDoorLoc_0":"ponies.present.tripling","Number_of_bells":"6","Comment_1":"","Comment_1_link":"","Comment_1_italics":"FALSE","Comment_2":"","Comment_2_link":"","Comment_2_italics":"FALSE","Bell_comment":"Ground floor ring","Bell_comment_link":"","Bell_comment_italics":"FALSE","Postcode":"SG11 2JQ","Felstead_ID":"44","RW_Peal_ID":"83","Bellboard_place":"albury","Bellboard_dedication":"","Bellboard_county":"Hert*","DoveID":"ALBURY+HTS","Map_X":"910","Map_Y":"261","Ground_floor":"TRUE","Toilet":"TRUE","Bells_Bell_0_Number":"1","Bells_Bell_0_Date":"1978","Bells_Bell_0_Weight":"4-1-14","Bells_Bell_0_Note":"D","Bells_Bell_1_Number":"2","Bells_Bell_1_Date":"c1400","Bells_Bell_1_Weight":"6-1-20","Bells_Bell_1_Note":"C","Bells_Bell_2_Number":"3","Bells_Bell_2_Date":"c1440","Bells_Bell_2_Weight":"5-3-20","Bells_Bell_2_Note":"Bb","Bells_Bell_3_Number":"4","Bells_Bell_3_Date":"c1440","Bells_Bell_3_Weight":"7-3-5","Bells_Bell_3_Note":"A","Bells_Bell_4_Number":"5","Bells_Bell_4_Date":"1989","Bells_Bell_4_Weight":"9-2-17","Bells_Bell_4_Note":"G","Bells_Bell_5_Number":"6","Bells_Bell_5_Date":"1607","Bells_Bell_5_Weight":"13-2-25","Bells_Bell_5_Note":"F","Bells_Bell_6_Number":null,"Bells_Bell_6_Date":null,"Bells_Bell_6_Weight":null,"Bells_Bell_6_Note":null,"Bells_Bell_7_Number":null,"Bells_Bell_7_Date":null,"Bells_Bell_7_Weight":null,"Bells_Bell_7_Note":null,"Bells_Bell_8_Number":null,"Bells_Bell_8_Date":null,"Bells_Bell_8_Weight":null,"Bells_Bell_8_Note":null,"Bells_Bell_9_Number":null,"Bells_Bell_9_Date":null,"Bells_Bell_9_Weight":null,"Bells_Bell_9_Note":null,"Bells_Bell_10_Number":null,"Bells_Bell_10_Date":null,"Bells_Bell_10_Weight":null,"Bells_Bell_10_Note":null,"Bells_Bell_11_Number":null,"Bells_Bell_11_Date":null,"Bells_Bell_11_Weight":null,"Bells_Bell_11_Note":null,"Bells_Bell_12_Number":null,"Bells_Bell_12_Date":null,"Bells_Bell_12_Weight":null,"Bells_Bell_12_Note":null,"Include_dedication":null,"Deputy_secretary":null,"Display_deputy_secretary":null,"Deputy_secretary_address":null,"Display_deputy_secretary_address":null,"Deputy_secretary_telephone":null,"Display_deputy_secretary_telephone":null,"Deputy_secretary_mobile":null,"Display_deputy_secretary_mobile":null,"Display_deputy_secretary_e_mail":null,"Expose_deputy_secretary_e_mail":null,"Deputy_secretary_e_mail":null,"Deputy_secretary_comments":null,"Ringing_master_telephone":null,"Display_ringing_master_telephone":null,"Ringing_master_e_mail":null,"Display_ringing_master_e_mail":null,"Expose_ringing_master_e_mail":null,"Practice_night_phone_to_confirm":null,"Practice_night_comments":null,"Tower_captain_telephone":null,"Display_tower_captain_telephone":null,"Tower_captain_e_mail":null,"Display_tower_captain_e_mail":null,"Expose_tower_captain_e_mail":null} Error: Database insert failed: Column 'Ringing_master_e_mail' cannot be null
 [20-Oct-2024 15:37:58 UTC] WordPress database error Column 'Ringing_master_e_mail' cannot be null for query INSERT INTO `wp_towers` (`ID`, `Town`, `Dedication`, `District`, `Photograph`, `Practice_night`, `Practice_night_italics`, `Service_ringing`, `Service_ringing_italics`, `Ringing_master`, `Display_ringing_master`, `Tower_captain`, `Display_tower_captain`, `Secretary`, `Display_secretary`, `Secretary_address_Address_line_1`, `Secretary_address_Address_line_2`, `Secretary_address_Address_line_3`, `Secretary_address_Address_line_4`, `Display_secretary_address`, `Secretary_telephone`, `Display_secretary_telephone`, `Secretary_mobile`, `Display_secretary_mobile`, `Display_secretary_e_mail`, `Expose_secretary_e_mail`, `Secretary_e_mail_0`, `Secretary_comments`, `OS_reference`, `What3WordsDoorLoc_0`, `Number_of_bells`, `Comment_1`, `Comment_1_link`, `Comment_1_italics`, `Comment_2`, `Comment_2_link`, `Comment_2_italics`, `Bell_comment`, `Bell_comment_link`, `Bell_comment_italics`, `Postcode`, `Felstead_ID`, `RW_Peal_ID`, `Bellboard_place`, `Bellboard_dedication`, `Bellboard_county`, `DoveID`, `Map_X`, `Map_Y`, `Ground_floor`, `Toilet`, `Bells_Bell_0_Number`, `Bells_Bell_0_Date`, `Bells_Bell_0_Weight`, `Bells_Bell_0_Note`, `Bells_Bell_1_Number`, `Bells_Bell_1_Date`, `Bells_Bell_1_Weight`, `Bells_Bell_1_Note`, `Bells_Bell_2_Number`, `Bells_Bell_2_Date`, `Bells_Bell_2_Weight`, `Bells_Bell_2_Note`, `Bells_Bell_3_Number`, `Bells_Bell_3_Date`, `Bells_Bell_3_Weight`, `Bells_Bell_3_Note`, `Bells_Bell_4_Number`, `Bells_Bell_4_Date`, `Bells_Bell_4_Weight`, `Bells_Bell_4_Note`, `Bells_Bell_5_Number`, `Bells_Bell_5_Date`, `Bells_Bell_5_Weight`, `Bells_Bell_5_Note`, `Bells_Bell_6_Number`, `Bells_Bell_6_Date`, `Bells_Bell_6_Weight`, `Bells_Bell_6_Note`, `Bells_Bell_7_Number`, `Bells_Bell_7_Date`, `Bells_Bell_7_Weight`, `Bells_Bell_7_Note`, `Bells_Bell_8_Number`, `Bells_Bell_8_Date`, `Bells_Bell_8_Weight`, `Bells_Bell_8_Note`, `Bells_Bell_9_Number`, `Bells_Bell_9_Date`, `Bells_Bell_9_Weight`, `Bells_Bell_9_Note`, `Bells_Bell_10_Number`, `Bells_Bell_10_Date`, `Bells_Bell_10_Weight`, `Bells_Bell_10_Note`, `Bells_Bell_11_Number`, `Bells_Bell_11_Date`, `Bells_Bell_11_Weight`, `Bells_Bell_11_Note`, `Bells_Bell_12_Number`, `Bells_Bell_12_Date`, `Bells_Bell_12_Weight`, `Bells_Bell_12_Note`, `Include_dedication`, `Deputy_secretary`, `Display_deputy_secretary`, `Deputy_secretary_address`, `Display_deputy_secretary_address`, `Deputy_secretary_telephone`, `Display_deputy_secretary_telephone`, `Deputy_secretary_mobile`, `Display_deputy_secretary_mobile`, `Display_deputy_secretary_e_mail`, `Expose_deputy_secretary_e_mail`, `Deputy_secretary_e_mail`, `Deputy_secretary_comments`, `Ringing_master_telephone`, `Display_ringing_master_telephone`, `Ringing_master_e_mail`, `Display_ringing_master_e_mail`, `Expose_ringing_master_e_mail`, `Practice_night_phone_to_confirm`, `Practice_night_comments`, `Tower_captain_telephone`, `Display_tower_captain_telephone`, `Tower_captain_e_mail`, `Display_tower_captain_e_mail`, `Expose_tower_captain_e_mail`) VALUES (1, 'Albury', 'St. Mary the Virgin', 'Bishop\'s Stortford', 'Albury.jpg', 'By arrangement', 'TRUE', 'Check www.riverashchurches.org.uk for Sunday morning services', 'FALSE', '', '', '', '', 'Chris Gerber', '1', 'Chestnut Cottage', 'Albury Lodge', 'Albury', 'SG11 2LH', '1', '01279 776117', '1', '', '', '1', '', 'cgerber120@btinternet.com', '', 'TL435247', 'ponies.present.tripling', '6', '', '', 'FALSE', '', '', 'FALSE', 'Ground floor ring', '', 'FALSE', 'SG11 2JQ', '44', '83', 'albury', '', 'Hert*', 'ALBURY+HTS', '910', '261', '1', '1', '1', '1978', '4-1-14', 'D', '2', 'c1400', '6-1-20', 'C', '3', 'c1440', '5-3-20', 'Bb', '4', 'c1440', '7-3-5', 'A', '5', '1989', '9-2-17', 'G', '6', '1607', '13-2-25', 'F', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, '', '', NULL, NULL, NULL, '', NULL, '', '') made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, tower_manager_page, tower_manager_process_google_sheet
 [20-Oct-2024 15:37:58 UTC] Failed to insert row: {"ID":"1","Town":"Albury","Dedication":"St. Mary the Virgin","District":"Bishop's Stortford","Photograph":"Albury.jpg","Practice_night":"By arrangement","Practice_night_italics":"TRUE","Service_ringing":"Check <A HREF=https:\/\/www.riverashchurches.org.uk\/>www.riverashchurches.org.uk<\/A> for Sunday morning services","Service_ringing_italics":"FALSE","Ringing_master":"","Display_ringing_master":"FALSE","Tower_captain":"","Display_tower_captain":"FALSE","Secretary":"Chris Gerber","Display_secretary":"TRUE","Secretary_address_Address_line_1":"Chestnut Cottage","Secretary_address_Address_line_2":"Albury Lodge","Secretary_address_Address_line_3":"Albury","Secretary_address_Address_line_4":"SG11 2LH","Display_secretary_address":"TRUE","Secretary_telephone":"01279 776117","Display_secretary_telephone":"TRUE","Secretary_mobile":"","Display_secretary_mobile":"FALSE","Display_secretary_e_mail":"TRUE","Expose_secretary_e_mail":"FALSE","Secretary_e_mail_0":"cgerber120@btinternet.com","Secretary_comments":"","OS_reference":"TL435247","What3WordsDoorLoc_0":"ponies.present.tripling","Number_of_bells":"6","Comment_1":"","Comment_1_link":"","Comment_1_italics":"FALSE","Comment_2":"","Comment_2_link":"","Comment_2_italics":"FALSE","Bell_comment":"Ground floor ring","Bell_comment_link":"","Bell_comment_italics":"FALSE","Postcode":"SG11 2JQ","Felstead_ID":"44","RW_Peal_ID":"83","Bellboard_place":"albury","Bellboard_dedication":"","Bellboard_county":"Hert*","DoveID":"ALBURY+HTS","Map_X":"910","Map_Y":"261","Ground_floor":"TRUE","Toilet":"TRUE","Bells_Bell_0_Number":"1","Bells_Bell_0_Date":"1978","Bells_Bell_0_Weight":"4-1-14","Bells_Bell_0_Note":"D","Bells_Bell_1_Number":"2","Bells_Bell_1_Date":"c1400","Bells_Bell_1_Weight":"6-1-20","Bells_Bell_1_Note":"C","Bells_Bell_2_Number":"3","Bells_Bell_2_Date":"c1440","Bells_Bell_2_Weight":"5-3-20","Bells_Bell_2_Note":"Bb","Bells_Bell_3_Number":"4","Bells_Bell_3_Date":"c1440","Bells_Bell_3_Weight":"7-3-5","Bells_Bell_3_Note":"A","Bells_Bell_4_Number":"5","Bells_Bell_4_Date":"1989","Bells_Bell_4_Weight":"9-2-17","Bells_Bell_4_Note":"G","Bells_Bell_5_Number":"6","Bells_Bell_5_Date":"1607","Bells_Bell_5_Weight":"13-2-25","Bells_Bell_5_Note":"F","Bells_Bell_6_Number":null,"Bells_Bell_6_Date":null,"Bells_Bell_6_Weight":null,"Bells_Bell_6_Note":null,"Bells_Bell_7_Number":null,"Bells_Bell_7_Date":null,"Bells_Bell_7_Weight":null,"Bells_Bell_7_Note":null,"Bells_Bell_8_Number":null,"Bells_Bell_8_Date":null,"Bells_Bell_8_Weight":null,"Bells_Bell_8_Note":null,"Bells_Bell_9_Number":null,"Bells_Bell_9_Date":null,"Bells_Bell_9_Weight":null,"Bells_Bell_9_Note":null,"Bells_Bell_10_Number":null,"Bells_Bell_10_Date":null,"Bells_Bell_10_Weight":null,"Bells_Bell_10_Note":null,"Bells_Bell_11_Number":null,"Bells_Bell_11_Date":null,"Bells_Bell_11_Weight":null,"Bells_Bell_11_Note":null,"Bells_Bell_12_Number":null,"Bells_Bell_12_Date":null,"Bells_Bell_12_Weight":null,"Bells_Bell_12_Note":null,"Include_dedication":null,"Deputy_secretary":null,"Display_deputy_secretary":null,"Deputy_secretary_address":null,"Display_deputy_secretary_address":null,"Deputy_secretary_telephone":null,"Display_deputy_secretary_telephone":null,"Deputy_secretary_mobile":null,"Display_deputy_secretary_mobile":null,"Display_deputy_secretary_e_mail":null,"Expose_deputy_secretary_e_mail":null,"Deputy_secretary_e_mail":null,"Deputy_secretary_comments":null,"Ringing_master_telephone":null,"Display_ringing_master_telephone":null,"Ringing_master_e_mail":null,"Display_ringing_master_e_mail":null,"Expose_ringing_master_e_mail":null,"Practice_night_phone_to_confirm":null,"Practice_night_comments":null,"Tower_captain_telephone":null,"Display_tower_captain_telephone":null,"Tower_captain_e_mail":null,"Display_tower_captain_e_mail":null,"Expose_tower_captain_e_mail":null} Error: Database insert failed: Column 'Ringing_master_e_mail' cannot be null
+[20-Oct-2024 16:29:48 UTC] PHP Warning:  require_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-google-sheet.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 18
+[20-Oct-2024 16:29:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-google-sheet.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php:18
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-settings.php(522): include_once()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php(103): require_once('/Users/alejandr...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-load.php(50): require_once('/Users/alejandr...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(34): require_once('/Users/alejandr...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/index.php(10): require_once('/Users/alejandr...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 18
+[20-Oct-2024 16:30:01 UTC] PHP Warning:  require_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-google-sheet.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 18
+[20-Oct-2024 16:30:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-google-sheet.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php:18
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-settings.php(522): include_once()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php(103): require_once('/Users/alejandr...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-load.php(50): require_once('/Users/alejandr...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(34): require_once('/Users/alejandr...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/index.php(10): require_once('/Users/alejandr...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 18
+[20-Oct-2024 16:31:28 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Admin_Page" not found in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/menu.php(412): require_once('/Users/alejandr...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(158): require('/Users/alejandr...')
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/index.php(10): require_once('/Users/alejandr...')
+#6 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php on line 324
+[20-Oct-2024 16:33:18 UTC] PHP Warning:  require_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/includes-admin/class-admin-page.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php on line 32
+[20-Oct-2024 16:33:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/includes-admin/class-admin-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php:32
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php(20): require_once()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-settings.php(522): include_once('/Users/alejandr...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php(103): require_once('/Users/alejandr...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-load.php(50): require_once('/Users/alejandr...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(34): require_once('/Users/alejandr...')
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/index.php(10): require_once('/Users/alejandr...')
+#6 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php on line 32
+[20-Oct-2024 16:36:05 UTC] PHP Warning:  require_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/includes-admin/class-admin-page.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php on line 32
+[20-Oct-2024 16:36:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/includes-admin/class-admin-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php:32
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php(20): require_once()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-settings.php(522): include_once('/Users/alejandr...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php(103): require_once('/Users/alejandr...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-load.php(50): require_once('/Users/alejandr...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(34): require_once('/Users/alejandr...')
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/index.php(10): require_once('/Users/alejandr...')
+#6 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php on line 32
+[20-Oct-2024 16:38:15 UTC] Cron reschedule event error for hook: wpgsi_every_two_hours, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wpgsi_every_two_hours","args":[],"interval":7200}
+[20-Oct-2024 16:38:20 UTC] PHP Fatal error:  Uncaught Error: Class "Google_Client" not found in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php:8
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#6 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php on line 8
+[20-Oct-2024 16:40:48 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file "/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/../sheet/tower-database-links-efaf9a171b43.json" does not exist in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php:1034
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(11): Google\Client->setAuthConfig('/Users/alejandr...')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#7 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php on line 1034
+[20-Oct-2024 16:41:13 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file "/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin../sheet/tower-database-links-efaf9a171b43.json" does not exist in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php:1034
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(11): Google\Client->setAuthConfig('/Users/alejandr...')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#7 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php on line 1034
+[20-Oct-2024 16:41:25 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: file "/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-adminsheet/tower-database-links-efaf9a171b43.json" does not exist in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php:1034
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(11): Google\Client->setAuthConfig('/Users/alejandr...')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#7 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php on line 1034
+[20-Oct-2024 16:41:32 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(15): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 16:43:36 UTC] PHP Warning:  require_once(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/autoload.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 34
+[20-Oct-2024 16:43:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/autoload.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php:34
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-settings.php(522): include_once()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php(103): require_once('/Users/alejandr...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-load.php(50): require_once('/Users/alejandr...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(34): require_once('/Users/alejandr...')
+#4 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/main.php on line 34
+[20-Oct-2024 16:44:02 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(17): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 16:45:02 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(17): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 16:52:10 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(17): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 16:53:43 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(17): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(156): Google_Sheet::get_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(21): DB_Handler::insert_data()
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/composer/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 17:04:03 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(22): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(157): get_google_sheet_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(339): tower_manager_process_google_sheet('wp_towers')
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 17:04:08 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(22): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(157): get_google_sheet_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(339): tower_manager_process_google_sheet('wp_towers')
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 17:04:14 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(22): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(157): get_google_sheet_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(339): tower_manager_process_google_sheet('wp_towers')
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 17:04:24 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(22): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(157): get_google_sheet_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(339): tower_manager_process_google_sheet('wp_towers')
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 17:07:49 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(22): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(157): get_google_sheet_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(339): tower_manager_process_google_sheet('wp_towers')
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 17:08:44 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(22): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(157): get_google_sheet_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(339): tower_manager_process_google_sheet('wp_towers')
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 17:10:58 UTC] PHP Fatal error:  Uncaught Google\Service\Exception: {"error":"invalid_grant","error_description":"Invalid JWT Signature."} in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php:134
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(107): Google\Http\REST::decodeHttpResponse(Object(GuzzleHttp\Psr7\Response), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#1 [internal function]: Google\Http\REST::doExecute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Task/Runner.php(187): call_user_func_array(Array, Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php(66): Google\Task\Runner->run()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Client.php(967): Google\Http\REST::execute(Object(GuzzleHttp\Client), Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...', Array, NULL)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php(248): Google\Client->execute(Object(GuzzleHttp\Psr7\Request), 'Google\\Service\\...')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(22): Google\Service\Sheets\Resource\SpreadsheetsValues->get('1QcwrY0zJOH3Sv8...', 'A1:DZ1008')
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(157): get_google_sheet_data()
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/admin-tower-manager.php(339): tower_manager_process_google_sheet('wp_towers')
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): tower_manager_page('')
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#14 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Http/REST.php on line 134
+[20-Oct-2024 17:15:41 UTC] PHP Warning:  Undefined array key "expires_in" in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/wpgsi/includes/class-wpgsi-google-sheet.php on line 189
+[20-Oct-2024 17:15:42 UTC] PHP Warning:  Undefined array key "expires_in" in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/wpgsi/includes/class-wpgsi-google-sheet.php on line 189
+[20-Oct-2024 17:25:44 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Admin_Page" not found in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/menu.php(412): require_once('/Users/alejandr...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(158): require('/Users/alejandr...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php on line 324
+[20-Oct-2024 17:27:14 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:27:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_and_validate_field() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:42
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 42
+[20-Oct-2024 17:27:58 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:27:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_and_validate_field() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:42
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 42
+[20-Oct-2024 17:28:12 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:28:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_and_validate_field() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:42
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 42
+[20-Oct-2024 17:28:27 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:28:27 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:28:27 UTC] PHP Fatal error:  Uncaught Exception: Database insert failed:  in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:49
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 49
+[20-Oct-2024 17:29:08 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:29:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_and_validate_field() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:42
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 42
+[20-Oct-2024 17:30:05 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:30:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_and_validate_field() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:167
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 167
+[20-Oct-2024 17:30:38 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:30:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_and_validate_field() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:181
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 181
+[20-Oct-2024 17:30:41 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:30:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_and_validate_field() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:181
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 181
+[20-Oct-2024 17:32:49 UTC] Cron reschedule event error for hook: wpgsi_every_five_hours, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wpgsi_every_five_hours","args":[],"interval":18000}
+[20-Oct-2024 17:46:04 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:46:04 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:46:04 UTC] PHP Fatal error:  Uncaught Exception: Database insert failed:  in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:299
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 299
+[20-Oct-2024 17:47:10 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:47:10 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:47:10 UTC] PHP Warning:  Array to string conversion in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
+[20-Oct-2024 17:47:21 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:47:21 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:47:21 UTC] PHP Warning:  Attempt to read property "tower" on array in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 299
+[20-Oct-2024 17:47:29 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:47:29 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:47:29 UTC] PHP Warning:  Attempt to read property "Town" on array in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 299
+[20-Oct-2024 17:48:02 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:48:17 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:49:03 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:49:03 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:49:03 UTC] PHP Fatal error:  Uncaught Exception: Database insert failed:  in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:300
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 300
+[20-Oct-2024 17:50:35 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:50:35 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:50:35 UTC] PHP Fatal error:  Uncaught Exception: Database insert failed:  in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:300
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 300
+[20-Oct-2024 17:52:11 UTC] PHP Warning:  Constant WP_DEBUG already defined in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php on line 106
+[20-Oct-2024 17:52:11 UTC] PHP Warning:  Constant WP_DEBUG_LOG already defined in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php on line 107
+[20-Oct-2024 17:52:11 UTC] PHP Warning:  Constant WP_DEBUG_DISPLAY already defined in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-config.php on line 108
+[20-Oct-2024 17:52:12 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:52:12 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 0
+    [Ringing_master] => 
+    [Display_ringing_master] => 0
+    [Tower_captain] => 
+    [Display_tower_captain] => 0
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 0
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 0
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 0
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 0
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 0
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 0
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 0
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 0
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 0
+    [Display_deputy_secretary_e_mail] => 0
+    [Expose_deputy_secretary_e_mail] => 0
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 0
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 0
+    [Expose_ringing_master_e_mail] => 0
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 0
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 0
+    [Expose_tower_captain_e_mail] => 0
+)
+
+[20-Oct-2024 17:52:12 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:52:12 UTC] PHP Fatal error:  Uncaught Exception: Database insert failed:  in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:301
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 301
+[20-Oct-2024 17:52:23 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:52:23 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 0
+    [Ringing_master] => 
+    [Display_ringing_master] => 0
+    [Tower_captain] => 
+    [Display_tower_captain] => 0
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 0
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 0
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 0
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 0
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 0
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 0
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 0
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 0
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 0
+    [Display_deputy_secretary_e_mail] => 0
+    [Expose_deputy_secretary_e_mail] => 0
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 0
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 0
+    [Expose_ringing_master_e_mail] => 0
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 0
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 0
+    [Expose_tower_captain_e_mail] => 0
+)
+
+[20-Oct-2024 17:52:23 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:52:23 UTC] PHP Fatal error:  Uncaught Exception: Database insert failed:  in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:301
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 301
+[20-Oct-2024 17:54:36 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:54:36 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 0
+    [Ringing_master] => 
+    [Display_ringing_master] => 0
+    [Tower_captain] => 
+    [Display_tower_captain] => 0
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 0
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 0
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 0
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 0
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 0
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 0
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 0
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 0
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 0
+    [Display_deputy_secretary_e_mail] => 0
+    [Expose_deputy_secretary_e_mail] => 0
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 0
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 0
+    [Expose_ringing_master_e_mail] => 0
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 0
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 0
+    [Expose_tower_captain_e_mail] => 0
+)
+
+[20-Oct-2024 17:54:55 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:54:55 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 0
+    [Ringing_master] => 
+    [Display_ringing_master] => 0
+    [Tower_captain] => 
+    [Display_tower_captain] => 0
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 0
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 0
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 0
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 0
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 0
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 0
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 0
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 0
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 0
+    [Display_deputy_secretary_e_mail] => 0
+    [Expose_deputy_secretary_e_mail] => 0
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 0
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 0
+    [Expose_ringing_master_e_mail] => 0
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 0
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 0
+    [Expose_tower_captain_e_mail] => 0
+)
+
+[20-Oct-2024 17:54:55 UTC] PHP Warning:  Attempt to read property "Display_tower_captain_e_mail" on array in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 299
+[20-Oct-2024 17:55:16 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:55:16 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 0
+    [Ringing_master] => 
+    [Display_ringing_master] => 0
+    [Tower_captain] => 
+    [Display_tower_captain] => 0
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 0
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 0
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 0
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 0
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 0
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 0
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 0
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 0
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 0
+    [Display_deputy_secretary_e_mail] => 0
+    [Expose_deputy_secretary_e_mail] => 0
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 0
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 0
+    [Expose_ringing_master_e_mail] => 0
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 0
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 0
+    [Expose_tower_captain_e_mail] => 0
+)
+
+[20-Oct-2024 17:55:16 UTC] PHP Warning:  Attempt to read property "Town" on array in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 299
+[20-Oct-2024 17:56:32 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:56:32 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 
+    [Ringing_master] => 
+    [Display_ringing_master] => 
+    [Tower_captain] => 
+    [Display_tower_captain] => 
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 
+    [Display_deputy_secretary_e_mail] => 
+    [Expose_deputy_secretary_e_mail] => 
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 
+    [Expose_ringing_master_e_mail] => 
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 
+    [Expose_tower_captain_e_mail] => 
+)
+
+[20-Oct-2024 17:56:32 UTC] PHP Warning:  Attempt to read property "Town" on array in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 300
+[20-Oct-2024 17:56:45 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:56:45 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 
+    [Ringing_master] => 
+    [Display_ringing_master] => 
+    [Tower_captain] => 
+    [Display_tower_captain] => 
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 
+    [Display_deputy_secretary_e_mail] => 
+    [Expose_deputy_secretary_e_mail] => 
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 
+    [Expose_ringing_master_e_mail] => 
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 
+    [Expose_tower_captain_e_mail] => 
+)
+
+[20-Oct-2024 17:56:45 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:56:45 UTC] PHP Fatal error:  Uncaught Exception: Database insert failed:  in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:305
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 305
+[20-Oct-2024 17:57:35 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:57:35 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 
+    [Ringing_master] => 
+    [Display_ringing_master] => 
+    [Tower_captain] => 
+    [Display_tower_captain] => 
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 
+    [Display_deputy_secretary_e_mail] => 
+    [Expose_deputy_secretary_e_mail] => 
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 
+    [Expose_ringing_master_e_mail] => 
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 
+    [Expose_tower_captain_e_mail] => 
+)
+
+[20-Oct-2024 17:57:35 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:57:35 UTC] PHP Fatal error:  Uncaught Exception: Database insert failed:  in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php:319
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-admin-page.php(22): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 319
+[20-Oct-2024 17:57:50 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:57:50 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 
+    [Ringing_master] => 
+    [Display_ringing_master] => 
+    [Tower_captain] => 
+    [Display_tower_captain] => 
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 
+    [Display_deputy_secretary_e_mail] => 
+    [Expose_deputy_secretary_e_mail] => 
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 
+    [Expose_ringing_master_e_mail] => 
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 
+    [Expose_tower_captain_e_mail] => 
+)
+
+[20-Oct-2024 17:57:50 UTC] PHP Warning:  Array to string conversion in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/formatting.php on line 1096
+[20-Oct-2024 17:58:35 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 17:58:35 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 
+    [Ringing_master] => 
+    [Display_ringing_master] => 
+    [Tower_captain] => 
+    [Display_tower_captain] => 
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 
+    [Display_deputy_secretary_e_mail] => 
+    [Expose_deputy_secretary_e_mail] => 
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 
+    [Expose_ringing_master_e_mail] => 
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 
+    [Expose_tower_captain_e_mail] => 
+)
+
+[20-Oct-2024 18:00:02 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 18:00:02 UTC] Array
+(
+    [ID] => 1
+    [Town] => Albury
+    [Dedication] => St. Mary the Virgin
+    [District] => Bishop's Stortford
+    [Photograph] => Albury.jpg
+    [Practice_night] => By arrangement
+    [Practice_night_italics] => 1
+    [Service_ringing] => Check www.riverashchurches.org.uk for Sunday morning services
+    [Service_ringing_italics] => 
+    [Ringing_master] => 
+    [Display_ringing_master] => 
+    [Tower_captain] => 
+    [Display_tower_captain] => 
+    [Secretary] => Chris Gerber
+    [Display_secretary] => 1
+    [Secretary_address_Address_line_1] => Chestnut Cottage
+    [Secretary_address_Address_line_2] => Albury Lodge
+    [Secretary_address_Address_line_3] => Albury
+    [Secretary_address_Address_line_4] => SG11 2LH
+    [Display_secretary_address] => 1
+    [Secretary_telephone] => 01279 776117
+    [Display_secretary_telephone] => 1
+    [Secretary_mobile] => 
+    [Display_secretary_mobile] => 
+    [Display_secretary_e_mail] => 1
+    [Expose_secretary_e_mail] => 
+    [Secretary_e_mail_0] => cgerber120@btinternet.com
+    [Secretary_comments] => 
+    [OS_reference] => TL435247
+    [What3WordsDoorLoc_0] => ponies.present.tripling
+    [Number_of_bells] => 6
+    [Comment_1] => 
+    [Comment_1_link] => 
+    [Comment_1_italics] => 
+    [Comment_2] => 
+    [Comment_2_link] => 
+    [Comment_2_italics] => 
+    [Bell_comment] => Ground floor ring
+    [Bell_comment_link] => 
+    [Bell_comment_italics] => 
+    [Postcode] => SG11 2JQ
+    [Felstead_ID] => 44
+    [RW_Peal_ID] => 83
+    [Bellboard_place] => albury
+    [Bellboard_dedication] => 
+    [Bellboard_county] => Hert*
+    [DoveID] => ALBURY+HTS
+    [Map_X] => 910
+    [Map_Y] => 261
+    [Ground_floor] => 1
+    [Toilet] => 1
+    [Bells_Bell_0_Number] => 1
+    [Bells_Bell_0_Date] => 1978
+    [Bells_Bell_0_Weight] => 4-1-14
+    [Bells_Bell_0_Note] => D
+    [Bells_Bell_1_Number] => 2
+    [Bells_Bell_1_Date] => c1400
+    [Bells_Bell_1_Weight] => 6-1-20
+    [Bells_Bell_1_Note] => C
+    [Bells_Bell_2_Number] => 3
+    [Bells_Bell_2_Date] => c1440
+    [Bells_Bell_2_Weight] => 5-3-20
+    [Bells_Bell_2_Note] => Bb
+    [Bells_Bell_3_Number] => 4
+    [Bells_Bell_3_Date] => c1440
+    [Bells_Bell_3_Weight] => 7-3-5
+    [Bells_Bell_3_Note] => A
+    [Bells_Bell_4_Number] => 5
+    [Bells_Bell_4_Date] => 1989
+    [Bells_Bell_4_Weight] => 9-2-17
+    [Bells_Bell_4_Note] => G
+    [Bells_Bell_5_Number] => 6
+    [Bells_Bell_5_Date] => 1607
+    [Bells_Bell_5_Weight] => 13-2-25
+    [Bells_Bell_5_Note] => F
+    [Bells_Bell_6_Number] => 
+    [Bells_Bell_6_Date] => 
+    [Bells_Bell_6_Weight] => 
+    [Bells_Bell_6_Note] => 
+    [Bells_Bell_7_Number] => 
+    [Bells_Bell_7_Date] => 
+    [Bells_Bell_7_Weight] => 
+    [Bells_Bell_7_Note] => 
+    [Bells_Bell_8_Number] => 
+    [Bells_Bell_8_Date] => 
+    [Bells_Bell_8_Weight] => 
+    [Bells_Bell_8_Note] => 
+    [Bells_Bell_9_Number] => 
+    [Bells_Bell_9_Date] => 
+    [Bells_Bell_9_Weight] => 
+    [Bells_Bell_9_Note] => 
+    [Bells_Bell_10_Number] => 
+    [Bells_Bell_10_Date] => 
+    [Bells_Bell_10_Weight] => 
+    [Bells_Bell_10_Note] => 
+    [Bells_Bell_11_Number] => 
+    [Bells_Bell_11_Date] => 
+    [Bells_Bell_11_Weight] => 
+    [Bells_Bell_11_Note] => 
+    [Bells_Bell_12_Number] => 
+    [Bells_Bell_12_Date] => 
+    [Bells_Bell_12_Weight] => 
+    [Bells_Bell_12_Note] => 
+    [Include_dedication] => 
+    [Deputy_secretary] => 
+    [Display_deputy_secretary] => 
+    [Deputy_secretary_address] => 
+    [Display_deputy_secretary_address] => 
+    [Deputy_secretary_telephone] => 
+    [Display_deputy_secretary_telephone] => 
+    [Deputy_secretary_mobile] => 
+    [Display_deputy_secretary_mobile] => 
+    [Display_deputy_secretary_e_mail] => 
+    [Expose_deputy_secretary_e_mail] => 
+    [Deputy_secretary_e_mail] => 
+    [Deputy_secretary_comments] => 
+    [Ringing_master_telephone] => 
+    [Display_ringing_master_telephone] => 
+    [Ringing_master_e_mail] => 
+    [Display_ringing_master_e_mail] => 
+    [Expose_ringing_master_e_mail] => 
+    [Practice_night_phone_to_confirm] => 
+    [Practice_night_comments] => 
+    [Tower_captain_telephone] => 
+    [Display_tower_captain_telephone] => 
+    [Tower_captain_e_mail] => 
+    [Display_tower_captain_e_mail] => 
+    [Expose_tower_captain_e_mail] => 
+)
+
+[20-Oct-2024 18:02:07 UTC] PHP Parse error:  syntax error, unexpected token "catch" in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes/class-db-handler.php on line 320
+[20-Oct-2024 18:02:43 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query TRUNCATE TABLE wp_wp_towers made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 18:02:43 UTC] WordPress database error Table 'local.wp_wp_towers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_wp_towers` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 18:02:43 UTC] Failed to insert row: {"ID":"1","Town":"Albury","Dedication":"St. Mary the Virgin","District":"Bishop's Stortford","Photograph":"Albury.jpg","Practice_night":"By arrangement","Practice_night_italics":"TRUE","Service_ringing":"Check <A HREF=https:\/\/www.riverashchurches.org.uk\/>www.riverashchurches.org.uk<\/A> for Sunday morning services","Service_ringing_italics":"FALSE","Ringing_master":"","Display_ringing_master":"FALSE","Tower_captain":"","Display_tower_captain":"FALSE","Secretary":"Chris Gerber","Display_secretary":"TRUE","Secretary_address_Address_line_1":"Chestnut Cottage","Secretary_address_Address_line_2":"Albury Lodge","Secretary_address_Address_line_3":"Albury","Secretary_address_Address_line_4":"SG11 2LH","Display_secretary_address":"TRUE","Secretary_telephone":"01279 776117","Display_secretary_telephone":"TRUE","Secretary_mobile":"","Display_secretary_mobile":"FALSE","Display_secretary_e_mail":"TRUE","Expose_secretary_e_mail":"FALSE","Secretary_e_mail_0":"cgerber120@btinternet.com","Secretary_comments":"","OS_reference":"TL435247","What3WordsDoorLoc_0":"ponies.present.tripling","Number_of_bells":"6","Comment_1":"","Comment_1_link":"","Comment_1_italics":"FALSE","Comment_2":"","Comment_2_link":"","Comment_2_italics":"FALSE","Bell_comment":"Ground floor ring","Bell_comment_link":"","Bell_comment_italics":"FALSE","Postcode":"SG11 2JQ","Felstead_ID":"44","RW_Peal_ID":"83","Bellboard_place":"albury","Bellboard_dedication":"","Bellboard_county":"Hert*","DoveID":"ALBURY+HTS","Map_X":"910","Map_Y":"261","Ground_floor":"TRUE","Toilet":"TRUE","Bells_Bell_0_Number":"1","Bells_Bell_0_Date":"1978","Bells_Bell_0_Weight":"4-1-14","Bells_Bell_0_Note":"D","Bells_Bell_1_Number":"2","Bells_Bell_1_Date":"c1400","Bells_Bell_1_Weight":"6-1-20","Bells_Bell_1_Note":"C","Bells_Bell_2_Number":"3","Bells_Bell_2_Date":"c1440","Bells_Bell_2_Weight":"5-3-20","Bells_Bell_2_Note":"Bb","Bells_Bell_3_Number":"4","Bells_Bell_3_Date":"c1440","Bells_Bell_3_Weight":"7-3-5","Bells_Bell_3_Note":"A","Bells_Bell_4_Number":"5","Bells_Bell_4_Date":"1989","Bells_Bell_4_Weight":"9-2-17","Bells_Bell_4_Note":"G","Bells_Bell_5_Number":"6","Bells_Bell_5_Date":"1607","Bells_Bell_5_Weight":"13-2-25","Bells_Bell_5_Note":"F","Bells_Bell_6_Number":null,"Bells_Bell_6_Date":null,"Bells_Bell_6_Weight":null,"Bells_Bell_6_Note":null,"Bells_Bell_7_Number":null,"Bells_Bell_7_Date":null,"Bells_Bell_7_Weight":null,"Bells_Bell_7_Note":null,"Bells_Bell_8_Number":null,"Bells_Bell_8_Date":null,"Bells_Bell_8_Weight":null,"Bells_Bell_8_Note":null,"Bells_Bell_9_Number":null,"Bells_Bell_9_Date":null,"Bells_Bell_9_Weight":null,"Bells_Bell_9_Note":null,"Bells_Bell_10_Number":null,"Bells_Bell_10_Date":null,"Bells_Bell_10_Weight":null,"Bells_Bell_10_Note":null,"Bells_Bell_11_Number":null,"Bells_Bell_11_Date":null,"Bells_Bell_11_Weight":null,"Bells_Bell_11_Note":null,"Bells_Bell_12_Number":null,"Bells_Bell_12_Date":null,"Bells_Bell_12_Weight":null,"Bells_Bell_12_Note":null,"Include_dedication":null,"Deputy_secretary":null,"Display_deputy_secretary":null,"Deputy_secretary_address":null,"Display_deputy_secretary_address":null,"Deputy_secretary_telephone":null,"Display_deputy_secretary_telephone":null,"Deputy_secretary_mobile":null,"Display_deputy_secretary_mobile":null,"Display_deputy_secretary_e_mail":null,"Expose_deputy_secretary_e_mail":null,"Deputy_secretary_e_mail":null,"Deputy_secretary_comments":null,"Ringing_master_telephone":null,"Display_ringing_master_telephone":null,"Ringing_master_e_mail":null,"Display_ringing_master_e_mail":null,"Expose_ringing_master_e_mail":null,"Practice_night_phone_to_confirm":null,"Practice_night_comments":null,"Tower_captain_telephone":null,"Display_tower_captain_telephone":null,"Tower_captain_e_mail":null,"Display_tower_captain_e_mail":null,"Expose_tower_captain_e_mail":null} Error: Database insert failed: Table 'local.wp_wp_towers' doesn't exist
+[20-Oct-2024 18:03:26 UTC] WordPress database error Table 'local.wp_table_name' doesn't exist for query TRUNCATE TABLE wp_table_name made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 18:03:26 UTC] WordPress database error Table 'local.wp_table_name' doesn't exist for query SHOW FULL COLUMNS FROM `wp_table_name` made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 18:03:26 UTC] Failed to insert row: {"ID":"1","Town":"Albury","Dedication":"St. Mary the Virgin","District":"Bishop's Stortford","Photograph":"Albury.jpg","Practice_night":"By arrangement","Practice_night_italics":"TRUE","Service_ringing":"Check <A HREF=https:\/\/www.riverashchurches.org.uk\/>www.riverashchurches.org.uk<\/A> for Sunday morning services","Service_ringing_italics":"FALSE","Ringing_master":"","Display_ringing_master":"FALSE","Tower_captain":"","Display_tower_captain":"FALSE","Secretary":"Chris Gerber","Display_secretary":"TRUE","Secretary_address_Address_line_1":"Chestnut Cottage","Secretary_address_Address_line_2":"Albury Lodge","Secretary_address_Address_line_3":"Albury","Secretary_address_Address_line_4":"SG11 2LH","Display_secretary_address":"TRUE","Secretary_telephone":"01279 776117","Display_secretary_telephone":"TRUE","Secretary_mobile":"","Display_secretary_mobile":"FALSE","Display_secretary_e_mail":"TRUE","Expose_secretary_e_mail":"FALSE","Secretary_e_mail_0":"cgerber120@btinternet.com","Secretary_comments":"","OS_reference":"TL435247","What3WordsDoorLoc_0":"ponies.present.tripling","Number_of_bells":"6","Comment_1":"","Comment_1_link":"","Comment_1_italics":"FALSE","Comment_2":"","Comment_2_link":"","Comment_2_italics":"FALSE","Bell_comment":"Ground floor ring","Bell_comment_link":"","Bell_comment_italics":"FALSE","Postcode":"SG11 2JQ","Felstead_ID":"44","RW_Peal_ID":"83","Bellboard_place":"albury","Bellboard_dedication":"","Bellboard_county":"Hert*","DoveID":"ALBURY+HTS","Map_X":"910","Map_Y":"261","Ground_floor":"TRUE","Toilet":"TRUE","Bells_Bell_0_Number":"1","Bells_Bell_0_Date":"1978","Bells_Bell_0_Weight":"4-1-14","Bells_Bell_0_Note":"D","Bells_Bell_1_Number":"2","Bells_Bell_1_Date":"c1400","Bells_Bell_1_Weight":"6-1-20","Bells_Bell_1_Note":"C","Bells_Bell_2_Number":"3","Bells_Bell_2_Date":"c1440","Bells_Bell_2_Weight":"5-3-20","Bells_Bell_2_Note":"Bb","Bells_Bell_3_Number":"4","Bells_Bell_3_Date":"c1440","Bells_Bell_3_Weight":"7-3-5","Bells_Bell_3_Note":"A","Bells_Bell_4_Number":"5","Bells_Bell_4_Date":"1989","Bells_Bell_4_Weight":"9-2-17","Bells_Bell_4_Note":"G","Bells_Bell_5_Number":"6","Bells_Bell_5_Date":"1607","Bells_Bell_5_Weight":"13-2-25","Bells_Bell_5_Note":"F","Bells_Bell_6_Number":null,"Bells_Bell_6_Date":null,"Bells_Bell_6_Weight":null,"Bells_Bell_6_Note":null,"Bells_Bell_7_Number":null,"Bells_Bell_7_Date":null,"Bells_Bell_7_Weight":null,"Bells_Bell_7_Note":null,"Bells_Bell_8_Number":null,"Bells_Bell_8_Date":null,"Bells_Bell_8_Weight":null,"Bells_Bell_8_Note":null,"Bells_Bell_9_Number":null,"Bells_Bell_9_Date":null,"Bells_Bell_9_Weight":null,"Bells_Bell_9_Note":null,"Bells_Bell_10_Number":null,"Bells_Bell_10_Date":null,"Bells_Bell_10_Weight":null,"Bells_Bell_10_Note":null,"Bells_Bell_11_Number":null,"Bells_Bell_11_Date":null,"Bells_Bell_11_Weight":null,"Bells_Bell_11_Note":null,"Bells_Bell_12_Number":null,"Bells_Bell_12_Date":null,"Bells_Bell_12_Weight":null,"Bells_Bell_12_Note":null,"Include_dedication":null,"Deputy_secretary":null,"Display_deputy_secretary":null,"Deputy_secretary_address":null,"Display_deputy_secretary_address":null,"Deputy_secretary_telephone":null,"Display_deputy_secretary_telephone":null,"Deputy_secretary_mobile":null,"Display_deputy_secretary_mobile":null,"Display_deputy_secretary_e_mail":null,"Expose_deputy_secretary_e_mail":null,"Deputy_secretary_e_mail":null,"Deputy_secretary_comments":null,"Ringing_master_telephone":null,"Display_ringing_master_telephone":null,"Ringing_master_e_mail":null,"Display_ringing_master_e_mail":null,"Expose_ringing_master_e_mail":null,"Practice_night_phone_to_confirm":null,"Practice_night_comments":null,"Tower_captain_telephone":null,"Display_tower_captain_telephone":null,"Tower_captain_e_mail":null,"Display_tower_captain_e_mail":null,"Expose_tower_captain_e_mail":null} Error: Database insert failed: Table 'local.wp_table_name' doesn't exist
+[20-Oct-2024 18:04:43 UTC] WordPress database error Column 'Secretary_comments' cannot be null for query INSERT INTO `wp_towers` (`ID`, `Town`, `Dedication`, `District`, `Photograph`, `Practice_night`, `Practice_night_italics`, `Service_ringing`, `Service_ringing_italics`, `Ringing_master`, `Display_ringing_master`, `Tower_captain`, `Display_tower_captain`, `Secretary`, `Display_secretary`, `Secretary_address_Address_line_1`, `Secretary_address_Address_line_2`, `Secretary_address_Address_line_3`, `Secretary_address_Address_line_4`, `Display_secretary_address`, `Secretary_telephone`, `Display_secretary_telephone`, `Secretary_mobile`, `Display_secretary_mobile`, `Display_secretary_e_mail`, `Expose_secretary_e_mail`, `Secretary_e_mail_0`, `Secretary_comments`, `OS_reference`, `What3WordsDoorLoc_0`, `Number_of_bells`, `Comment_1`, `Comment_1_link`, `Comment_1_italics`, `Comment_2`, `Comment_2_link`, `Comment_2_italics`, `Bell_comment`, `Bell_comment_link`, `Bell_comment_italics`, `Postcode`, `Felstead_ID`, `RW_Peal_ID`, `Bellboard_place`, `Bellboard_dedication`, `Bellboard_county`, `DoveID`, `Map_X`, `Map_Y`, `Ground_floor`, `Toilet`, `Bells_Bell_0_Number`, `Bells_Bell_0_Date`, `Bells_Bell_0_Weight`, `Bells_Bell_0_Note`, `Bells_Bell_1_Number`, `Bells_Bell_1_Date`, `Bells_Bell_1_Weight`, `Bells_Bell_1_Note`, `Bells_Bell_2_Number`, `Bells_Bell_2_Date`, `Bells_Bell_2_Weight`, `Bells_Bell_2_Note`, `Bells_Bell_3_Number`, `Bells_Bell_3_Date`, `Bells_Bell_3_Weight`, `Bells_Bell_3_Note`, `Bells_Bell_4_Number`, `Bells_Bell_4_Date`, `Bells_Bell_4_Weight`, `Bells_Bell_4_Note`, `Bells_Bell_5_Number`, `Bells_Bell_5_Date`, `Bells_Bell_5_Weight`, `Bells_Bell_5_Note`, `Bells_Bell_6_Number`, `Bells_Bell_6_Date`, `Bells_Bell_6_Weight`, `Bells_Bell_6_Note`, `Bells_Bell_7_Number`, `Bells_Bell_7_Date`, `Bells_Bell_7_Weight`, `Bells_Bell_7_Note`, `Bells_Bell_8_Number`, `Bells_Bell_8_Date`, `Bells_Bell_8_Weight`, `Bells_Bell_8_Note`, `Bells_Bell_9_Number`, `Bells_Bell_9_Date`, `Bells_Bell_9_Weight`, `Bells_Bell_9_Note`, `Bells_Bell_10_Number`, `Bells_Bell_10_Date`, `Bells_Bell_10_Weight`, `Bells_Bell_10_Note`, `Bells_Bell_11_Number`, `Bells_Bell_11_Date`, `Bells_Bell_11_Weight`, `Bells_Bell_11_Note`, `Bells_Bell_12_Number`, `Bells_Bell_12_Date`, `Bells_Bell_12_Weight`, `Bells_Bell_12_Note`, `Include_dedication`, `Deputy_secretary`, `Display_deputy_secretary`, `Deputy_secretary_address`, `Display_deputy_secretary_address`, `Deputy_secretary_telephone`, `Display_deputy_secretary_telephone`, `Deputy_secretary_mobile`, `Display_deputy_secretary_mobile`, `Display_deputy_secretary_e_mail`, `Expose_deputy_secretary_e_mail`, `Deputy_secretary_e_mail`, `Deputy_secretary_comments`, `Ringing_master_telephone`, `Display_ringing_master_telephone`, `Ringing_master_e_mail`, `Display_ringing_master_e_mail`, `Expose_ringing_master_e_mail`, `Practice_night_phone_to_confirm`, `Practice_night_comments`, `Tower_captain_telephone`, `Display_tower_captain_telephone`, `Tower_captain_e_mail`, `Display_tower_captain_e_mail`, `Expose_tower_captain_e_mail`) VALUES (1, 'Albury', 'St. Mary the Virgin', 'Bishop\'s Stortford', 'Albury.jpg', 'By arrangement', '1', 'Check www.riverashchurches.org.uk for Sunday morning services', '', NULL, '', NULL, '', 'Chris Gerber', '1', 'Chestnut Cottage', 'Albury Lodge', 'Albury', 'SG11 2LH', '1', '01279 776117', '1', NULL, '', '1', '', 'cgerber120@btinternet.com', NULL, 'TL435247', 'ponies.present.tripling', '6', NULL, NULL, '', NULL, NULL, '', 'Ground floor ring', NULL, '', 'SG11 2JQ', '44', '83', 'albury', NULL, 'Hert*', 'ALBURY+HTS', '910', '261', '1', '1', '1', '1978', '4-1-14', 'D', '2', 'c1400', '6-1-20', 'C', '3', 'c1440', '5-3-20', 'Bb', '4', 'c1440', '7-3-5', 'A', '5', '1989', '9-2-17', 'G', '6', '1607', '13-2-25', 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) made by do_action('toplevel_page_tower-manager'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_page, DB_Handler::insert_data
+[20-Oct-2024 18:04:43 UTC] Failed to insert row: {"ID":"1","Town":"Albury","Dedication":"St. Mary the Virgin","District":"Bishop's Stortford","Photograph":"Albury.jpg","Practice_night":"By arrangement","Practice_night_italics":"TRUE","Service_ringing":"Check <A HREF=https:\/\/www.riverashchurches.org.uk\/>www.riverashchurches.org.uk<\/A> for Sunday morning services","Service_ringing_italics":"FALSE","Ringing_master":"","Display_ringing_master":"FALSE","Tower_captain":"","Display_tower_captain":"FALSE","Secretary":"Chris Gerber","Display_secretary":"TRUE","Secretary_address_Address_line_1":"Chestnut Cottage","Secretary_address_Address_line_2":"Albury Lodge","Secretary_address_Address_line_3":"Albury","Secretary_address_Address_line_4":"SG11 2LH","Display_secretary_address":"TRUE","Secretary_telephone":"01279 776117","Display_secretary_telephone":"TRUE","Secretary_mobile":"","Display_secretary_mobile":"FALSE","Display_secretary_e_mail":"TRUE","Expose_secretary_e_mail":"FALSE","Secretary_e_mail_0":"cgerber120@btinternet.com","Secretary_comments":"","OS_reference":"TL435247","What3WordsDoorLoc_0":"ponies.present.tripling","Number_of_bells":"6","Comment_1":"","Comment_1_link":"","Comment_1_italics":"FALSE","Comment_2":"","Comment_2_link":"","Comment_2_italics":"FALSE","Bell_comment":"Ground floor ring","Bell_comment_link":"","Bell_comment_italics":"FALSE","Postcode":"SG11 2JQ","Felstead_ID":"44","RW_Peal_ID":"83","Bellboard_place":"albury","Bellboard_dedication":"","Bellboard_county":"Hert*","DoveID":"ALBURY+HTS","Map_X":"910","Map_Y":"261","Ground_floor":"TRUE","Toilet":"TRUE","Bells_Bell_0_Number":"1","Bells_Bell_0_Date":"1978","Bells_Bell_0_Weight":"4-1-14","Bells_Bell_0_Note":"D","Bells_Bell_1_Number":"2","Bells_Bell_1_Date":"c1400","Bells_Bell_1_Weight":"6-1-20","Bells_Bell_1_Note":"C","Bells_Bell_2_Number":"3","Bells_Bell_2_Date":"c1440","Bells_Bell_2_Weight":"5-3-20","Bells_Bell_2_Note":"Bb","Bells_Bell_3_Number":"4","Bells_Bell_3_Date":"c1440","Bells_Bell_3_Weight":"7-3-5","Bells_Bell_3_Note":"A","Bells_Bell_4_Number":"5","Bells_Bell_4_Date":"1989","Bells_Bell_4_Weight":"9-2-17","Bells_Bell_4_Note":"G","Bells_Bell_5_Number":"6","Bells_Bell_5_Date":"1607","Bells_Bell_5_Weight":"13-2-25","Bells_Bell_5_Note":"F","Bells_Bell_6_Number":null,"Bells_Bell_6_Date":null,"Bells_Bell_6_Weight":null,"Bells_Bell_6_Note":null,"Bells_Bell_7_Number":null,"Bells_Bell_7_Date":null,"Bells_Bell_7_Weight":null,"Bells_Bell_7_Note":null,"Bells_Bell_8_Number":null,"Bells_Bell_8_Date":null,"Bells_Bell_8_Weight":null,"Bells_Bell_8_Note":null,"Bells_Bell_9_Number":null,"Bells_Bell_9_Date":null,"Bells_Bell_9_Weight":null,"Bells_Bell_9_Note":null,"Bells_Bell_10_Number":null,"Bells_Bell_10_Date":null,"Bells_Bell_10_Weight":null,"Bells_Bell_10_Note":null,"Bells_Bell_11_Number":null,"Bells_Bell_11_Date":null,"Bells_Bell_11_Weight":null,"Bells_Bell_11_Note":null,"Bells_Bell_12_Number":null,"Bells_Bell_12_Date":null,"Bells_Bell_12_Weight":null,"Bells_Bell_12_Note":null,"Include_dedication":null,"Deputy_secretary":null,"Display_deputy_secretary":null,"Deputy_secretary_address":null,"Display_deputy_secretary_address":null,"Deputy_secretary_telephone":null,"Display_deputy_secretary_telephone":null,"Deputy_secretary_mobile":null,"Display_deputy_secretary_mobile":null,"Display_deputy_secretary_e_mail":null,"Expose_deputy_secretary_e_mail":null,"Deputy_secretary_e_mail":null,"Deputy_secretary_comments":null,"Ringing_master_telephone":null,"Display_ringing_master_telephone":null,"Ringing_master_e_mail":null,"Display_ringing_master_e_mail":null,"Expose_ringing_master_e_mail":null,"Practice_night_phone_to_confirm":null,"Practice_night_comments":null,"Tower_captain_telephone":null,"Display_tower_captain_telephone":null,"Tower_captain_e_mail":null,"Display_tower_captain_e_mail":null,"Expose_tower_captain_e_mail":null} Error: Database insert failed: Column 'Secretary_comments' cannot be null
