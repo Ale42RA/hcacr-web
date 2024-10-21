@@ -63,7 +63,7 @@
 
 <style>
     .table-container {
-        max-height: 400px; /* Adjust height as needed */
+        max-height: 650px; /* Adjust height as needed */
         overflow-y: auto;
         overflow-x: auto; /* Enables horizontal scrolling */
         border: 1px solid #ccc;

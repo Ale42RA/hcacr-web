@@ -2,6 +2,4 @@ Json secret, figure out a way around that??
 
 
 ------------------
-Display more information. 
 Make  the lsitener work. 
-Clear up the shittiest code you've ever written admin.php
