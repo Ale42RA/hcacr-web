@@ -7,65 +7,48 @@ function get_tower_info_from_url() {
     // Use a static variable to cache the result
     static $tower = null;
 
-    // If we've already retrieved the tower info, return the cached result
     if ($tower !== null) {
         return $tower;
     }
 
     try {
-        // Define the table name with the correct prefix
-        $table_name = $wpdb->prefix . 'towers';
+        $table_name = $wpdb->prefix . 'towers'; //TODO better practise to store this in main. Not my problem
         
-        // Initialize the global $wp variable if it's not already initialized
         if (empty($wp)) {
             $wp = new WP();
         }
 
-        // Get the current URL
         $current_url = home_url(add_query_arg(array(), $wp->request));
 
-        // Parse the URL and strip off the `/tower/` part
+        // strip off the `/tower/` part
         $url_path = trim(parse_url($current_url, PHP_URL_PATH), '/');
-        
-        // Remove the 'tower/' prefix, so we only get the part after '/tower/'
         $url_path = preg_replace('/^tower\//', '', $url_path);
         
-        // Now split the remaining part of the URL by '~'
+        // splitL by '~'
         $url_parts = explode('~', $url_path);
 
-        // Check if the URL structure is valid (should have three parts: district, town, and dedication)
         if (count($url_parts) < 3) {
             return null;
         }
 
-        // Extract district, town, and dedication from URL
         $district = sanitize_text_field(str_replace('-', ' ', $url_parts[0]));
         $town = sanitize_text_field(str_replace('-', ' ', $url_parts[1]));
         $dedication = sanitize_text_field(str_replace('-', ' ',  $url_parts[2]));
     
-        // Helper function to normalize strings (removing problematic characters like ' and &)
         function normalize_string($string) {
             // $string = str_replace('  ', ' ', $string);
             return str_replace(array("'", "(", ")"), '',$string);
         }
     
-        // Normalize district, town, and dedication strings for comparison
         $normalized_district = normalize_string($district);
         $normalized_town = normalize_string($town);
         $normalized_dedication = normalize_string($dedication);
 
-        // Ensure we have valid sanitized inputs
         if (empty($normalized_district) || empty($normalized_town) || empty($normalized_dedication)) {
             throw new Exception("One or more values (district, town, dedication) are missing after sanitization");
         }
 
     
-
-        
-
-       
-
-        // Query the database for the matching tower
         $tower = $wpdb->get_row($wpdb->prepare("
             SELECT * 
             FROM $table_name 
@@ -76,15 +59,13 @@ function get_tower_info_from_url() {
 
        
 
-        // Check if the database query returned a result
         if ($tower === null) {
             throw new Exception("No matching tower found in the database");
         }
 
     } catch (Exception $e) {
-        // Handle the exception and return null or log the error
         error_log("Error in get_tower_info_from_url: " . $e->getMessage());
-        return null; // Return null to indicate failure
+        return null; //failure
     }
 
     return $tower;
@@ -298,7 +279,6 @@ function display_toilets_availability_shortcode() {
         return 'Invalid URL or tower not found.';
     }
 
-    // Check the Toilets field and return the corresponding message
     if (!empty($tower->Toilets) && $tower->Toilets == true) {
         return 'Toilets available';
     } else {
@@ -328,7 +308,6 @@ function display_bells_data_shortcode($atts = [], $tower = null) {
         $last_bell_weight = isset($tower->{"Bells_Bell_{$last_bell_index}_Weight"}) ? sanitize_text_field($tower->{"Bells_Bell_{$last_bell_index}_Weight"}) : 'N/A';
         $last_bell_note = isset($tower->{"Bells_Bell_{$last_bell_index}_Note"}) ? sanitize_text_field($tower->{"Bells_Bell_{$last_bell_index}_Note"}) : 'N/A';
 
-        // Return the number of bells, the weight, and note of the last bell
         return "Bells: " . esc_html($max_bells) . " - " . esc_html($last_bell_weight) . " - " . esc_html($last_bell_note);
     }
 }

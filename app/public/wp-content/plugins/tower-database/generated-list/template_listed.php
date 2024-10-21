@@ -1,4 +1,4 @@
-<!-- main.php -->
+<!-- main.php  TODO GPT GENERATED CHECK FOR REDUNDANCIES-->
 
 <?php
 // Include necessary files
@@ -100,7 +100,6 @@ include 'filter_towers.php';
 
 <?php include 'tower_filter_form.php'; ?>
 
-<!-- Display the towers -->
 <div class="tower-cards-container">
     <?php if (!empty($towers)): ?>
         <?php foreach ($towers as $tower): ?>

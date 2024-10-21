@@ -24,7 +24,6 @@
                     <th>DoveID</th>
                     <th>Ground Floor</th>
                     <th>Toilet</th>
-                    <!-- Add more columns as necessary -->
                 </tr>
             </thead>
             <tbody>
@@ -50,7 +49,6 @@
                             <td><?php echo esc_html($tower->DoveID); ?></td>
                             <td><?php echo esc_html($tower->Ground_floor ? 'Yes' : 'No'); ?></td>
                             <td><?php echo esc_html($tower->Toilet ? 'Yes' : 'No'); ?></td>
-                            <!-- Add more data fields as necessary -->
                         </tr>
                     <?php endforeach; ?>
                 <?php else: ?>
@@ -104,12 +102,10 @@ document.getElementById('downloadJson').addEventListener('click', function () {
             // Create a blob from the JSON data
             const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
             
-            // Create a download link
             const link = document.createElement('a');
             link.href = URL.createObjectURL(blob);
             link.download = 'google_sheet_data.json';
             
-            // Trigger the download
             link.click();
         })
         .catch(error => {
@@ -117,12 +113,11 @@ document.getElementById('downloadJson').addEventListener('click', function () {
         });
 });
 document.getElementById('goToGoogleSheet').addEventListener('click', function () {
-    // Sheet ID is hardcoded in the PHP class, so we can use it directly in JS
     const googleSheetId = '<?php echo Google_Sheet::$spreadsheetId; ?>'; // Sheet ID from PHP
     
     if (googleSheetId) {
         const googleSheetUrl = `https://docs.google.com/spreadsheets/d/${googleSheetId}/edit`;
-        window.open(googleSheetUrl, '_blank'); // Opens the sheet in a new tab
+        window.open(googleSheetUrl, '_blank'); //open in new tab 
     } else {
         console.error('Google Sheet ID not found');
     }

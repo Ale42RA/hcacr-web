@@ -1,5 +1,5 @@
 <?php
-
+//Class handles db into php term Makes that global
 class DB_Handler {
     private static $table_name = 'towers';
 
@@ -134,14 +134,13 @@ class DB_Handler {
                 case 'email':
                     return empty($field_value) ? '' : sanitize_email($field_value);
                 default:
-                    return empty($field_value) ? '' : sanitize_text_field($field_value); // Fallback to text sanitization
+                    return empty($field_value) ? '' : sanitize_text_field($field_value); 
             }
         }
         
         // Clear table before insert
         $wpdb->query("TRUNCATE TABLE $table_name");
 
-        // Insert data (loop through each entry in $sheet_data)
         if (empty($sheet_data)) {
             wp_die('Error: No data found from Google Sheets.');
         }
@@ -149,7 +148,6 @@ class DB_Handler {
         $insert_success = true;
         foreach ($sheet_data as $data) {
             try {
-                // Map the $data to the $tower_data array, ensuring all fields are sanitized or converted as needed
                 $tower_data = array(
                     'ID' => sanitize_and_validate_field($data['ID'], 'int'),
                     'Town' => sanitize_and_validate_field($data['Town'], 'text'),
@@ -246,7 +244,6 @@ class DB_Handler {
                     'Tower_captain_e_mail' => sanitize_and_validate_field($data['Tower_captain_e_mail'], 'text'),
                 );
     
-                // Insert the data into the database
                 if (false === $wpdb->insert($table_name, $tower_data)) {
                     throw new Exception('Database insert failed: ' . $wpdb->last_error);
                 }
@@ -257,7 +254,7 @@ class DB_Handler {
             }
         }
     
-        // Check for transaction success
+        // Check for transaction success?? No idea where these logs go but if it works it works. 
         if ($insert_success) {
             $wpdb->query('COMMIT');
         } else {

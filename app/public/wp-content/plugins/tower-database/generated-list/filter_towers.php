@@ -1,12 +1,12 @@
 <?php
 
-// Get the distinct districts and towns for filtering
+// get the distinct districts and towns for filtering
 $districts = array_unique(array_map(function($tower) {
     return $tower->District;
 }, $towers));
 sort($districts);
 
-// Organize towns by district
+// organize towns by district
 $district_town_map = [];
 foreach ($towers as $tower) {
     $district_town_map[$tower->District][] = $tower->Town;
@@ -16,7 +16,7 @@ foreach ($district_town_map as $district => $towns) {
     sort($district_town_map[$district]);
 }
 
-// Filter and sorting logic
+// filter and sorting logic
 $selected_district = $_GET['district'] ?? '';
 $selected_town = $_GET['town'] ?? '';
 $selected_practice_night = $_GET['practice_night'] ?? '';

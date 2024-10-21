@@ -17,4 +17,4 @@ function tower_manager_update_data(WP_REST_Request $request) {
 }
 
 
-//TODO ALL THIS IS NOT WORKING
+//TODO ALL THIS IS NOT WORKING 
