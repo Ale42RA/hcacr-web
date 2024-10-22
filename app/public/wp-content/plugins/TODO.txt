@@ -3,3 +3,17 @@ Json secret, figure out a way around that??
 
 ------------------
 Make  the lsitener work. 
+
+
+
+
+
+
+Remove district filter
+just town
+Add searchable section once.
+
+Display tower.
+
+
+District https://www.yacr.org.uk

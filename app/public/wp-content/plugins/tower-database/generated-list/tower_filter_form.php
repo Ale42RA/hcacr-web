@@ -1,19 +1,18 @@
 <!-- tower_filter_form.php TODO GPT CHECK -->
 
+
 <form class="tower-filter-form" method="GET">
-    <label for="district">Filter by District:</label>
-    <select name="district" id="district" onchange="updateTownOptions()">
-        <option value="">All Districts</option>
-        <?php foreach ($districts as $district): ?>
-            <option value="<?php echo esc_attr(htmlspecialchars(substr($district, 0, 6), ENT_QUOTES)); ?>" <?php selected($selected_district, substr($district, 0, 6)); ?>>
-                <?php echo esc_html($district); ?>
-            </option>
-        <?php endforeach; ?>
-    </select>
+    <label for="search">Search by tower Name:</label>
+    <input type="text" name="search" id="search" placeholder="Enter tower name" value="<?php echo htmlspecialchars($_GET['search'] ?? '', ENT_QUOTES); ?>">
 
     <label for="town">Filter by Town:</label>
-    <select name="town" id="town" disabled>
+    <select name="town" id="town">
         <option value="">All Towns</option>
+        <?php foreach ($towns as $town): ?>
+            <option value="<?php echo esc_attr(htmlspecialchars($town, ENT_QUOTES)); ?>" <?php selected($selected_town, $town); ?>>
+                <?php echo esc_html($town); ?>
+            </option>
+        <?php endforeach; ?>
     </select>
 
     <label for="practice_night">Filter by Practice Night:</label>
@@ -30,7 +29,9 @@
     <button type="submit">Apply</button>
 </form>
 
+
 <script>
+ 
     var districtTownMap = <?php echo json_encode($district_town_map, JSON_HEX_APOS | JSON_HEX_QUOT | JSON_UNESCAPED_UNICODE); ?>;
 
     function updateTownOptions() {
@@ -52,4 +53,5 @@
             townSelect.disabled = false;
         }
     }
+    
 </script>
