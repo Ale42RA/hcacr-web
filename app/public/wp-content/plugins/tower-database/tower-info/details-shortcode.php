@@ -308,6 +308,15 @@ function display_bells_data_shortcode($atts = [], $tower = null) {
         $last_bell_weight = isset($tower->{"Bells_Bell_{$last_bell_index}_Weight"}) ? sanitize_text_field($tower->{"Bells_Bell_{$last_bell_index}_Weight"}) : 'N/A';
         $last_bell_note = isset($tower->{"Bells_Bell_{$last_bell_index}_Note"}) ? sanitize_text_field($tower->{"Bells_Bell_{$last_bell_index}_Note"}) : 'N/A';
 
-        return "Bells: " . esc_html($max_bells) . " - " . esc_html($last_bell_weight) . " - " . esc_html($last_bell_note);
+        if ($last_bell_note !== 'N/A' && strlen($last_bell_note) > 1) {
+            $last_char = substr($last_bell_note, -1); // Get the last character
+            $base_note = substr($last_bell_note, 0, -1); // Get the rest of the note
+        
+             if ($last_char === 'b') {
+                // If last character is 'b', replace it with the flat symbol ♭
+                $last_bell_note = $base_note . '♭';
+            }
+        }
+        return esc_html($max_bells) . " (" . esc_html($last_bell_weight) . "), " . esc_html($last_bell_note);
     }
 }

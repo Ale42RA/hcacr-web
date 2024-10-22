@@ -53,5 +53,4 @@
             townSelect.disabled = false;
         }
     }
-    
 </script>
