@@ -1,10 +1,20 @@
 <?php
-//Class handles googlesheet data read and decode
 class Google_Sheet {
-    public static $spreadsheetId = '1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA';
-    private static $range = 'A1:DZ1008';
-    
+    public static $spreadsheetId;
+    public static $range;
+
+    // Static method to set spreadsheet ID and range
+    public static function set_sheet_data($spreadsheetId, $range) {
+        self::$spreadsheetId = $spreadsheetId;
+        self::$range = $range;
+    }
+
     public static function get_data() {
+        // Check if spreadsheetId and range are set
+        if (!self::$spreadsheetId || !self::$range) {
+            throw new Exception('Spreadsheet ID or range is not set.');
+        }
+
         $client = new Google_Client();
         $client->setApplicationName('Google Sheets API PHP Quickstart');
         $client->setScopes(Google_Service_Sheets::SPREADSHEETS_READONLY);
@@ -12,7 +22,14 @@ class Google_Sheet {
         $client->setAccessType('offline');
     
         $service = new Google_Service_Sheets($client);
+        
+        // Add debug information for checking spreadsheetId and range
+        error_log('Spreadsheet ID: ' . self::$spreadsheetId);
+        error_log('Range: ' . self::$range);
+
+        // Fetch data using the set spreadsheetId and range
         $response = $service->spreadsheets_values->get(self::$spreadsheetId, self::$range);
+
         $values = $response->getValues();
     
         if (empty($values)) {
@@ -31,17 +48,3 @@ class Google_Sheet {
         }
     }
 }
-
-// For testing
-add_action('init', function() {
-    if (isset($_GET['action']) && $_GET['action'] === 'download_google_sheet_json') {
-        $json_data = Google_Sheet::get_data();
-        
-        header('Content-Type: application/json');
-        header('Content-Disposition: attachment; filename="google_sheet_data.json"');
-        
-        echo $json_data;
-        
-        exit();
-    }
-});

@@ -6946,3 +6946,334 @@ Stack trace:
 [22-Oct-2024 14:07:17 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
 [22-Oct-2024 14:07:59 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
 [22-Oct-2024 14:08:02 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 14:54:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Admin_Page does not have a method "render_page" in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#3 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php on line 324
+[22-Oct-2024 15:38:44 UTC] PHP Fatal error:  Uncaught Error: Access to undeclared static property Google_Sheet::$spreadsheetId in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php:20
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(121): Google_Sheet::get_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(41): DB_Handler::insert_data()
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#6 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php on line 20
+[22-Oct-2024 15:39:23 UTC] PHP Fatal error:  Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php:177
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(20): Google\Service\Sheets\Resource\SpreadsheetsValues->get(NULL, NULL)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(121): Google_Sheet::get_data()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(41): DB_Handler::insert_data()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#8 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php on line 177
+[22-Oct-2024 15:43:53 UTC] PHP Fatal error:  Uncaught Error: Non-static method Google_Sheet::get_data() cannot be called statically in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php:121
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(41): DB_Handler::insert_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 121
+[22-Oct-2024 15:44:30 UTC] PHP Fatal error:  Uncaught Google\Exception: (get) missing required param: 'spreadsheetId' in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php:177
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient-services/src/Sheets/Resource/SpreadsheetsValues.php(250): Google\Service\Resource->call('get', Array, 'Google\\Service\\...')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php(20): Google\Service\Sheets\Resource\SpreadsheetsValues->get(NULL, NULL)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(121): Google_Sheet::get_data()
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(41): DB_Handler::insert_data()
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#8 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/vendor/google/apiclient/src/Service/Resource.php on line 177
+[22-Oct-2024 15:45:52 UTC] PHP Fatal error:  Uncaught Exception: Spreadsheet ID or range is not set. in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php:15
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(121): Google_Sheet::get_data()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(41): DB_Handler::insert_data()
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#6 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php on line 15
+[22-Oct-2024 15:49:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Google_Sheet::__construct(), 0 passed in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 122 and exactly 2 expected in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php:7
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php(122): Google_Sheet->__construct()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(41): DB_Handler::insert_data()
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_page('')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('toplevel_page_t...')
+#6 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-google-sheet.php on line 7
+[22-Oct-2024 15:50:09 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 15:50:09 UTC] Range: A1:DZ1008
+[22-Oct-2024 15:50:10 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 15:50:10 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 15:50:20 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 15:51:37 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 15:51:38 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 15:51:41 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 15:51:41 UTC] Range: A1:DZ1008
+[22-Oct-2024 15:51:42 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 15:51:42 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:03:52 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:03:52 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:03:53 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:03:53 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:03:55 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 16:05:44 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 16:05:46 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:05:46 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:05:48 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:05:48 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:05:49 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:05:49 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:05:49 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query TRUNCATE TABLE wp_officers made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:05:49 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_officers` made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:05:49 UTC] Failed to insert row: {"Role":"Patrons","Name":"The Right Revd. The Lord Bishop of St. Albans","Address":null,"Mobile":null,"Email":null} Error: Database insert failed: Table 'local.wp_officers' doesn't exist
+[22-Oct-2024 16:07:11 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:07:11 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:07:11 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query TRUNCATE TABLE wp_officers made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:07:11 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_officers` made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:07:11 UTC] Failed to insert row: {"Role":"Patrons","Name":"The Right Revd. The Lord Bishop of St. Albans","Address":null,"Mobile":null,"Email":null} Error: Database insert failed: Table 'local.wp_officers' doesn't exist
+[22-Oct-2024 16:07:12 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:07:12 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:07:13 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:07:13 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:07:15 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:07:15 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:07:15 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:07:15 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:07:29 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 16:08:55 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:08:55 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:08:55 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query TRUNCATE TABLE wp_officers made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:08:55 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_officers` made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:08:55 UTC] Failed to insert row: {"Role":"Patrons","Name":"The Right Revd. The Lord Bishop of St. Albans","Address":null,"Mobile":null,"Email":null} Error: Database insert failed: Table 'local.wp_officers' doesn't exist
+[22-Oct-2024 16:12:30 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:12:30 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:12:31 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query TRUNCATE TABLE wp_officers made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:14:31 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:14:31 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:14:32 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query TRUNCATE TABLE wp_officers made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:14:32 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_officers` made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:14:32 UTC] Failed to insert row: {"Role":"Patrons","Name":"The Right Revd. The Lord Bishop of St. Albans","Address":null,"Mobile":null,"Email":null} Error: Database insert failed: Table 'local.wp_officers' doesn't exist
+[22-Oct-2024 16:14:58 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:14:58 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:14:59 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query TRUNCATE TABLE wp_officers made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:14:59 UTC] WordPress database error Table 'local.wp_officers' doesn't exist for query SHOW FULL COLUMNS FROM `wp_officers` made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[22-Oct-2024 16:14:59 UTC] Failed to insert row: {"Role":"Patrons","Name":"The Right Revd. The Lord Bishop of St. Albans","Address":null,"Mobile":null,"Email":null} Error: Database insert failed: Table 'local.wp_officers' doesn't exist
+[22-Oct-2024 16:15:33 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:15:33 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:15:35 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:15:35 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:15:36 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:15:36 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:21:42 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:21:42 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:21:43 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 100
+[22-Oct-2024 16:21:43 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 100
+[22-Oct-2024 16:21:52 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:21:52 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:21:53 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 100
+[22-Oct-2024 16:21:53 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 100
+[22-Oct-2024 16:21:56 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:21:56 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:21:56 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:21:56 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:21:58 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:21:58 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:21:58 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 100
+[22-Oct-2024 16:21:58 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 100
+[22-Oct-2024 16:22:25 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:22:25 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:22:26 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:22:26 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:23:56 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:23:56 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:23:57 UTC] PHP Warning:  Undefined variable $towersGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:23:57 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:24:02 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:24:02 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:24:03 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:24:03 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:25:16 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:25:16 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:25:17 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:25:17 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:25:19 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:25:19 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:26:09 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:26:09 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:26:10 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:26:10 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php:92
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(55): include()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:26:52 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:26:52 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:26:53 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:26:53 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php:92
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(55): include()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:26:56 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:26:56 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:26:56 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:26:56 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php:92
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(55): include()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:27:33 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:27:33 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:27:34 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:27:34 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php:92
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(55): include()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:27:37 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:27:37 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:27:38 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:27:38 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:28:04 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:28:04 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:28:05 UTC] PHP Warning:  Undefined variable $towerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:28:05 UTC] PHP Warning:  Attempt to read property "spreadsheetId" on null in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-towers.php on line 116
+[22-Oct-2024 16:28:06 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:28:06 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:28:07 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:28:07 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php:92
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(55): include()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:28:39 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:28:39 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:28:39 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:28:39 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php:92
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(55): include()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:28:41 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:28:41 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:28:44 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:28:44 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:28:45 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:28:45 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php:92
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(55): include()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:28:49 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:28:49 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:28:49 UTC] PHP Warning:  Undefined variable $officerGoogle in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:28:49 UTC] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php:92
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php(55): include()
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#5 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 92
+[22-Oct-2024 16:29:12 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:29:12 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:43:07 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:43:07 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DB_Officer_Handler::get_all_officers() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php:51
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#4 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php on line 51
+[22-Oct-2024 16:43:23 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:43:23 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:44:18 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:44:18 UTC] Range: Officers!A1:DZ1008
+[22-Oct-2024 16:44:20 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:44:20 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:44:21 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[22-Oct-2024 16:44:21 UTC] Range: A1:DZ1008
+[22-Oct-2024 16:44:49 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 10
+[22-Oct-2024 16:44:49 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 10
+[22-Oct-2024 16:44:51 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 10
+[22-Oct-2024 16:44:51 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 10
+[22-Oct-2024 16:53:42 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:42 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:42 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:42 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:42 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:42 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:44 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:44 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:44 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:44 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:44 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:53:44 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 36
+[22-Oct-2024 16:54:14 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 57
+[22-Oct-2024 16:54:14 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 57
+[22-Oct-2024 16:54:14 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 57
+[22-Oct-2024 16:54:14 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 57
+[22-Oct-2024 16:54:14 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 57
+[22-Oct-2024 16:54:14 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 57
+[22-Oct-2024 16:54:14 UTC] PHP Warning:  include(/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php): Failed to open stream: No such file or directory in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 41
+[22-Oct-2024 16:54:14 UTC] PHP Warning:  include(): Failed opening '/Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/templates/officers-template.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 41
+[22-Oct-2024 16:59:07 UTC] PHP Fatal error:  Cannot use positional argument after argument unpacking in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 391
+[22-Oct-2024 16:59:33 UTC] PHP Fatal error:  Cannot use positional argument after argument unpacking in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 391
+[22-Oct-2024 17:00:40 UTC] PHP Fatal error:  Cannot use positional argument after argument unpacking in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 391
+[22-Oct-2024 17:14:43 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:14:43 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:15:22 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:19:10 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:20:11 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:23:32 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:24:25 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:27:09 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:27:52 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[22-Oct-2024 17:29:45 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35

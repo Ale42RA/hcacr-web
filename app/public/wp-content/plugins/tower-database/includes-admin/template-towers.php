@@ -1,9 +1,7 @@
 <div class="wrap">
-    <h1>Tower Manager</h1>
+    <h1>HCACR Database</h1>
 
     <h2>Existing Towers</h2>
-    <button id="downloadJson" class="button">Download Google Sheet JSON</button>
-    <button id="goToGoogleSheet" class="button">GoToGoogleSheet</button>
 
 
     <div class="table-container">
@@ -87,39 +85,3 @@
         background-color: #f4f4f4;
     }
 </style>
-
-
-<script>
-document.getElementById('downloadJson').addEventListener('click', function () {
-    fetch('<?php echo admin_url('admin.php?action=download_google_sheet_json'); ?>')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            // Create a blob from the JSON data
-            const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-            
-            const link = document.createElement('a');
-            link.href = URL.createObjectURL(blob);
-            link.download = 'google_sheet_data.json';
-            
-            link.click();
-        })
-        .catch(error => {
-            console.error('Error downloading the JSON file:', error);
-        });
-});
-document.getElementById('goToGoogleSheet').addEventListener('click', function () {
-    const googleSheetId = '<?php echo Google_Sheet::$spreadsheetId; ?>'; // Sheet ID from PHP
-    
-    if (googleSheetId) {
-        const googleSheetUrl = `https://docs.google.com/spreadsheets/d/${googleSheetId}/edit`;
-        window.open(googleSheetUrl, '_blank'); //open in new tab 
-    } else {
-        console.error('Google Sheet ID not found');
-    }
-});
-</script>

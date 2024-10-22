@@ -65,3 +65,5 @@
 [22-Oct-2024 14:11:32] NOTICE: exiting, bye-bye!
 [22-Oct-2024 14:11:36] NOTICE: fpm is running, pid 8673
 [22-Oct-2024 14:11:36] NOTICE: ready to handle connections
+[22-Oct-2024 16:39:23] WARNING: [pool www] child 8680 said into stderr: "[2024-10-22T15:39:23.101758+00:00] google-api-php-client.ERROR: Service parameter missing {"service":"sheets","resource":"values","method":"get","parameter":"spreadsheetId"} []"
+[22-Oct-2024 16:44:30] WARNING: [pool www] child 8680 said into stderr: "[2024-10-22T15:44:30.127368+00:00] google-api-php-client.ERROR: Service parameter missing {"service":"sheets","resource":"values","method":"get","parameter":"spreadsheetId"} []"

@@ -1,6 +1,6 @@
 <?php
 //Class handles db into php term Makes that global
-class DB_Handler {
+class DB_Tower_Handler {
     private static $table_name = 'towers';
 
     public static function create_table() {
@@ -118,7 +118,13 @@ class DB_Handler {
         $table_name = $wpdb->prefix . self::$table_name;
 
         // Fetch data from Google Sheets
-        $sheet_data = json_decode(Google_Sheet::get_data(), true);
+        global $towerGoogle;
+        $towerGoogle = new Google_Sheet();
+        $towerGoogle::set_sheet_data('1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA', 'A1:DZ1008');
+
+
+        // Fetch data from Google Sheets using the $towerGoogle instance
+        $sheet_data = json_decode($towerGoogle->get_data(), true);
 
         
         // Start transaction
@@ -263,4 +269,130 @@ class DB_Handler {
         }
     }
     
+}
+
+class DB_Officer_Handler {
+    private static $table_name = 'officers';
+
+    public static function create_table() {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+        $charset_collate = $wpdb->get_charset_collate();
+
+        $sql = "
+        CREATE TABLE $table_name (
+            officer_id mediumint(9) NOT NULL AUTO_INCREMENT,
+            Role text NOT NULL,
+            Name text NOT NULL,
+            Address text DEFAULT NULL,
+            Mobile text DEFAULT NULL,
+            Email text DEFAULT NULL,
+            PRIMARY KEY (officer_id)
+        ) $charset_collate;";
+
+        require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+        dbDelta($sql);
+    }
+
+    public static function insert_data() {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+
+        // Fetch data from Google Sheets
+        global $officerGoogle;
+        $officerGoogle = new Google_Sheet();
+        $officerGoogle::set_sheet_data('1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA', 'Officers!A1:DZ1008');
+
+
+        // Fetch data from Google Sheets using the $officerGoogle instance
+        $sheet_data = json_decode($officerGoogle->get_data(), true);
+
+        // Start transaction
+        $wpdb->query('START TRANSACTION');
+
+        // Sanitize function
+        function sanitize_and_validate_field($field_value, $field_type) {
+            switch ($field_type) {
+                case 'text':
+                    return empty($field_value) ? '' : sanitize_text_field($field_value);
+                case 'email':
+                    return empty($field_value) ? '' : sanitize_email($field_value);
+                case 'int':
+                    return intval($field_value);
+                default:
+                    return empty($field_value) ? '' : sanitize_text_field($field_value);
+            }
+        }
+
+        // Clear table before insert
+        $wpdb->query("TRUNCATE TABLE $table_name");
+
+        if (empty($sheet_data)) {
+            wp_die('Error: No data found from Google Sheets.');
+        }
+
+        $insert_success = true;
+        foreach ($sheet_data as $data) {
+            try {
+                $officer_data = array(
+                    'Role' => sanitize_and_validate_field($data['Role'], 'text'),
+                    'Name' => sanitize_and_validate_field($data['Name'], 'text'),
+                    'Address' => sanitize_and_validate_field($data['Address'], 'text'),
+                    'Mobile' => sanitize_and_validate_field($data['Mobile'], 'text'),
+                    'Email' => sanitize_and_validate_field($data['Email'], 'email'),
+                );
+
+                if (false === $wpdb->insert($table_name, $officer_data)) {
+                    throw new Exception('Database insert failed: ' . $wpdb->last_error);
+                }
+            } catch (Exception $e) {
+                $insert_success = false;
+                error_log('Failed to insert row: ' . json_encode($data) . ' Error: ' . $e->getMessage());
+                wp_die('Failed to insert row: ' . json_encode($data) . ' Error: ' . $e->getMessage());
+            }
+        }
+
+        // Check for transaction success
+        if ($insert_success) {
+            $wpdb->query('COMMIT');
+        } else {
+            $wpdb->query('ROLLBACK');
+            wp_die('Error: One or more rows could not be inserted. Check the error log for details.');
+        }
+    }
+
+    public static function get_all_officers() {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+        return $wpdb->get_results("SELECT * FROM $table_name");
+    }
+    public static function get_officers_by_role($role) {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+
+        if ($role === 'District Secretary') {
+            $sql = $wpdb->prepare("SELECT * FROM $table_name WHERE Role LIKE %s", 'District Secretary%');
+        } else {
+            $sql = $wpdb->prepare("SELECT * FROM $table_name WHERE Role = %s", $role);
+        }
+
+        return $wpdb->get_results($sql);
+    }
+    public static function get_officers_excluding_roles($excluded_roles) {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+
+        // Prepare placeholders for the excluded roles
+        $placeholders = implode(',', array_fill(0, count($excluded_roles), '%s'));
+
+        // Prepare the SQL query
+        $query_values = array_merge($excluded_roles, ['%District Secretary%']);
+
+        // SQL query to exclude roles and any role that contains "District Secretary"
+        $sql = $wpdb->prepare(
+            "SELECT * FROM $table_name WHERE Role NOT IN ($placeholders) AND Role NOT LIKE %s",
+            $query_values
+        );
+        return $wpdb->get_results($sql);
+    }
 }
