@@ -1,10 +1,44 @@
 <?php
 
 
-function get_tower_info_from_url() {
-    global $wpdb, $wp;
+function get_district_town_dedication_from_url() {
+    global $wp;
 
-    // Use a static variable to cache the result
+    if (empty($wp)) {
+        $wp = new WP();
+    }
+
+    $current_url = home_url(add_query_arg(array(), $wp->request));
+    $url_path = trim(parse_url($current_url, PHP_URL_PATH), '/');
+    $url_path = preg_replace('/^tower\//', '', $url_path);
+    $url_parts = explode('~', $url_path);
+
+    if (count($url_parts) < 3) {
+        return null;
+    }
+
+    $district = sanitize_text_field(str_replace('-', ' ', $url_parts[0]));
+    $town = sanitize_text_field(str_replace('-', ' ', $url_parts[1]));
+    $dedication = sanitize_text_field(str_replace('-', ' ', $url_parts[2]));
+
+    function normalize_string($string) {
+        return str_replace(array("'", "(", ")"), '', $string);
+    }
+
+    $normalized_district = normalize_string($district);
+    $normalized_town = normalize_string($town);
+    $normalized_dedication = normalize_string($dedication);
+
+    return array(
+        'district' => $normalized_district,
+        'town' => $normalized_town,
+        'dedication' => $normalized_dedication
+    );
+}
+
+function get_tower_info_from_url() {
+    global $wpdb;
+
     static $tower = null;
 
     if ($tower !== null) {
@@ -12,43 +46,21 @@ function get_tower_info_from_url() {
     }
 
     try {
-        $table_name = $wpdb->prefix . 'towers'; //TODO better practise to store this in main. Not my problem
-        
-        if (empty($wp)) {
-            $wp = new WP();
-        }
-
-        $current_url = home_url(add_query_arg(array(), $wp->request));
-
-        // strip off the `/tower/` part
-        $url_path = trim(parse_url($current_url, PHP_URL_PATH), '/');
-        $url_path = preg_replace('/^tower\//', '', $url_path);
-        
-        // splitL by '~'
-        $url_parts = explode('~', $url_path);
-
-        if (count($url_parts) < 3) {
+        $location_info = get_district_town_dedication_from_url();
+        if ($location_info === null) {
             return null;
         }
 
-        $district = sanitize_text_field(str_replace('-', ' ', $url_parts[0]));
-        $town = sanitize_text_field(str_replace('-', ' ', $url_parts[1]));
-        $dedication = sanitize_text_field(str_replace('-', ' ',  $url_parts[2]));
-    
-        function normalize_string($string) {
-            // $string = str_replace('  ', ' ', $string);
-            return str_replace(array("'", "(", ")"), '',$string);
-        }
-    
-        $normalized_district = normalize_string($district);
-        $normalized_town = normalize_string($town);
-        $normalized_dedication = normalize_string($dedication);
+        $normalized_district = $location_info['district'];
+        $normalized_town = $location_info['town'];
+        $normalized_dedication = $location_info['dedication'];
 
         if (empty($normalized_district) || empty($normalized_town) || empty($normalized_dedication)) {
             throw new Exception("One or more values (district, town, dedication) are missing after sanitization");
         }
 
-    
+        $table_name = $wpdb->prefix . 'towers';
+
         $tower = $wpdb->get_row($wpdb->prepare("
             SELECT * 
             FROM $table_name 
@@ -57,20 +69,17 @@ function get_tower_info_from_url() {
             AND LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(Dedication, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '  ', ' ')) = LOWER(%s)
         ", $normalized_district, $normalized_town, $normalized_dedication));
 
-       
-
         if ($tower === null) {
             throw new Exception("No matching tower found in the database");
         }
 
     } catch (Exception $e) {
         error_log("Error in get_tower_info_from_url: " . $e->getMessage());
-        return null; //failure
+        return null;
     }
 
     return $tower;
 }
-
 
 
 
