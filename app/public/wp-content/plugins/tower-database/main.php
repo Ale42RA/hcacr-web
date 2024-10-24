@@ -25,6 +25,8 @@ require_once plugin_dir_path(__FILE__) . 'officers/officers-shortcode.php';
 
 register_activation_hook(__FILE__, ['DB_Tower_Handler', 'create_table']);
 register_activation_hook(__FILE__, ['DB_Officer_Handler', 'create_table']);
+register_activation_hook(__FILE__, ['DB_District_Officers_Handler', 'create_table']);
+
 
 add_action('admin_menu', ['Admin_Page', 'init_menu']);
 add_action('rest_api_init', 'tower_manager_register_rest_api');

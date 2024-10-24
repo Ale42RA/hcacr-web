@@ -50,6 +50,9 @@ class Admin_Page {
         DB_Officer_Handler::insert_data();
         $officers = DB_Officer_Handler::get_all_officers();
 
+        DB_District_Officers_Handler::insert_data();
+        $district_officers = DB_District_Officers_Handler::get_all_district_officers();
+
         include plugin_dir_path(__FILE__) . 'template-officers.php';
 
     }

@@ -396,3 +396,110 @@ class DB_Officer_Handler {
         return $wpdb->get_results($sql);
     }
 }
+
+class DB_District_Officers_Handler {
+    private static $table_name = 'd_officers';
+
+    public static function create_table() {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+        $charset_collate = $wpdb->get_charset_collate();
+
+        $sql = "
+            CREATE TABLE $table_name (
+            officer_id mediumint(9) NOT NULL AUTO_INCREMENT,
+            District text NOT NULL,
+            Role text NOT NULL,
+            Name text NOT NULL,
+            Address text DEFAULT NULL,
+            Phone text DEFAULT NULL,
+            Email text DEFAULT NULL,
+            PRIMARY KEY (officer_id)
+        ) $charset_collate;";
+
+        require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+        dbDelta($sql);
+    }
+
+    public static function insert_data() {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+
+        // Fetch data from Google Sheets
+        global $districtOfficerGoogle;
+        $districtOfficerGoogle = new Google_Sheet();
+        $districtOfficerGoogle::set_sheet_data('1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA', 'District Officers!A1:DZ1008');
+
+
+        // Fetch data from Google Sheets using the $officerGoogle instance
+        $sheet_data = json_decode($districtOfficerGoogle->get_data(), true);
+
+        // Start transaction
+        $wpdb->query('START TRANSACTION');
+
+        // Sanitize function
+        // function sanitize_and_validate_field($field_value, $field_type) {
+        //     switch ($field_type) {
+        //         case 'text':
+        //             return empty($field_value) ? '' : sanitize_text_field($field_value);
+        //         case 'email':
+        //             return empty($field_value) ? '' : sanitize_email($field_value);
+        //         case 'int':
+        //             return intval($field_value);
+        //         default:
+        //             return empty($field_value) ? '' : sanitize_text_field($field_value);
+        //     }
+        // }
+
+        // Clear table before insert
+        $wpdb->query("TRUNCATE TABLE $table_name");
+
+        if (empty($sheet_data)) {
+            wp_die('Error: No data found from Google Sheets.');
+        }
+
+        $insert_success = true;
+        foreach ($sheet_data as $data) {
+            try {
+                $officer_data = array(
+                    'District' => sanitize_and_validate_field($data['District'], 'text'),
+                    'Role' => sanitize_and_validate_field($data['Role'], 'text'),
+                    'Name' => sanitize_and_validate_field($data['Name'], 'text'),
+                    'Address' => sanitize_and_validate_field($data['Address'], 'text'),
+                    'Phone' => sanitize_and_validate_field($data['Phone'], 'text'),
+                    'Email' => sanitize_and_validate_field($data['Email'], 'email'),
+                );
+
+                if (false === $wpdb->insert($table_name, $officer_data)) {
+                    throw new Exception('Database insert failed: ' . $wpdb->last_error);
+                }
+            } catch (Exception $e) {
+                $insert_success = false;
+                error_log('Failed to insert row: ' . json_encode($data) . ' Error: ' . $e->getMessage());
+                wp_die('Failed to insert row: ' . json_encode($data) . ' Error: ' . $e->getMessage());
+            }
+        }
+
+        // Check for transaction success
+        if ($insert_success) {
+            $wpdb->query('COMMIT');
+        } else {
+            $wpdb->query('ROLLBACK');
+            wp_die('Error: One or more rows could not be inserted. Check the error log for details.');
+        }
+    }
+
+    public static function get_all_district_officers() {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+        return $wpdb->get_results("SELECT * FROM $table_name");
+    }
+    public static function get_officers_by_role($district) {
+        global $wpdb;
+        $table_name = $wpdb->prefix . self::$table_name;
+    
+        $sql = $wpdb->prepare("SELECT * FROM $table_name WHERE Role = %s", $district);
+        
+        return $wpdb->get_results($sql);
+    }
+}

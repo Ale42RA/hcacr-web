@@ -7342,3 +7342,161 @@ Stack trace:
 [23-Oct-2024 23:03:12 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
 [24-Oct-2024 12:18:16 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
 [24-Oct-2024 12:18:16 UTC] Range: A1:DZ1008
+[24-Oct-2024 12:42:39 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:42:39 UTC] Range: A1:DZ1008
+[24-Oct-2024 12:42:42 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:42:42 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 12:49:01 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:49:01 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 12:49:02 UTC] PHP Fatal error:  Uncaught Error: Class "DB_District_Officers_Handler" not found in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php:53
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#4 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php on line 53
+[24-Oct-2024 12:50:40 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:50:40 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 12:50:41 UTC] PHP Fatal error:  Uncaught Error: Class "DB_District_Officers_Handler" not found in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php:53
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): Admin_Page::render_secondary_page('')
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/admin.php(259): do_action('hcacr_page_seco...')
+#4 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-admin-page.php on line 53
+[24-Oct-2024 12:50:52 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "DB_District_Officers_Handler" not found in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/includes/plugin.php(703): do_action('activate_tower-...', false)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/plugins.php(60): activate_plugin('tower-database/...', 'http://hcacr.lo...', false)
+#4 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php on line 324
+[24-Oct-2024 12:50:54 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "DB_District_Officers_Handler" not found in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/includes/plugin.php(703): do_action('activate_tower-...', false)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/plugins.php(60): activate_plugin('tower-database/...', 'http://hcacr.lo...', false)
+#4 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php on line 324
+[24-Oct-2024 12:51:09 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "DB_District_Officers_Handler" not found in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/includes/plugin.php(703): do_action('activate_tower-...', false)
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-admin/plugins.php(60): activate_plugin('tower-database/...', 'http://hcacr.lo...', false)
+#4 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php on line 324
+[24-Oct-2024 12:53:26 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:53:26 UTC] Range: A1:DZ1008
+[24-Oct-2024 12:53:28 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:53:28 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 12:53:29 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:53:29 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 12:53:30 UTC] PHP Fatal error:  Cannot redeclare sanitize_and_validate_field() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php:314) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 441
+[24-Oct-2024 12:54:29 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:54:29 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 12:54:30 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 12:54:30 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:03:41 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:03:41 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:03:42 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:03:42 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:03:43 UTC] PHP Warning:  Undefined property: stdClass::$Phone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:05 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:04:05 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:04:06 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:04:06 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:04:06 UTC] PHP Warning:  Undefined property: stdClass::$Telephone in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/template-officers.php on line 23
+[24-Oct-2024 13:05:04 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:05:04 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:05:05 UTC] PHP Warning:  Undefined array key "Phone" in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 341
+[24-Oct-2024 13:05:05 UTC] WordPress database error Unknown column 'Phone' in 'field list' for query INSERT INTO `wp_officers` (`Role`, `Name`, `Address`, `Phone`, `Email`) VALUES ('Patrons', 'The Right Revd. The Lord Bishop of St. Albans', '', '', '') made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[24-Oct-2024 13:05:05 UTC] Failed to insert row: {"Role":"Patrons","Name":"The Right Revd. The Lord Bishop of St. Albans","Address":null,"Mobile":null,"Email":null} Error: Database insert failed: Unknown column 'Phone' in 'field list'
+[24-Oct-2024 13:05:24 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:05:24 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:05:24 UTC] PHP Warning:  Undefined array key "Phone" in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 341
+[24-Oct-2024 13:05:24 UTC] WordPress database error Unknown column 'Phone' in 'field list' for query INSERT INTO `wp_officers` (`Role`, `Name`, `Address`, `Phone`, `Email`) VALUES ('Patrons', 'The Right Revd. The Lord Bishop of St. Albans', '', '', '') made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[24-Oct-2024 13:05:24 UTC] Failed to insert row: {"Role":"Patrons","Name":"The Right Revd. The Lord Bishop of St. Albans","Address":null,"Mobile":null,"Email":null} Error: Database insert failed: Unknown column 'Phone' in 'field list'
+[24-Oct-2024 13:05:41 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:05:41 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:05:42 UTC] PHP Warning:  Undefined array key "Phone" in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/includes-admin/class-db-handler.php on line 341
+[24-Oct-2024 13:05:42 UTC] WordPress database error Unknown column 'Phone' in 'field list' for query INSERT INTO `wp_officers` (`Role`, `Name`, `Address`, `Phone`, `Email`) VALUES ('Patrons', 'The Right Revd. The Lord Bishop of St. Albans', '', '', '') made by do_action('hcacr_page_secondary-page'), WP_Hook->do_action, WP_Hook->apply_filters, Admin_Page::render_secondary_page, DB_Officer_Handler::insert_data
+[24-Oct-2024 13:05:42 UTC] Failed to insert row: {"Role":"Patrons","Name":"The Right Revd. The Lord Bishop of St. Albans","Address":null,"Mobile":null,"Email":null} Error: Database insert failed: Unknown column 'Phone' in 'field list'
+[24-Oct-2024 13:06:02 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:06:02 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:06:03 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:06:03 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:07:30 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:07:30 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:07:31 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:07:31 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:21:08 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:21:08 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:21:09 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:21:09 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:21:35 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:21:35 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:21:36 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:21:36 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:22:32 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:22:32 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:22:33 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:22:33 UTC] Range: District Officers!A1:DZ1008
