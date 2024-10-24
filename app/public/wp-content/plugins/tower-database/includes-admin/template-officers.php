@@ -20,7 +20,7 @@
                         <td><?php echo esc_html($officer->Role); ?></td>
                         <td><?php echo esc_html($officer->Name); ?></td>
                         <td><?php echo esc_html($officer->Address); ?></td>
-                        <td><?php echo esc_html($officer->Mobile); ?></td>
+                        <td><?php echo esc_html($officer->Phone); ?></td>
                         <td><?php echo esc_html($officer->Email); ?></td>
                     </tr>
                 <?php endforeach; ?>

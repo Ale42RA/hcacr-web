@@ -1,5 +1,8 @@
 <?php
-if (!isset($officers) || empty($officers)) {
+// Check if either $officers or $dofficers is set, and assign to a common variable
+$data = isset($officers) && !empty($officers) ? $officers : (isset($dofficers) && !empty($dofficers) ? $dofficers : []);
+
+if (empty($data)) {
     echo '<p>No officer data found.</p>';
     return;
 }
@@ -9,7 +12,7 @@ $hide_role_name_for = ['President', 'Patrons', 'Representatives to the Central C
 ?>
 
 <div class="officers-container">
-    <?php foreach ($officers as $officer): ?>
+    <?php foreach ($data as $officer): ?>
         <div class="officer-card">
             <?php
             if (!in_array($officer->Role, $hide_role_name_for)) {
@@ -28,8 +31,8 @@ $hide_role_name_for = ['President', 'Patrons', 'Representatives to the Central C
             <?php if (!empty($officer->Address)): ?>
                 <p><?php echo esc_html($officer->Address); ?></p>
             <?php endif; ?>
-            <?php if (!empty($officer->Mobile)): ?>
-                <p><?php echo esc_html($officer->Mobile); ?></p>
+            <?php if (!empty($officer->Phone)): ?>
+                <p><?php echo esc_html($officer->Phone); ?></p>
             <?php endif; ?>
             <?php if (!empty($officer->Email)): ?>
                 <p><a href="mailto:<?php echo esc_attr($officer->Email); ?>"><?php echo esc_html($officer->Email); ?></a></p>
@@ -37,8 +40,9 @@ $hide_role_name_for = ['President', 'Patrons', 'Representatives to the Central C
         </div>
     <?php endforeach; ?>
 </div>
+
 <style>
-    .officers-container {
+.officers-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;

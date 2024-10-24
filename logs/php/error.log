@@ -7500,3 +7500,64 @@ Stack trace:
 [24-Oct-2024 13:22:32 UTC] Range: Officers!A1:DZ1008
 [24-Oct-2024 13:22:33 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
 [24-Oct-2024 13:22:33 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:40:40 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:40:40 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:40:42 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:40:42 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:40:47 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:40:49 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:40:59 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:41:04 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:41:26 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:42:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DB_District_Officers_Handler::get_officers_by_distrcit() in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php:73
+Stack trace:
+#0 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): hcacr_display_officers_by_district(Array, '', 'display_by_dist...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '[display_by_dis...')
+#3 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/wp-expand-tabs-free/public/partials/content.php(31): do_shortcode('[display_by_dis...')
+#4 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/wp-expand-tabs-free/public/class-wp-tabs-shortcode.php(129): include('/Users/alejandr...')
+#5 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/wp-expand-tabs-free/public/class-wp-tabs-shortcode.php(171): WP_Tabs_Shortcode::sp_tabs_html_show('5004', Array, Array, 'w')
+#6 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(434): WP_Tabs_Shortcode->sptpro_shortcode_execute(Array, '', 'wptabs')
+#7 [internal function]: do_shortcode_tag(Array)
+#8 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/shortcodes.php(273): preg_replace_callback('/\\[(\\[?)(wptabs...', 'do_shortcode_ta...', '\n[wptabs id="50...')
+#9 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-hook.php(324): do_shortcode('\n[wptabs id="50...')
+#10 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n[wptabs id="50...', Array)
+#11 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks/post-content.php(50): apply_filters('the_content', '<!-- wp:paragra...')
+#12 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(519): render_block_core_post_content(Array, '<!-- wp:paragra...', Object(WP_Block))
+#13 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/class-wp-block.php(499): WP_Block->render()
+#14 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2061): WP_Block->render()
+#15 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/blocks.php(2113): render_block(Array)
+#16 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/block-template.php(260): do_blocks('<!-- wp:templat...')
+#17 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-canvas.php(12): get_the_block_template_html()
+#18 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-includes/template-loader.php(106): include('/Users/alejandr...')
+#19 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-blog-header.php(19): require_once('/Users/alejandr...')
+#20 /Users/alejandrarivasadames/Local Sites/hcacr/app/public/index.php(17): require('/Users/alejandr...')
+#21 {main}
+  thrown in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/officers/officers-shortcode.php on line 73
+[24-Oct-2024 13:43:07 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php:20) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php on line 20
+[24-Oct-2024 13:45:34 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php:20) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php on line 20
+[24-Oct-2024 13:45:38 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php:20) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php on line 20
+[24-Oct-2024 13:46:51 UTC] PHP Fatal error:  Cannot redeclare normalize_string() (previously declared in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php:21) in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php on line 21
+[24-Oct-2024 13:47:31 UTC] PHP Warning:  Undefined variable $bishops stortford in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php on line 22
+[24-Oct-2024 13:47:31 UTC] PHP Warning:  Undefined variable $bishops stortford in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/display.php on line 22
+[24-Oct-2024 13:47:43 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:48:20 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:53:50 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:55:53 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:55:53 UTC] Range: A1:DZ1008
+[24-Oct-2024 13:56:13 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:56:13 UTC] Range: A1:DZ1008
+[24-Oct-2024 13:56:17 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:56:17 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:56:18 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:56:18 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:56:41 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:56:41 UTC] Range: Officers!A1:DZ1008
+[24-Oct-2024 13:56:42 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[24-Oct-2024 13:56:42 UTC] Range: District Officers!A1:DZ1008
+[24-Oct-2024 13:57:07 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:57:47 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:57:56 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:57:58 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:58:13 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[24-Oct-2024 13:58:18 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35

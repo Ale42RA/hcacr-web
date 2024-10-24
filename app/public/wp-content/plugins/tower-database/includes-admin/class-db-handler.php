@@ -285,7 +285,7 @@ class DB_Officer_Handler {
             Role text NOT NULL,
             Name text NOT NULL,
             Address text DEFAULT NULL,
-            Mobile text DEFAULT NULL,
+            Phone text DEFAULT NULL,
             Email text DEFAULT NULL,
             PRIMARY KEY (officer_id)
         ) $charset_collate;";
@@ -338,7 +338,7 @@ class DB_Officer_Handler {
                     'Role' => sanitize_and_validate_field($data['Role'], 'text'),
                     'Name' => sanitize_and_validate_field($data['Name'], 'text'),
                     'Address' => sanitize_and_validate_field($data['Address'], 'text'),
-                    'Mobile' => sanitize_and_validate_field($data['Mobile'], 'text'),
+                    'Phone' => sanitize_and_validate_field($data['Phone'], 'text'),
                     'Email' => sanitize_and_validate_field($data['Email'], 'email'),
                 );
 
@@ -437,19 +437,7 @@ class DB_District_Officers_Handler {
         // Start transaction
         $wpdb->query('START TRANSACTION');
 
-        // Sanitize function
-        // function sanitize_and_validate_field($field_value, $field_type) {
-        //     switch ($field_type) {
-        //         case 'text':
-        //             return empty($field_value) ? '' : sanitize_text_field($field_value);
-        //         case 'email':
-        //             return empty($field_value) ? '' : sanitize_email($field_value);
-        //         case 'int':
-        //             return intval($field_value);
-        //         default:
-        //             return empty($field_value) ? '' : sanitize_text_field($field_value);
-        //     }
-        // }
+    
 
         // Clear table before insert
         $wpdb->query("TRUNCATE TABLE $table_name");
@@ -494,11 +482,19 @@ class DB_District_Officers_Handler {
         $table_name = $wpdb->prefix . self::$table_name;
         return $wpdb->get_results("SELECT * FROM $table_name");
     }
-    public static function get_officers_by_role($district) {
+    public static function get_officers_by_distrcit($district) {
         global $wpdb;
         $table_name = $wpdb->prefix . self::$table_name;
     
-        $sql = $wpdb->prepare("SELECT * FROM $table_name WHERE Role = %s", $district);
+        $sql = $wpdb->prepare(
+            "SELECT * FROM $table_name 
+             WHERE LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(District, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '.', ''), '  ', ' ')) = LOWER(%s)",
+            $district
+        );
+
+
+                // WHERE LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(District, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '.', ''), '  ', ' ')) = LOWER(%s)
+
         
         return $wpdb->get_results($sql);
     }

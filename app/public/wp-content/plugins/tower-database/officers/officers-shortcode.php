@@ -61,3 +61,31 @@ function hcacr_display_officers_by_role($role) {
 
     return ob_get_clean();
 }
+
+add_shortcode('display_by_district', 'hcacr_display_officers_by_district');
+
+function hcacr_display_officers_by_district() {
+    ob_start();
+
+    global $wpdb;
+    $district_officer_handler = new DB_District_Officers_Handler();
+    $district = get_district_from_url();
+    $dofficers = $district_officer_handler->get_officers_by_distrcit($district);
+
+    if (!empty($dofficers)) {
+        include plugin_dir_path(__FILE__) . 'officers-template.php';
+    } else {
+        echo '<p>No officers found for the role: ' . esc_html($district) . '.</p>';
+    }
+    
+
+    return ob_get_clean();
+}
+
+
+
+
+
+
+require_once plugin_dir_path(__FILE__) . '../generated-list/display.php';
+// get_district_from_url()

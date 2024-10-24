@@ -17,10 +17,8 @@ function get_district_from_url() {
                 $district = implode('-', $district_parts);
             }
             $district = sanitize_text_field(str_replace('-', ' ', $district));
-            function normalize_string($string) {
-                return str_replace(array("'", "(", ")"), '', $string);
-            }
-            $district = normalize_string($district);
+           
+            $district = str_replace(array("'", "(", ")"), '', $district);
 
             return $district;
         }
@@ -28,6 +26,7 @@ function get_district_from_url() {
 
     return null;
 }
+
 
 function tower_manager_display_towers($atts = []) {
     global $wpdb;
@@ -41,10 +40,7 @@ function tower_manager_display_towers($atts = []) {
     );
     
     $district_based = filter_var($atts['district_based'], FILTER_VALIDATE_BOOLEAN);
-
-    
-
-    
+ 
 
     if ($district_based) {
         $district = get_district_from_url();
