@@ -1,8 +1,14 @@
-
 <?php
 include 'filter_towers.php';
 ?>
 <style>
+.tower-cards-scrollable-container {
+    max-height: 600px; /* Adjust this height as needed */
+    overflow-y: auto;
+    border: 1px solid #ccc; /* Optional: add a border */
+    padding: 10px; /* Optional: add some padding */
+}
+
 .tower-cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -31,7 +37,6 @@ include 'filter_towers.php';
     overflow: hidden;
     background-color: white;
     margin: 20px;
-
 }
 
 .tower-card-image-container {
@@ -41,7 +46,6 @@ include 'filter_towers.php';
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    
 }
 
 .tower-card-body {
@@ -61,7 +65,6 @@ include 'filter_towers.php';
     text-transform: uppercase;
     text-align: left;
     font-family: avenir, sans-serif; 
-
 }
 
 .tower-card-body-columns {
@@ -80,7 +83,6 @@ include 'filter_towers.php';
     margin: 5px 0;
     font-size: 1em;
     font-family: avenir, sans-serif; 
-
 }
 
 .tower-card-footer a {
@@ -90,31 +92,33 @@ include 'filter_towers.php';
 
 <?php include 'tower_filter_form.php'; ?>
 
-<div class="tower-cards-container">
-    <?php if (!empty($towers)): ?>
-        <?php foreach ($towers as $tower): ?>
-            <a href="/tower/<?php echo strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->District)) . '~' . strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->Town)) . '~' . strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->Dedication)); ?>" class="tower-card-link">
-                <div class="tower-card">
-                    <div class="tower-card-image-container" style="background-image: url('<?php echo esc_url(wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph); ?>');">
-                    </div>
+<div class="tower-cards-scrollable-container">
+    <div class="tower-cards-container">
+        <?php if (!empty($towers)): ?>
+            <?php foreach ($towers as $tower): ?>
+                <a href="/tower/<?php echo strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->District)) . '~' . strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->Town)) . '~' . strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->Dedication)); ?>" class="tower-card-link">
+                    <div class="tower-card">
+                        <div class="tower-card-image-container" style="background-image: url('<?php echo esc_url(wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph); ?>');">
+                        </div>
 
-                    <div class="tower-card-body">
-                        <h2><?php echo esc_html($tower->Town); ?></h2>
+                        <div class="tower-card-body">
+                            <h2><?php echo esc_html($tower->Town); ?></h2>
 
-                        <div class="tower-card-body-columns">
-                            <div class="tower-card-body-column">
-                                <p><?php echo esc_html($tower->Dedication); ?></p>
-                            </div>
+                            <div class="tower-card-body-columns">
+                                <div class="tower-card-body-column">
+                                    <p><?php echo esc_html($tower->Dedication); ?></p>
+                                </div>
 
-                            <div class="tower-card-body-column">
-                                <p><?php echo display_bells_data_shortcode(['summary' => 'true'], $tower); ?></p>
+                                <div class="tower-card-body-column">
+                                    <p><?php echo display_bells_data_shortcode(['summary' => 'true'], $tower); ?></p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </a>
-        <?php endforeach; ?>
-    <?php else: ?>
-        <p>No towers found for the selected criteria.</p>
-    <?php endif; ?>
+                </a>
+            <?php endforeach; ?>
+        <?php else: ?>
+            <p>No towers found for the selected criteria.</p>
+        <?php endif; ?>
+    </div>
 </div>

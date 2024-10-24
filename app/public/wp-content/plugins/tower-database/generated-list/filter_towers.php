@@ -1,13 +1,31 @@
 <?php
-    $search_term = $_GET['search'] ?? '';
-    if ($search_term) {
+   $search_term = $_GET['search'] ?? '';
+   if ($search_term) {
 
-        $search_metaphone = metaphone($search_term); //metaphone
-        $towers = array_filter($towers, function($tower) use ($search_metaphone) {
-            $town_metaphone = metaphone($tower->Town);
-            return $town_metaphone === $search_metaphone;
-        });
-    }
+        
+        $search_metaphone = metaphone($search_term); 
+        $towers = array_filter($towers, function($tower) use ($search_metaphone, $search_term) {
+            //METAPHONE
+            $town_metaphone = metaphone($tower->Town); 
+            $town_name = $tower->Town; 
+
+            if ($town_metaphone === $search_metaphone) {
+                return true;
+            }
+            //Incomplete words
+            if (stripos($town_name, $search_term) !== false) {
+                return true;
+            }
+            //levenshtein -- typos
+            $levenshtein_distance = levenshtein($search_term, $town_name);
+            $max_distance = min(strlen($search_term), strlen($town_name)) / 3; 
+            if ($levenshtein_distance <= $max_distance) {
+                return true;
+            }
+
+            return false;
+       });
+   }
 
     // get the distinct towns for filtering
     $towns = array_unique(array_map(function($tower) {
