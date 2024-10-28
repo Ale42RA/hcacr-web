@@ -7,7 +7,7 @@ jQuery('a[href="#logs"]').on('click', function () {
     const initObject = {
         processing: true,
         ajax: {
-            "url": `${ajaxurl}?action=mpg_get_log_by_project_id&projectId=${projectId}`,
+            "url": `${ajaxurl}?action=mpg_get_log_by_project_id&projectId=${projectId}&securityNonce=${backendData.securityNonce}`,
             "type": "POST"
         },
         columns: [
@@ -20,7 +20,10 @@ jQuery('a[href="#logs"]').on('click', function () {
         ],
         serverSide: true,
         searching: false,
-        retrieve: true
+        retrieve: true,
+        language: {
+            "lengthMenu": "Show _MENU_ entries",
+        }
     }
 
     jQuery('#mpg_logs_table').DataTable(initObject);

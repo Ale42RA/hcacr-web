@@ -1,0 +1,915 @@
+<?xml version="1.0" standalone="yes"?>
+<Grants>
+<Grant>
+  <Year>1974</Year>
+  <Tower>Sarratt</Tower>
+  <Grant_amount>100</Grant_amount>
+  <Percent>21</Percent>
+  <Estimated_cost>476</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1975</Year>
+  <Tower>Stevenage</Tower>
+  <Grant_amount>50</Grant_amount>
+  <Percent>17</Percent>
+  <Estimated_cost>300</Estimated_cost>
+  <Purpose>Bell repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1976</Year>
+  <Tower>Ashwell</Tower>
+  <Grant_amount>100</Grant_amount>
+  <Percent>0.7</Percent>
+  <Estimated_cost>15000</Estimated_cost>
+  <Purpose>Tower repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1976</Year>
+  <Tower>Rushden</Tower>
+  <Grant_amount>100</Grant_amount>
+  <Percent>7</Percent>
+  <Estimated_cost>1502</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1977</Year>
+  <Tower>Lemsford</Tower>
+  <Grant_amount>300</Grant_amount>
+  <Percent>7</Percent>
+  <Estimated_cost>4450</Estimated_cost>
+  <Purpose>New 6</Purpose>
+</Grant>
+<Grant>
+  <Year>1978</Year>
+  <Tower>Little Gaddesden</Tower>
+  <Grant_amount>0</Grant_amount>
+  <Percent>0</Percent>
+  <Estimated_cost>7100</Estimated_cost>
+  <Purpose>New 6</Purpose>
+</Grant>
+<Grant>
+  <Year>1978</Year>
+  <Tower>Watton-at-Stone</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>34</Percent>
+  <Estimated_cost>1480</Estimated_cost>
+  <Purpose>New 8</Purpose>
+</Grant>
+<Grant>
+  <Year>1978</Year>
+  <Tower>Albury</Tower>
+  <Grant_amount>250</Grant_amount>
+  <Percent>18</Percent>
+  <Estimated_cost>1355</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1979</Year>
+  <Tower>Ware</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>2</Percent>
+  <Estimated_cost>22000</Estimated_cost>
+  <Purpose>Tower repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1979</Year>
+  <Tower>Nettleden</Tower>
+  <Grant_amount>200</Grant_amount>
+  <Percent>14</Percent>
+  <Estimated_cost>1387</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1980</Year>
+  <Tower>Little Hadham</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>24</Percent>
+  <Estimated_cost>2064</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1980</Year>
+  <Tower>Rickmansworth</Tower>
+  <Grant_amount>250</Grant_amount>
+  <Percent>43</Percent>
+  <Estimated_cost>576</Estimated_cost>
+  <Purpose>Bell repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1980</Year>
+  <Tower>Harpenden</Tower>
+  <Grant_amount>200</Grant_amount>
+  <Percent>1</Percent>
+  <Estimated_cost>20000</Estimated_cost>
+  <Purpose>Tower repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1980</Year>
+  <Tower>Knebworth</Tower>
+  <Grant_amount>200</Grant_amount>
+  <Percent>0.7</Percent>
+  <Estimated_cost>30000</Estimated_cost>
+  <Purpose>Tower repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1981</Year>
+  <Tower>Hunsdon</Tower>
+  <Grant_amount>100</Grant_amount>
+  <Percent>10</Percent>
+  <Estimated_cost>1000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1981</Year>
+  <Tower>South Mymms</Tower>
+  <Grant_amount>100</Grant_amount>
+  <Percent>0.3</Percent>
+  <Estimated_cost>30000</Estimated_cost>
+  <Purpose>Tower repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1981</Year>
+  <Tower>Furneux Pelham</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>5</Percent>
+  <Estimated_cost>10000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1982</Year>
+  <Tower>Kimpton</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>5</Percent>
+  <Estimated_cost>9357</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1982</Year>
+  <Tower>Great Munden</Tower>
+  <Grant_amount>200</Grant_amount>
+  <Percent>47</Percent>
+  <Estimated_cost>300</Estimated_cost>
+  <Purpose>Bell repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1983</Year>
+  <Tower>Hemel Hempstead</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>0.4</Percent>
+  <Estimated_cost>250000</Estimated_cost>
+  <Purpose>Tower repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1984</Year>
+  <Tower>Anstey</Tower>
+  <Grant_amount>250</Grant_amount>
+  <Percent>9</Percent>
+  <Estimated_cost>2737</Estimated_cost>
+  <Purpose>Bell repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1984</Year>
+  <Tower>Aldbury</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>3</Percent>
+  <Estimated_cost>17740</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1985</Year>
+  <Tower>Codicote</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>5</Percent>
+  <Estimated_cost>10000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1985</Year>
+  <Tower>North Mymms</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>6</Percent>
+  <Estimated_cost>18060</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1985</Year>
+  <Tower>Great Hormead</Tower>
+  <Grant_amount>50</Grant_amount>
+  <Percent>8</Percent>
+  <Estimated_cost>615</Estimated_cost>
+  <Purpose>Bell repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1985</Year>
+  <Tower>Widford</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>6</Percent>
+  <Estimated_cost>9000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1985</Year>
+  <Tower>Hinxworth</Tower>
+  <Grant_amount>150</Grant_amount>
+  <Percent>10</Percent>
+  <Estimated_cost>1535</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1987</Year>
+  <Tower>Lilley</Tower>
+  <Grant_amount>600</Grant_amount>
+  <Percent>7</Percent>
+  <Estimated_cost>8612</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1987</Year>
+  <Tower>Harpenden</Tower>
+  <Grant_amount>50</Grant_amount>
+  <Percent>8</Percent>
+  <Estimated_cost>600</Estimated_cost>
+  <Purpose>Clappers</Purpose>
+</Grant>
+<Grant>
+  <Year>1987</Year>
+  <Tower>Hertford, All Saints</Tower>
+  <Grant_amount>150</Grant_amount>
+  <Percent>10</Percent>
+  <Estimated_cost>1531</Estimated_cost>
+  <Purpose>Clappers</Purpose>
+</Grant>
+<Grant>
+  <Year>1987</Year>
+  <Tower>Tring</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>4</Percent>
+  <Estimated_cost>25000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1987</Year>
+  <Tower>Berkhamsted</Tower>
+  <Grant_amount>150</Grant_amount>
+  <Percent>3</Percent>
+  <Estimated_cost>4416</Estimated_cost>
+  <Purpose>Repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>1988</Year>
+  <Tower>Kings Langley</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>2</Percent>
+  <Estimated_cost>30000</Estimated_cost>
+  <Purpose>Tower repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1989</Year>
+  <Tower>Albury</Tower>
+  <Grant_amount>400</Grant_amount>
+  <Percent>9</Percent>
+  <Estimated_cost>4648</Estimated_cost>
+  <Purpose>Bell recast</Purpose>
+</Grant>
+<Grant>
+  <Year>1989</Year>
+  <Tower>Bishop&apos;s Stortford</Tower>
+  <Grant_amount>200</Grant_amount>
+  <Percent>5</Percent>
+  <Estimated_cost>4200</Estimated_cost>
+  <Purpose>Overhaul</Purpose>
+</Grant>
+<Grant>
+  <Year>1990</Year>
+  <Tower>Harpenden</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>1.5</Percent>
+  <Estimated_cost>32000</Estimated_cost>
+  <Purpose>Recasting</Purpose>
+</Grant>
+<Grant>
+  <Year>1990</Year>
+  <Tower>Essendon</Tower>
+  <Grant_amount>1500</Grant_amount>
+  <Percent>4</Percent>
+  <Estimated_cost>37000</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1990</Year>
+  <Tower>St Albans, St Peter</Tower>
+  <Grant_amount>1500</Grant_amount>
+  <Percent>1.1</Percent>
+  <Estimated_cost>140000</Estimated_cost>
+  <Purpose>Restoration</Purpose>
+</Grant>
+<Grant>
+  <Year>1992</Year>
+  <Tower>Barnet</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>7.1</Percent>
+  <Estimated_cost>28000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1993</Year>
+  <Tower>Benington</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>25</Percent>
+  <Estimated_cost>4000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1993</Year>
+  <Tower>Bushey Heath</Tower>
+  <Grant_amount>130</Grant_amount>
+  <Percent>24.5</Percent>
+  <Estimated_cost>530</Estimated_cost>
+  <Purpose>Repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>1993</Year>
+  <Tower>Standon</Tower>
+  <Grant_amount>2500</Grant_amount>
+  <Percent>7.1</Percent>
+  <Estimated_cost>35000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1993</Year>
+  <Tower>Lilley</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>2.56</Percent>
+  <Estimated_cost>39000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>1993</Year>
+  <Tower>Abbots Langley</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>10</Percent>
+  <Estimated_cost>20000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1994</Year>
+  <Tower>Barkway</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>9.5</Percent>
+  <Estimated_cost>21000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1994</Year>
+  <Tower>Flamstead</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>1</Percent>
+  <Estimated_cost>200000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>1994</Year>
+  <Tower>Hertford, St Andrew</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>13</Percent>
+  <Estimated_cost>7500</Estimated_cost>
+  <Purpose>Partial rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1995</Year>
+  <Tower>Lilley</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>11</Percent>
+  <Estimated_cost>4500</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1995</Year>
+  <Tower>St Albans, St Stephen</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>13</Percent>
+  <Estimated_cost>3750</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>1995</Year>
+  <Tower>Ridge</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>5</Percent>
+  <Estimated_cost>41000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1997</Year>
+  <Tower>Potten End</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>1.7</Percent>
+  <Estimated_cost>29000</Estimated_cost>
+  <Purpose>Chime</Purpose>
+</Grant>
+<Grant>
+  <Year>1997</Year>
+  <Tower>Northchurch</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>15.6</Percent>
+  <Estimated_cost>6400</Estimated_cost>
+  <Purpose>Bell repair</Purpose>
+</Grant>
+<Grant>
+  <Year>1997</Year>
+  <Tower>Great Offley</Tower>
+  <Grant_amount>2500</Grant_amount>
+  <Percent>8.33</Percent>
+  <Estimated_cost>30000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1998</Year>
+  <Tower>Westmill</Tower>
+  <Grant_amount>2500</Grant_amount>
+  <Percent>5.3</Percent>
+  <Estimated_cost>39000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1998</Year>
+  <Tower>Sandon</Tower>
+  <Grant_amount>2500</Grant_amount>
+  <Percent>11.4</Percent>
+  <Estimated_cost>22000</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>1998</Year>
+  <Tower>Kimpton</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>1.67</Percent>
+  <Estimated_cost>60000</Estimated_cost>
+  <Purpose>Tower restoration</Purpose>
+</Grant>
+<Grant>
+  <Year>1998</Year>
+  <Tower>Ashwell</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>11.9</Percent>
+  <Estimated_cost>4200</Estimated_cost>
+  <Purpose>Overhaul fittings</Purpose>
+</Grant>
+<Grant>
+  <Year>1998</Year>
+  <Tower>Great Amwell</Tower>
+  <Grant_amount>300</Grant_amount>
+  <Percent>36.14</Percent>
+  <Estimated_cost>830</Estimated_cost>
+  <Purpose>Clapper refurbishment</Purpose>
+</Grant>
+<Grant>
+  <Year>1999</Year>
+  <Tower>Stocking Pelham</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>9.09</Percent>
+  <Estimated_cost>5500</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1999</Year>
+  <Tower>Bishop&apos;s Stortford, Holy Trinity</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>5.15</Percent>
+  <Estimated_cost>9700</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>1999</Year>
+  <Tower>Great Offley</Tower>
+  <Grant_amount>2500</Grant_amount>
+  <Percent>8.3</Percent>
+  <Estimated_cost>30000</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+</Grant>
+<Grant>
+  <Year>2000</Year>
+  <Tower>Hemel Hempstead</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>2.94</Percent>
+  <Estimated_cost>34000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2000</Year>
+  <Tower>Knebworth</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>11.11</Percent>
+  <Estimated_cost>9000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2001</Year>
+  <Tower>Ashwell</Tower>
+  <Grant_amount>2500</Grant_amount>
+  <Percent>8.33</Percent>
+  <Estimated_cost>30000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2001</Year>
+  <Tower>Wallington</Tower>
+  <Grant_amount>250</Grant_amount>
+  <Percent>41.67</Percent>
+  <Estimated_cost>600</Estimated_cost>
+  <Purpose>New ropes</Purpose>
+</Grant>
+<Grant>
+  <Year>2002</Year>
+  <Tower>Little Wymondley</Tower>
+  <Grant_amount>5000</Grant_amount>
+  <Percent>22.73</Percent>
+  <Estimated_cost>22000</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+</Grant>
+<Grant>
+  <Year>2002</Year>
+  <Tower>Ware</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>4</Percent>
+  <Estimated_cost>50000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2003</Year>
+  <Tower>Sawbridgeworth</Tower>
+  <Grant_amount>10000</Grant_amount>
+  <Percent>10.42</Percent>
+  <Estimated_cost>96000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2003</Year>
+  <Tower>Kings Langley</Tower>
+  <Grant_amount>110</Grant_amount>
+  <Percent>17.74</Percent>
+  <Estimated_cost>620</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2004</Year>
+  <Tower>Great Gaddesden</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>10.53</Percent>
+  <Estimated_cost>19000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2004</Year>
+  <Tower>Welwyn</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>28.57</Percent>
+  <Estimated_cost>3500</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2005</Year>
+  <Tower>Great Berkhamsted</Tower>
+  <Grant_amount>700</Grant_amount>
+  <Percent>12.33</Percent>
+  <Estimated_cost>5675</Estimated_cost>
+  <Purpose>Sound proofing</Purpose>
+</Grant>
+<Grant>
+  <Year>2005</Year>
+  <Tower>Monken Hadley</Tower>
+  <Grant_amount>500</Grant_amount>
+  <Percent>24.93</Percent>
+  <Estimated_cost>2000</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2005</Year>
+  <Tower>Thorley</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>4.15</Percent>
+  <Estimated_cost>24050</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2006</Year>
+  <Tower>Bishop&apos;s Stortford</Tower>
+  <Grant_amount>3000</Grant_amount>
+  <Percent>13.9</Percent>
+  <Estimated_cost>21588</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2006</Year>
+  <Tower>King&apos;s Walden</Tower>
+  <Grant_amount>4500</Grant_amount>
+  <Percent>14.54</Percent>
+  <Estimated_cost>30928</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2007</Year>
+  <Tower>Walkern</Tower>
+  <Grant_amount>848</Grant_amount>
+  <Percent>21.11</Percent>
+  <Estimated_cost>4023</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2007</Year>
+  <Tower>Codicote</Tower>
+  <Grant_amount>250</Grant_amount>
+  <Percent>21.28</Percent>
+  <Estimated_cost>1175</Estimated_cost>
+  <Purpose>Tower Repairs</Purpose>
+</Grant>
+<Grant>
+  <Year>2008</Year>
+  <Tower>Pirton</Tower>
+  <Grant_amount>5000</Grant_amount>
+  <Percent>24.02</Percent>
+  <Estimated_cost>20815</Estimated_cost>
+  <Purpose>Rehanging</Purpose>
+  </Grant>
+<Grant>
+  <Year>2009</Year>
+  <Tower>Hertford St Andrew</Tower>
+  <Grant_amount>250</Grant_amount>
+  <Percent>48.73</Percent>
+  <Estimated_cost>513</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+  </Grant>
+<Grant>
+  <Year>2009</Year>
+  <Tower>Hemel Hempstead</Tower>
+  <Grant_amount>1300</Grant_amount>
+  <Percent>20.00</Percent>
+  <Estimated_cost>6500</Estimated_cost>
+  <Purpose>Refurbishment</Purpose>
+  </Grant>
+<Grant>
+  <Year>2009</Year>
+  <Tower>Northchurch</Tower>
+  <Grant_amount>100</Grant_amount>
+  <Percent>27.78</Percent>
+  <Estimated_cost>360</Estimated_cost>
+  <Purpose>Clapper repair</Purpose>
+  </Grant>
+<Grant>
+  <Year>2009</Year>
+  <Tower>St Albans St Michaels</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>10.16</Percent>
+  <Estimated_cost>9838</Estimated_cost>
+  <Purpose>Refurbishment</Purpose>
+  </Grant>
+<Grant>
+  <Year>2009</Year>
+  <Tower>Hatfield</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>24.19</Percent>
+  <Estimated_cost>8267</Estimated_cost>
+  <Purpose>Bearings</Purpose>
+  </Grant>
+<Grant>
+  <Year>2009</Year>
+  <Tower>Weston</Tower>
+  <Grant_amount>9000</Grant_amount>
+  <Percent>23.84</Percent>
+  <Estimated_cost>37748</Estimated_cost>
+  <Purpose>Turning &amp; refitting</Purpose>
+  </Grant>
+<Grant>
+  <Year>2009</Year>
+  <Tower>St Albans Abbey</Tower>
+  <Grant_amount>10726</Grant_amount>
+  <Percent>3.15</Percent>
+  <Estimated_cost>340000</Estimated_cost>
+  <Purpose>New ring of 13</Purpose>
+  </Grant>
+<Grant>
+  <Year>2010</Year>
+  <Tower>St Ippolyts</Tower>
+  <Grant_amount>795</Grant_amount>
+  <Percent>20.18</Percent>
+  <Estimated_cost>3939</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+  </Grant>
+<Grant>
+  <Year>2010</Year>
+  <Tower>Sandon</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>13.82</Percent>
+  <Estimated_cost>14467</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+  </Grant>
+<Grant>
+  <Year>2010</Year>
+  <Tower>Sandridge</Tower>
+  <Grant_amount>5000</Grant_amount>
+  <Percent>17.25</Percent>
+  <Estimated_cost>28987</Estimated_cost>
+  <Purpose>Refurbishment</Purpose>
+  </Grant>
+<Grant>
+  <Year>2010</Year>
+  <Tower>Bushey Heath</Tower>
+  <Grant_amount>200</Grant_amount>
+  <Percent>17.70</Percent>
+  <Estimated_cost>1130</Estimated_cost>
+  <Purpose>Ropes</Purpose>
+  </Grant>
+<Grant>
+  <Year>2011</Year>
+  <Tower>Aston</Tower>
+  <Grant_amount>200</Grant_amount>
+  <Percent>9.61</Percent>
+  <Estimated_cost>2081</Estimated_cost>
+  <Purpose>Bearings</Purpose>
+  </Grant>
+<Grant>
+  <Year>2011</Year>
+  <Tower>Graveley</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>7.46</Percent>
+  <Estimated_cost>13396</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+  </Grant>
+<Grant>
+  <Year>2011</Year>
+  <Tower>Apsley End</Tower>
+  <Grant_amount>6000</Grant_amount>
+  <Percent>20.00</Percent>
+  <Estimated_cost>35000</Estimated_cost>
+  <Purpose>Refurbishment</Purpose>
+  </Grant>
+<Grant>
+  <Year>2012</Year>
+  <Tower>Baldock</Tower>
+  <Grant_amount>10000</Grant_amount>
+  <Percent>1.30</Percent>
+  <Estimated_cost>770000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+  </Grant>
+<Grant>
+  <Year>2012</Year>
+  <Tower>Hitchin</Tower>
+  <Grant_amount>11000</Grant_amount>
+  <Percent>6.92</Percent>
+  <Estimated_cost>159000</Estimated_cost>
+  <Purpose>Major work</Purpose>
+  </Grant>
+<Grant>
+  <Year>2013</Year>
+  <Tower>Pirton</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>18.18</Percent>
+  <Estimated_cost>5500</Estimated_cost>
+  <Purpose>False ceiling</Purpose>
+  </Grant>
+<Grant>
+  <Year>2014</Year>
+  <Tower>Bushey</Tower>
+  <Grant_amount>10000</Grant_amount>
+  <Percent>11</Percent>
+  <Estimated_cost>90000</Estimated_cost>
+  <Purpose>Major work</Purpose>
+  </Grant>
+<Grant>
+  <Year>2015</Year>
+  <Tower>Widford</Tower>
+  <Grant_amount>6000</Grant_amount>
+  <Percent>16</Percent>
+  <Estimated_cost>35000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+ </Grant>
+<Grant>
+  <Year>2015</Year>
+  <Tower>Ware</Tower>
+  <Grant_amount>7500</Grant_amount>
+  <Percent>10</Percent>
+  <Estimated_cost>75000</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+  </Grant>
+<Grant>
+  <Year>2016</Year>
+  <Tower>Great Stanmore</Tower>
+  <Grant_amount>1000</Grant_amount>
+  <Percent>4</Percent>
+  <Estimated_cost>25000</Estimated_cost>
+  <Purpose>Bell repairs</Purpose>
+ </Grant>
+<Grant>
+  <Year>2017</Year>
+  <Tower>Broxbourne</Tower>
+  <Grant_amount>5000</Grant_amount>
+  <Percent>9.52</Percent>
+  <Estimated_cost>52496</Estimated_cost>
+  <Purpose>Tower repairs</Purpose>
+ </Grant>
+<Grant>
+  <Year>2017</Year>
+  <Tower>Thorley</Tower>
+  <Grant_amount>250</Grant_amount>
+  <Percent>9.26</Percent>
+  <Estimated_cost>2700</Estimated_cost>
+  <Purpose>Wheel</Purpose>
+ </Grant>
+<Grant>
+  <Year>2018</Year>
+  <Tower>Norton</Tower>
+  <Grant_amount>150</Grant_amount>
+  <Percent>33.78</Percent>
+  <Estimated_cost>444</Estimated_cost>
+  <Purpose>Clapper Repair</Purpose>
+ </Grant>
+<Grant>
+  <Year>2018</Year>
+  <Tower>Much Hadham</Tower>
+  <Grant_amount>7000</Grant_amount>
+  <Percent>11.24</Percent>
+  <Estimated_cost>62275</Estimated_cost>
+  <Purpose>Refurbishment</Purpose>
+ </Grant>
+<Grant>
+  <Year>2019</Year>
+  <Tower>Cottered</Tower>
+  <Grant_amount>2000</Grant_amount>
+  <Percent>24.52</Percent>
+  <Estimated_cost>8156</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+ </Grant>
+<Grant>
+  <Year>2020</Year>
+  <Tower>Furneux Pelham</Tower>
+  <Grant_amount>2928</Grant_amount>
+  <Percent>53.33</Percent>
+  <Estimated_cost>5490</Estimated_cost>
+  <Purpose>Lower Ringing Room</Purpose>
+ </Grant>
+<Grant>
+  <Year>2021</Year>
+  <Tower>Little Munden</Tower>
+  <Grant_amount>5000</Grant_amount>
+  <Percent>10.48</Percent>
+  <Estimated_cost>47725</Estimated_cost>
+  <Purpose>Replace Bell Frame</Purpose>
+ </Grant>
+<Grant>
+  <Year>2021</Year>
+  <Tower>Redbourn</Tower>
+  <Grant_amount>250</Grant_amount>
+  <Percent>24.51</Percent>
+  <Estimated_cost>1020</Estimated_cost>
+  <Purpose>Rebush Clappers</Purpose>
+ </Grant>
+<Grant>
+  <Year>2022</Year>
+  <Tower>Weston</Tower>
+  <Grant_amount>300</Grant_amount>
+  <Percent>10.81</Percent>
+  <Estimated_cost>2775</Estimated_cost>
+  <Purpose>Stay box</Purpose>
+ </Grant>
+<Grant>
+  <Year>2022</Year>
+  <Tower>Hertford, All Saints</Tower>
+  <Grant_amount>2500</Grant_amount>
+  <Percent>12.33</Percent>
+  <Estimated_cost>20275</Estimated_cost>
+  <Purpose>Rehang</Purpose>
+ </Grant>
+<Grant>
+  <Year>2022</Year>
+  <Tower>Bishop's Stortford</Tower>
+  <Grant_amount>13500</Grant_amount>
+  <Percent>10.55</Percent>
+  <Estimated_cost>127962</Estimated_cost>
+  <Purpose>Augmentation</Purpose>
+ </Grant>
+<Grant>
+  <Year>2023</Year>
+  <Tower>Great Amwell</Tower>
+  <Grant_amount>5000</Grant_amount>
+  <Percent>6.62</Percent>
+  <Estimated_cost>74582</Estimated_cost>
+  <Purpose>Tower repais</Purpose>
+ </Grant>
+<Grant>
+  <Year>2023</Year>
+  <Tower>Hitchin</Tower>
+  <Grant_amount>470</Grant_amount>
+  <Percent>10.00</Percent>
+  <Estimated_cost>4700</Estimated_cost>
+  <Purpose>Rope Guides</Purpose>
+ </Grant>
+<Grant>
+  <Year>2023</Year>
+  <Tower>Tring</Tower>
+  <Grant_amount>400</Grant_amount>
+  <Percent>10.00</Percent>
+  <Estimated_cost>4000</Estimated_cost>
+  <Purpose>Refurbishment</Purpose>
+ </Grant>
+ </Grants>
