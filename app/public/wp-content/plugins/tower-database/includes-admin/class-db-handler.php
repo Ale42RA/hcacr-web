@@ -13,6 +13,7 @@ class DB_Tower_Handler {
             tower_id mediumint(9) NOT NULL AUTO_INCREMENT,
         ID mediumint(9) NOT NULL,
         Town text NOT NULL,
+        Display_name text NOT NULL,
         Dedication text DEFAULT NULL,
         District text DEFAULT NULL,
         Photograph text DEFAULT NULL,
@@ -157,6 +158,7 @@ class DB_Tower_Handler {
                 $tower_data = array(
                     'ID' => sanitize_and_validate_field($data['ID'], 'int'),
                     'Town' => sanitize_and_validate_field($data['Town'], 'text'),
+                    'Display_name' => sanitize_and_validate_field($data['Display_name'], 'text'),
                     'Dedication' => sanitize_and_validate_field($data['Dedication'], 'text'),
                     'District' => sanitize_and_validate_field($data['District'], 'text'),
                     'Photograph' => sanitize_and_validate_field($data['Photograph'], 'text'),
