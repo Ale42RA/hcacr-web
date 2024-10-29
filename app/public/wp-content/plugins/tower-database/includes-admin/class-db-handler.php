@@ -118,6 +118,7 @@ class DB_Tower_Handler {
         global $wpdb;
         $table_name = $wpdb->prefix . self::$table_name;
 
+
         // Fetch data from Google Sheets
         global $towerGoogle;
         $towerGoogle = new Google_Sheet();
@@ -251,7 +252,6 @@ class DB_Tower_Handler {
                     'Tower_captain_telephone' => sanitize_and_validate_field($data['Tower_captain_telephone'], 'text'),
                     'Tower_captain_e_mail' => sanitize_and_validate_field($data['Tower_captain_e_mail'], 'text'),
                 );
-    
                 if (false === $wpdb->insert($table_name, $tower_data)) {
                     throw new Exception('Database insert failed: ' . $wpdb->last_error);
                 }
