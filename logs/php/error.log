@@ -7694,3 +7694,107 @@ Stack trace:
 [25-Oct-2024 00:15:08 UTC] Failed to insert row: {"ID":"1","Town":"Albury","Display_name":"","Dedication":"St. Mary the Virgin","District":"Bishop's Stortford","Photograph":"Albury.jpg","Practice_night":"By arrangement","Service_ringing":"Check <A HREF=https:\/\/www.riverashchurches.org.uk\/>www.riverashchurches.org.uk<\/A> for Sunday morning services","Ringing_master":"","Tower_captain":"","Secretary":"Chris Gerber","Secretary_address_Address_line_1":"Chestnut Cottage","Secretary_address_Address_line_2":"Albury Lodge","Secretary_address_Address_line_3":"Albury","Secretary_address_Address_line_4":"SG11 2LH","Secretary_telephone":"01279 776117","Secretary_mobile":"","Secretary_e_mail_0":"cgerber120@btinternet.com","Secretary_comments":"","What3WordsDoorLoc_0":"ponies.present.tripling","Number_of_bells":"6","Comment_1":"","Comment_1_link":"","Comment_2":"","Comment_2_link":"","Bell_comment":"Ground floor ring","Bell_comment_link":"","DoveID":"11127","Ground_floor":"TRUE","Toilet":"TRUE","Bells_Bell_0_Number":"1","Bells_Bell_0_Date":"1978","Bells_Bell_0_Weight":"4-1-14","Bells_Bell_0_Note":"D","Bells_Bell_1_Number":"2","Bells_Bell_1_Date":"c1400","Bells_Bell_1_Weight":"6-1-20","Bells_Bell_1_Note":"C","Bells_Bell_2_Number":"3","Bells_Bell_2_Date":"c1440","Bells_Bell_2_Weight":"5-3-20","Bells_Bell_2_Note":"Bb","Bells_Bell_3_Number":"4","Bells_Bell_3_Date":"c1440","Bells_Bell_3_Weight":"7-3-5","Bells_Bell_3_Note":"A","Bells_Bell_4_Number":"5","Bells_Bell_4_Date":"1989","Bells_Bell_4_Weight":"9-2-17","Bells_Bell_4_Note":"G","Bells_Bell_5_Number":"6","Bells_Bell_5_Date":"1607","Bells_Bell_5_Weight":"13-2-25","Bells_Bell_5_Note":"F","Bells_Bell_6_Number":null,"Bells_Bell_6_Date":null,"Bells_Bell_6_Weight":null,"Bells_Bell_6_Note":null,"Bells_Bell_7_Number":null,"Bells_Bell_7_Date":null,"Bells_Bell_7_Weight":null,"Bells_Bell_7_Note":null,"Bells_Bell_8_Number":null,"Bells_Bell_8_Date":null,"Bells_Bell_8_Weight":null,"Bells_Bell_8_Note":null,"Bells_Bell_9_Number":null,"Bells_Bell_9_Date":null,"Bells_Bell_9_Weight":null,"Bells_Bell_9_Note":null,"Bells_Bell_10_Number":null,"Bells_Bell_10_Date":null,"Bells_Bell_10_Weight":null,"Bells_Bell_10_Note":null,"Bells_Bell_11_Number":null,"Bells_Bell_11_Date":null,"Bells_Bell_11_Weight":null,"Bells_Bell_11_Note":null,"Bells_Bell_12_Number":null,"Bells_Bell_12_Date":null,"Bells_Bell_12_Weight":null,"Bells_Bell_12_Note":null,"Include_dedication":null,"Deputy_secretary":null,"Deputy_secretary_address":null,"Deputy_secretary_telephone":null,"Deputy_secretary_mobile":null,"Deputy_secretary_e_mail":null,"Deputy_secretary_comments":null,"Ringing_master_telephone":null,"Ringing_master_e_mail":null,"Practice_night_phone_to_confirm":null,"Practice_night_comments":null,"Tower_captain_telephone":null,"Tower_captain_e_mail":null} Error: Database insert failed: Unknown column 'Display_name' in 'field list'
 [25-Oct-2024 00:16:03 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
 [25-Oct-2024 00:16:03 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:10:12 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:10:38 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:10:38 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:10:55 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:10:55 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:12:25 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:12:25 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:12:25 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:13:04 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:13:04 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:13:04 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:13:04 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:13:11 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:13:13 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:16:43 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:17:08 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:18:28 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:18:28 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:18:28 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:18:30 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:18:57 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:20:43 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:21:55 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:21:56 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:23:39 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:23:40 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:24:16 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:24:38 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:24:49 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:24:54 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:24:54 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:25:10 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:25:19 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:25:19 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:25:22 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:25:22 UTC] Range: Officers!A1:DZ1008
+[28-Oct-2024 21:25:23 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:25:23 UTC] Range: District Officers!A1:DZ1008
+[28-Oct-2024 21:25:25 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:25:25 UTC] Range: Officers!A1:DZ1008
+[28-Oct-2024 21:25:26 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:25:26 UTC] Range: District Officers!A1:DZ1008
+[28-Oct-2024 21:25:29 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:25:36 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:26:04 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:36:53 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:36:59 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 21:37:54 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:37:54 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:38:13 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:38:13 UTC] Range: Officers!A1:DZ1008
+[28-Oct-2024 21:38:14 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:38:14 UTC] Range: District Officers!A1:DZ1008
+[28-Oct-2024 21:45:51 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:45:51 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:48:20 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:48:20 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:48:24 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:48:24 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:48:26 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:48:26 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:48:39 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:48:39 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:48:42 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:48:42 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:49:03 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:49:03 UTC] Range: Officers!A1:DZ1008
+[28-Oct-2024 21:49:04 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:49:04 UTC] Range: District Officers!A1:DZ1008
+[28-Oct-2024 21:57:17 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:57:17 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:59:31 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:59:31 UTC] Range: A1:DZ1008
+[28-Oct-2024 21:59:33 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:59:33 UTC] Range: Officers!A1:DZ1008
+[28-Oct-2024 21:59:34 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 21:59:34 UTC] Range: District Officers!A1:DZ1008
+[28-Oct-2024 22:12:18 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:12:38 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:12:38 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:12:51 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:16:28 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:25:10 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:25:10 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:30:14 UTC] Spreadsheet ID: 1QcwrY0zJOH3Sv8iBQ9G_NiZj3DcVxOsn13QP-6JKvbA
+[28-Oct-2024 22:30:14 UTC] Range: A1:DZ1008
+[28-Oct-2024 22:30:54 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:31:05 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:31:38 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:38:45 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:40:07 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:40:47 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:46:12 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:46:39 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[28-Oct-2024 22:47:57 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 09:16:59 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 09:20:58 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 09:22:49 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 09:24:53 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 09:27:36 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 09:39:20 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 09:40:12 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 09:41:02 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35
+[29-Oct-2024 10:08:24 UTC] PHP Warning:  Undefined variable $district_town_map in /Users/alejandrarivasadames/Local Sites/hcacr/app/public/wp-content/plugins/tower-database/generated-list/tower_filter_form.php on line 35

@@ -96,7 +96,8 @@ include 'filter_towers.php';
     <div class="tower-cards-container">
         <?php if (!empty($towers)): ?>
             <?php foreach ($towers as $tower): ?>
-                <a href="/tower/<?php echo strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->District)) . '~' . strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->Town)) . '~' . strtolower(str_replace([' ', '(', ')', '&', "'"], ['-', '', '', '', ''], $tower->Dedication)); ?>" class="tower-card-link">
+                <a href="/tower-<?php echo strtolower( $tower->DoveID)?>" class="tower-card-link">
+                     <!-- http://hcacr.local/tower-15828/ -->
                     <div class="tower-card">
                         <div class="tower-card-image-container" style="background-image: url('<?php echo esc_url(wp_upload_dir()['baseurl'] . '/tower/' . $tower->Photograph); ?>');">
                         </div>

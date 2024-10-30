@@ -10,35 +10,22 @@ function get_district_town_dedication_from_url() {
 
     $current_url = home_url(add_query_arg(array(), $wp->request));
     $url_path = trim(parse_url($current_url, PHP_URL_PATH), '/');
-    $url_path = preg_replace('/^tower\//', '', $url_path);
-    $url_parts = explode('~', $url_path);
 
-    if (count($url_parts) < 3) {
+    if (preg_match('/^tower-(\d+)$/', $url_path, $matches)) {
+    $dove_id = intval($matches[1]);
+
+
+    } else {
         return null;
     }
 
-    $district = sanitize_text_field(str_replace('-', ' ', $url_parts[0]));
-    $town = sanitize_text_field(str_replace('-', ' ', $url_parts[1]));
-    $dedication = sanitize_text_field(str_replace('-', ' ', $url_parts[2]));
-
-    function normalize_string($string) {
-        return str_replace(array("'", "(", ")"), '', $string);
-    }
-
-    $normalized_district = normalize_string($district);
-    $normalized_town = normalize_string($town);
-    $normalized_dedication = normalize_string($dedication);
-
-    return array(
-        'district' => $normalized_district,
-        'town' => $normalized_town,
-        'dedication' => $normalized_dedication
-    );
+    $dove_id = sanitize_text_field( $dove_id );
+    return $dove_id;
 }
+
 
 function get_tower_info_from_url() {
     global $wpdb;
-
     static $tower = null;
 
     if ($tower !== null) {
@@ -46,16 +33,14 @@ function get_tower_info_from_url() {
     }
 
     try {
-        $location_info = get_district_town_dedication_from_url();
-        if ($location_info === null) {
+        
+        $doveID = get_district_town_dedication_from_url();
+        if ($doveID === null) {
             return null;
         }
 
-        $normalized_district = $location_info['district'];
-        $normalized_town = $location_info['town'];
-        $normalized_dedication = $location_info['dedication'];
-
-        if (empty($normalized_district) || empty($normalized_town) || empty($normalized_dedication)) {
+   
+        if (empty($doveID)) {
             throw new Exception("One or more values (district, town, dedication) are missing after sanitization");
         }
 
@@ -64,10 +49,8 @@ function get_tower_info_from_url() {
         $tower = $wpdb->get_row($wpdb->prepare("
             SELECT * 
             FROM $table_name 
-            WHERE LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(District, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '  ', ' ')) = LOWER(%s) 
-            AND LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(Town, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '  ', ' ')) = LOWER(%s)
-            AND LOWER(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(Dedication, '-', ' '), '&', ''), '''', ''), '(', ''), ')', ''), '  ', ' ')) = LOWER(%s)
-        ", $normalized_district, $normalized_town, $normalized_dedication));
+            WHERE LOWER(DoveID) = LOWER(%s) 
+        ", $doveID));
 
         if ($tower === null) {
             throw new Exception("No matching tower found in the database");
@@ -77,11 +60,8 @@ function get_tower_info_from_url() {
         error_log("Error in get_tower_info_from_url: " . $e->getMessage());
         return null;
     }
-
     return $tower;
 }
-
-
 
 
 add_shortcode('display_secretary_info', 'display_secretary_info_shortcode');
