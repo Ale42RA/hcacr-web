@@ -78,7 +78,7 @@ function display_plugin_shortcode($atts) {
         $atts
     );
 
-    // Get the value of mpg_something (e.g., from an option or meta field)
+    // Get the value of mpg_something  (e.g., from an option or meta field)
     $mpg_value = get_option($atts['mpg_something'], false); 
 
     if ($mpg_value) {
@@ -86,4 +86,6 @@ function display_plugin_shortcode($atts) {
     } else {
         return "not display";
     }
+
+    
 }
